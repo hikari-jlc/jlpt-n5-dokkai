@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JLPT N5 Dokkai - 10 Teks Bacaan (Furigana Kanji)</title>
+    <title>JLPT N5 Dokkai - Furigana Kanji Only</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Noto+Sans+Indonesian:wght@400;600;700&display=swap');
         
@@ -27,15 +27,11 @@
         body {
             font-family: 'Noto Sans Indonesian', 'Noto Sans JP', sans-serif;
             background: var(--bg);
-            background-image: 
-                radial-gradient(circle at 10% 20%, rgba(231, 76, 60, 0.05) 0%, transparent 20%),
-                radial-gradient(circle at 90% 80%, rgba(243, 156, 18, 0.05) 0%, transparent 20%);
             color: var(--text);
             line-height: 1.6;
             min-height: 100vh;
         }
         
-        /* Fixed Header */
         header {
             background: linear-gradient(135deg, var(--secondary) 0%, #34495e 100%);
             color: white;
@@ -49,71 +45,16 @@
             box-shadow: 0 2px 20px rgba(0,0,0,0.1);
         }
         
-        header::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background-image: 
-                repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(255,255,255,0.03) 35px, rgba(255,255,255,0.03) 70px),
-                repeating-linear-gradient(-45deg, transparent, transparent 35px, rgba(255,255,255,0.03) 35px, rgba(255,255,255,0.03) 70px);
-            pointer-events: none;
-        }
-        
         header h1 {
             font-size: 1.8rem;
             margin-bottom: 0.3rem;
-            position: relative;
-            z-index: 1;
         }
         
         header p {
             font-size: 0.9rem;
             opacity: 0.9;
-            position: relative;
-            z-index: 1;
         }
         
-        /* Navigation Dots */
-        .nav-dots {
-            position: fixed;
-            right: 20px;
-            top: 50%;
-            transform: translateY(-50%);
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
-            z-index: 999;
-            background: rgba(255,255,255,0.9);
-            padding: 15px 10px;
-            border-radius: 30px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-        }
-        
-        .nav-dot {
-            width: 12px;
-            height: 12px;
-            border-radius: 50%;
-            background: #bdc3c7;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            border: 2px solid transparent;
-        }
-        
-        .nav-dot:hover {
-            background: var(--primary);
-            transform: scale(1.2);
-        }
-        
-        .nav-dot.active {
-            background: var(--primary);
-            border-color: var(--secondary);
-            transform: scale(1.3);
-        }
-        
-        /* Main Content */
         .main-content {
             margin-top: 100px;
             padding: 2rem;
@@ -122,7 +63,6 @@
             margin-right: auto;
         }
         
-        /* Reading Card */
         .reading-card {
             background: var(--card);
             border-radius: 20px;
@@ -171,10 +111,8 @@
             align-items: center;
             justify-content: center;
             font-weight: bold;
-            font-size: 1.1rem;
         }
         
-        /* Audio Controls */
         .audio-controls {
             display: flex;
             gap: 0.5rem;
@@ -220,11 +158,6 @@
             border-radius: 20px;
         }
         
-        .speed-control label {
-            font-size: 0.85rem;
-            color: #7f8c8d;
-        }
-        
         .speed-control select {
             border: none;
             background: transparent;
@@ -233,11 +166,11 @@
             cursor: pointer;
         }
         
-        /* Japanese Text Styling */
+        /* Japanese Text dengan Furigana */
         .japanese-text {
             font-family: 'Noto Sans JP', sans-serif;
             font-size: 1.4rem;
-            line-height: 2.4;
+            line-height: 2.5;
             margin: 1.5rem 0;
             padding: 1.5rem;
             background: #fafafa;
@@ -247,59 +180,53 @@
         
         .phrase {
             display: inline;
-            padding: 0.15rem 0.3rem;
-            border-radius: 4px;
-            transition: all 0.3s ease;
-            cursor: pointer;
-            margin-right: 0.1rem;
+            margin-right: 0.3rem;
         }
         
-        .phrase:hover {
-            background: rgba(231, 76, 60, 0.1);
-        }
-        
-        .phrase.highlight {
-            background: var(--active-highlight);
-            box-shadow: 0 0 10px rgba(255, 235, 59, 0.5);
-            font-weight: 500;
-        }
-        
-        .phrase.played {
-            background: var(--highlight);
-        }
-        
-        /* Furigana Styling - Kanji Only */
+        /* Styling untuk ruby yang benar */
         ruby {
             ruby-align: center;
             display: inline-flex;
             flex-direction: column;
             align-items: center;
             vertical-align: bottom;
-            line-height: 1.2;
+            line-height: 1;
+            margin: 0 1px;
         }
         
         rb {
             font-size: 1.4rem;
-            line-height: 1.4;
+            line-height: 1.2;
         }
         
         rt {
-            font-size: 0.55em;
-            color: #666;
+            font-size: 0.55rem;
+            color: #7f8c8d;
             line-height: 1;
-            margin-bottom: 0.1em;
-            font-family: 'Noto Sans JP', sans-serif;
+            margin-bottom: 2px;
         }
         
-        /* Plain text (hiragana/katakana) styling */
-        .plain-text {
-            font-size: 1.4rem;
-            vertical-align: bottom;
-            display: inline-block;
-            padding-top: 0.8em; /* Align with kanji baseline */
+        /* Highlight untuk audio */
+        .phrase-content {
+            padding: 0.2rem 0.3rem;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+            cursor: pointer;
         }
         
-        /* Translation */
+        .phrase-content:hover {
+            background: rgba(231, 76, 60, 0.1);
+        }
+        
+        .phrase-content.highlight {
+            background: var(--active-highlight);
+            box-shadow: 0 0 10px rgba(255, 235, 59, 0.5);
+        }
+        
+        .phrase-content.played {
+            background: var(--highlight);
+        }
+        
         .translation {
             margin-top: 1.5rem;
             padding: 1.5rem;
@@ -316,12 +243,6 @@
             letter-spacing: 1px;
         }
         
-        .translation p {
-            color: #2c3e50;
-            line-height: 1.8;
-        }
-        
-        /* Vocabulary Section */
         .vocab-section {
             margin-top: 2rem;
             padding-top: 2rem;
@@ -347,44 +268,25 @@
         .vocab-item:hover {
             border-color: var(--primary);
             transform: translateX(5px);
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
         }
         
         .vocab-jp {
             font-family: 'Noto Sans JP', sans-serif;
-            font-size: 1.3rem;
+            font-size: 1.2rem;
             color: var(--secondary);
             font-weight: 500;
-            margin-bottom: 0.3rem;
-        }
-        
-        .vocab-jp ruby {
-            font-size: 1.3rem;
-        }
-        
-        .vocab-jp rt {
-            font-size: 0.6em;
         }
         
         .vocab-reading {
             color: #7f8c8d;
-            font-size: 0.9rem;
-            margin: 0.2rem 0;
+            font-size: 0.85rem;
         }
         
         .vocab-meaning {
             color: var(--primary);
             font-weight: 600;
-            font-size: 0.95rem;
         }
         
-        /* Okurigana styling in vocab */
-        .okurigana {
-            color: #555;
-            font-size: 1.3rem;
-        }
-        
-        /* Loading State */
         .loading-container {
             text-align: center;
             padding: 3rem;
@@ -405,120 +307,26 @@
             100% { transform: rotate(360deg); }
         }
         
-        /* Progress Bar */
-        .progress-container {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 4px;
-            background: rgba(0,0,0,0.1);
-            z-index: 1001;
-        }
-        
-        .progress-bar {
-            height: 100%;
-            background: linear-gradient(90deg, var(--primary), var(--accent));
-            width: 0%;
-            transition: width 0.3s ease;
-        }
-        
-        /* Scroll to top button */
-        .scroll-top {
-            position: fixed;
-            bottom: 30px;
-            right: 30px;
-            background: var(--primary);
-            color: white;
-            width: 50px;
-            height: 50px;
-            border-radius: 50%;
-            border: none;
-            cursor: pointer;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 1.5rem;
-            box-shadow: 0 4px 15px rgba(231, 76, 60, 0.4);
-            transition: all 0.3s ease;
-            opacity: 0;
-            visibility: hidden;
-            z-index: 998;
-        }
-        
-        .scroll-top.visible {
-            opacity: 1;
-            visibility: visible;
-        }
-        
-        .scroll-top:hover {
-            transform: translateY(-5px);
-            background: #c0392b;
-        }
-        
-        /* Footer */
         footer {
             text-align: center;
             padding: 3rem 2rem;
             color: #7f8c8d;
-            margin-top: 2rem;
         }
         
-        /* Responsive */
         @media (max-width: 768px) {
-            header h1 {
-                font-size: 1.4rem;
-            }
-            
-            .nav-dots {
-                display: none;
-            }
-            
-            .main-content {
-                padding: 1rem;
-                margin-top: 80px;
-            }
-            
-            .reading-card {
-                padding: 1.5rem;
-            }
-            
-            .japanese-text {
-                font-size: 1.2rem;
-                padding: 1rem;
-            }
-            
-            ruby {
-                font-size: 1.2rem;
-            }
-            
-            rb {
-                font-size: 1.2rem;
-            }
-            
-            .plain-text {
-                font-size: 1.2rem;
-            }
-            
-            .text-header {
-                flex-direction: column;
-                align-items: flex-start;
-            }
+            header h1 { font-size: 1.4rem; }
+            .main-content { padding: 1rem; margin-top: 80px; }
+            .reading-card { padding: 1.5rem; }
+            .japanese-text { font-size: 1.2rem; padding: 1rem; }
+            .text-header { flex-direction: column; align-items: flex-start; }
         }
     </style>
 </head>
 <body>
-    <div class="progress-container">
-        <div class="progress-bar" id="progressBar"></div>
-    </div>
-
     <header>
-        <h1>🎌 JLPT N5 読解 (10 Teks)</h1>
-        <p>Pembelajaran Pemahaman Bacaan dengan Furigana Kanji</p>
+        <h1>🎌 JLPT N5 読解</h1>
+        <p>Furigana hanya pada Kanji - Contoh 2 Teks</p>
     </header>
-
-    <!-- Navigation Dots -->
-    <div class="nav-dots" id="navDots"></div>
 
     <div class="main-content" id="content">
         <div class="loading-container">
@@ -527,97 +335,44 @@
         </div>
     </div>
 
-    <button class="scroll-top" id="scrollTop" onclick="scrollToTop()">↑</button>
-
     <footer>
-        <p>© 2026 JLPT N5 Dokkai Learning | Furigana hanya pada kanji</p>
+        <p>© 2026 JLPT N5 Dokkai Learning</p>
     </footer>
 
     <script>
         let textsData = [];
-        let currentAudio = null;
         let isPlaying = false;
-        let currentPhraseIndex = 0;
         let currentTextId = null;
+        let currentPhraseIndex = 0;
         let speechRate = 1;
 
-        // Parse phrase content with mixed kanji and kana
+        // Parse phrase content dengan segment kanji/furigana
         function parsePhraseContent(phraseElement) {
             let html = '';
-            const segments = phraseElement.getElementsByTagName('segment');
+            let readingText = '';
             
-            if (segments.length === 0) {
-                // Pure hiragana/katakana text
-                const text = phraseElement.textContent.trim();
-                if (text) {
-                    html += `<span class="plain-text">${text}</span>`;
-                }
-            } else {
-                // Mixed content with kanji segments
-                let remainingText = phraseElement.innerHTML;
-                
-                // Process each segment
-                for (let segment of segments) {
-                    const kanji = segment.getElementsByTagName('kanji')[0]?.textContent || '';
-                    const furigana = segment.getElementsByTagName('furigana')[0]?.textContent || '';
+            // Get all child nodes
+            const nodes = phraseElement.childNodes;
+            
+            for (let node of nodes) {
+                if (node.nodeType === Node.TEXT_NODE) {
+                    // Text biasa (hiragana/okurigana)
+                    const text = node.textContent.trim();
+                    if (text) {
+                        html += `<span class="okurigana">${text}</span>`;
+                        readingText += text;
+                    }
+                } else if (node.nodeType === Node.ELEMENT_NODE && node.tagName === 'segment') {
+                    // Segment dengan kanji dan furigana
+                    const kanji = node.getElementsByTagName('kanji')[0]?.textContent || '';
+                    const furigana = node.getElementsByTagName('furigana')[0]?.textContent || '';
                     
-                    if (kanji && furigana) {
-                        html += `<ruby><rb>${kanji}</rb><rt>${furigana}</rt></ruby>`;
-                    }
+                    html += `<ruby><rb>${kanji}</rb><rt>${furigana}</rt></ruby>`;
+                    readingText += furigana;
                 }
-                
-                // Handle text outside segments (hiragana/katakana particles, okurigana)
-                // Extract text nodes between segments
-                const tempDiv = document.createElement('div');
-                tempDiv.innerHTML = phraseElement.innerHTML;
-                const allNodes = Array.from(tempDiv.childNodes);
-                
-                html = '';
-                allNodes.forEach(node => {
-                    if (node.nodeType === Node.TEXT_NODE) {
-                        // Plain text (hiragana/katakana)
-                        const text = node.textContent.trim();
-                        if (text) {
-                            html += `<span class="plain-text">${text}</span>`;
-                        }
-                    } else if (node.nodeType === Node.ELEMENT_NODE && node.tagName === 'segment') {
-                        // Kanji with furigana
-                        const kanji = node.getElementsByTagName('kanji')[0]?.textContent || '';
-                        const furigana = node.getElementsByTagName('furigana')[0]?.textContent || '';
-                        if (kanji && furigana) {
-                            html += `<ruby><rb>${kanji}</rb><rt>${furigana}</rt></ruby>`;
-                        }
-                    }
-                });
             }
             
-            return html || phraseElement.textContent.trim();
-        }
-
-                // Build reading text from phrase (for TTS)
-        function buildReadingText(phraseElement) {
-            let reading = '';
-            const segments = phraseElement.getElementsByTagName('segment');
-            
-            if (segments.length === 0) {
-                reading = phraseElement.textContent.trim();
-            } else {
-                const tempDiv = document.createElement('div');
-                tempDiv.innerHTML = phraseElement.innerHTML;
-                const allNodes = Array.from(tempDiv.childNodes);
-                
-                allNodes.forEach(node => {
-                    if (node.nodeType === Node.TEXT_NODE) {
-                        reading += node.textContent;
-                    } else if (node.nodeType === Node.ELEMENT_NODE && node.tagName === 'segment') {
-                        const furigana = node.getElementsByTagName('furigana')[0]?.textContent || '';
-                        const kanji = node.getElementsByTagName('kanji')[0]?.textContent || '';
-                        reading += furigana || kanji;
-                    }
-                });
-            }
-            
-            return reading.trim();
+            return { html, reading: readingText };
         }
 
         // Load XML data
@@ -631,28 +386,20 @@
                 const texts = xmlDoc.getElementsByTagName('text');
                 textsData = Array.from(texts).map(text => {
                     const phraseElements = Array.from(text.getElementsByTagName('phrase'));
-                    const phrases = phraseElements.map(phrase => ({
-                        html: parsePhraseContent(phrase),
-                        reading: buildReadingText(phrase)
-                    }));
-                    
-                    const vocabItems = Array.from(text.getElementsByTagName('item')).map(item => {
-                        const word = item.getElementsByTagName('word')[0];
-                        const kanji = word?.getElementsByTagName('kanji')[0]?.textContent || '';
-                        const furigana = word?.getElementsByTagName('furigana')[0]?.textContent || '';
-                        const okurigana = word?.getElementsByTagName('okurigana')[0]?.textContent || '';
-                        const romaji = item.getElementsByTagName('romaji')[0]?.textContent || '';
-                        const meaning = item.getElementsByTagName('meaning')[0]?.textContent || '';
-                        
+                    const phrases = phraseElements.map(phraseEl => {
+                        const parsed = parsePhraseContent(phraseEl);
                         return {
-                            kanji,
-                            furigana,
-                            okurigana,
-                            romaji,
-                            meaning,
-                            fullReading: furigana + (okurigana || '')
+                            html: parsed.html,
+                            reading: parsed.reading
                         };
                     });
+                    
+                    const vocabItems = Array.from(text.getElementsByTagName('item')).map(item => ({
+                        word: item.getElementsByTagName('word')[0]?.textContent || '',
+                        reading: item.getElementsByTagName('reading')[0]?.textContent || '',
+                        romaji: item.getElementsByTagName('romaji')[0]?.textContent || '',
+                        meaning: item.getElementsByTagName('meaning')[0]?.textContent || ''
+                    }));
                     
                     return {
                         id: text.getAttribute('id'),
@@ -668,7 +415,6 @@
                 });
                 
                 renderContent();
-                createNavDots();
             } catch (error) {
                 console.error('Error loading XML:', error);
                 document.getElementById('content').innerHTML = 
@@ -680,11 +426,11 @@
         function renderContent() {
             const container = document.getElementById('content');
             container.innerHTML = textsData.map((text, index) => `
-                <div class="reading-card" id="text-${text.id}" data-index="${index}">
+                <div class="reading-card" id="text-${text.id}">
                     <div class="text-header">
                         <h2 class="text-title">
                             <span class="text-number">${text.id}</span>
-                            <ruby><rb>${text.title.jp}</rb><rt>${text.title.reading}</rt></ruby>
+                            ${text.title.jp}（${text.title.reading}）
                         </h2>
                         <div class="audio-controls">
                             <div class="speed-control">
@@ -704,8 +450,10 @@
 
                     <div class="japanese-text" id="text-content-${text.id}">
                         ${text.phrases.map((phrase, pIndex) => `
-                            <span class="phrase" data-index="${pIndex}" onclick="speakSinglePhrase(${text.id}, ${pIndex})">
-                                ${phrase.html}
+                            <span class="phrase" data-index="${pIndex}">
+                                <span class="phrase-content" onclick="speakSinglePhrase(${text.id}, ${pIndex})">
+                                    ${phrase.html}
+                                </span>
                             </span>
                         `).join('')}
                     </div>
@@ -719,12 +467,9 @@
                         <h3>📚 Kosakata Penting</h3>
                         <div class="vocab-grid">
                             ${text.vocabulary.map(vocab => `
-                                <div class="vocab-item" onclick="speakWord('${vocab.fullReading}')">
-                                    <div class="vocab-jp">
-                                        ${vocab.kanji ? `<ruby><rb>${vocab.kanji}</rb><rt>${vocab.furigana}</rt></ruby>` : ''}
-                                        ${vocab.okurigana ? `<span class="okurigana">${vocab.okurigana}</span>` : ''}
-                                    </div>
-                                    <div class="vocab-reading">${vocab.fullReading} (${vocab.romaji})</div>
+                                <div class="vocab-item" onclick="speakWord('${vocab.reading}')">
+                                    <div class="vocab-jp">${vocab.word}</div>
+                                    <div class="vocab-reading">${vocab.reading} (${vocab.romaji})</div>
                                     <div class="vocab-meaning">${vocab.meaning}</div>
                                 </div>
                             `).join('')}
@@ -732,27 +477,6 @@
                     </div>
                 </div>
             `).join('');
-        }
-
-        // Create navigation dots
-        function createNavDots() {
-            const dotsContainer = document.getElementById('navDots');
-            dotsContainer.innerHTML = textsData.map((_, index) => `
-                <div class="nav-dot ${index === 0 ? 'active' : ''}" 
-                     onclick="scrollToText(${index})" 
-                     data-index="${index}"></div>
-            `).join('');
-        }
-
-        // Scroll to specific text
-        function scrollToText(index) {
-            const element = document.getElementById(`text-${textsData[index].id}`);
-            element.scrollIntoView({ behavior: 'smooth', block: 'start' });
-        }
-
-        // Scroll to top
-        function scrollToTop() {
-            window.scrollTo({ top: 0, behavior: 'smooth' });
         }
 
         // Change speech speed
@@ -773,7 +497,7 @@
         // Play audio with highlighting
         function playAudio(textId) {
             if (!window.speechSynthesis) {
-                alert('Browser Anda tidak mendukung fitur audio. Silakan gunakan Chrome atau Safari.');
+                alert('Browser Anda tidak mendukung fitur audio.');
                 return;
             }
 
@@ -794,7 +518,7 @@
             textBtn.textContent = 'Berhenti';
             
             // Clear previous highlights
-            document.querySelectorAll(`#text-content-${textId} .phrase`).forEach(p => {
+            document.querySelectorAll(`#text-content-${textId} .phrase-content`).forEach(p => {
                 p.classList.remove('highlight', 'played');
             });
             
@@ -818,7 +542,7 @@
             utterance.pitch = 1;
             
             // Highlight current phrase
-            const phraseElements = document.querySelectorAll(`#text-content-${textId} .phrase`);
+            const phraseElements = document.querySelectorAll(`#text-content-${textId} .phrase-content`);
             if (phraseElements[currentPhraseIndex]) {
                 phraseElements[currentPhraseIndex].classList.add('highlight');
                 phraseElements[currentPhraseIndex].scrollIntoView({ 
@@ -856,7 +580,7 @@
             window.speechSynthesis.speak(utterance);
             
             // Visual feedback
-            const element = document.querySelector(`#text-content-${textId} .phrase[data-index="${phraseIndex}"]`);
+            const element = document.querySelector(`#text-content-${textId} .phrase[data-index="${phraseIndex}"] .phrase-content`);
             element.style.transform = 'scale(1.05)';
             setTimeout(() => {
                 element.style.transform = '';
@@ -869,7 +593,6 @@
             isPlaying = false;
             currentTextId = null;
             
-            // Update all buttons
             textsData.forEach(text => {
                 const btn = document.getElementById(`play-${text.id}`);
                 const icon = document.getElementById(`icon-${text.id}`);
@@ -881,8 +604,7 @@
                     textBtn.textContent = 'Dengarkan';
                 }
                 
-                // Clear highlights
-                document.querySelectorAll(`#text-content-${text.id} .phrase`).forEach(p => {
+                document.querySelectorAll(`#text-content-${text.id} .phrase-content`).forEach(p => {
                     p.classList.remove('highlight');
                 });
             });
@@ -898,40 +620,9 @@
             window.speechSynthesis.speak(utterance);
         }
 
-        // Scroll spy for navigation dots
-        function updateActiveDot() {
-            const cards = document.querySelectorAll('.reading-card');
-            const scrollPosition = window.scrollY + 150;
-            
-            cards.forEach((card, index) => {
-                const top = card.offsetTop;
-                const bottom = top + card.offsetHeight;
-                
-                if (scrollPosition >= top && scrollPosition < bottom) {
-                    document.querySelectorAll('.nav-dot').forEach((dot, i) => {
-                        dot.classList.toggle('active', i === index);
-                    });
-                    
-                    // Update progress bar
-                    const progress = ((index + 1) / textsData.length) * 100;
-                    document.getElementById('progressBar').style.width = progress + '%';
-                }
-            });
-            
-            // Show/hide scroll to top button
-            const scrollTop = document.getElementById('scrollTop');
-            if (window.scrollY > 500) {
-                scrollTop.classList.add('visible');
-            } else {
-                scrollTop.classList.remove('visible');
-            }
-        }
-
-        // Event listeners
+        // Initialize
         document.addEventListener('DOMContentLoaded', loadXMLData);
-        window.addEventListener('scroll', updateActiveDot);
         
-        // Handle page visibility change
         document.addEventListener('visibilitychange', () => {
             if (document.hidden && isPlaying) {
                 stopAudio();
