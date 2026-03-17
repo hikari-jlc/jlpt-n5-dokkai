@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JLPT N5 Dokkai - 10 Teks Bacaan</title>
+    <title>JLPT N5 Dokkai - 10 Teks Bacaan (Furigana Kanji)</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Noto+Sans+Indonesian:wght@400;600;700&display=swap');
         
@@ -236,8 +236,8 @@
         /* Japanese Text Styling */
         .japanese-text {
             font-family: 'Noto Sans JP', sans-serif;
-            font-size: 1.3rem;
-            line-height: 2.2;
+            font-size: 1.4rem;
+            line-height: 2.4;
             margin: 1.5rem 0;
             padding: 1.5rem;
             background: #fafafa;
@@ -247,10 +247,11 @@
         
         .phrase {
             display: inline;
-            padding: 0.1rem 0.2rem;
+            padding: 0.15rem 0.3rem;
             border-radius: 4px;
             transition: all 0.3s ease;
             cursor: pointer;
+            margin-right: 0.1rem;
         }
         
         .phrase:hover {
@@ -267,14 +268,35 @@
             background: var(--highlight);
         }
         
-        /* Furigana */
+        /* Furigana Styling - Kanji Only */
         ruby {
             ruby-align: center;
+            display: inline-flex;
+            flex-direction: column;
+            align-items: center;
+            vertical-align: bottom;
+            line-height: 1.2;
+        }
+        
+        rb {
+            font-size: 1.4rem;
+            line-height: 1.4;
         }
         
         rt {
-            font-size: 0.6em;
-            color: #7f8c8d;
+            font-size: 0.55em;
+            color: #666;
+            line-height: 1;
+            margin-bottom: 0.1em;
+            font-family: 'Noto Sans JP', sans-serif;
+        }
+        
+        /* Plain text (hiragana/katakana) styling */
+        .plain-text {
+            font-size: 1.4rem;
+            vertical-align: bottom;
+            display: inline-block;
+            padding-top: 0.8em; /* Align with kanji baseline */
         }
         
         /* Translation */
@@ -330,14 +352,23 @@
         
         .vocab-jp {
             font-family: 'Noto Sans JP', sans-serif;
-            font-size: 1.2rem;
+            font-size: 1.3rem;
             color: var(--secondary);
             font-weight: 500;
+            margin-bottom: 0.3rem;
+        }
+        
+        .vocab-jp ruby {
+            font-size: 1.3rem;
+        }
+        
+        .vocab-jp rt {
+            font-size: 0.6em;
         }
         
         .vocab-reading {
             color: #7f8c8d;
-            font-size: 0.85rem;
+            font-size: 0.9rem;
             margin: 0.2rem 0;
         }
         
@@ -345,6 +376,12 @@
             color: var(--primary);
             font-weight: 600;
             font-size: 0.95rem;
+        }
+        
+        /* Okurigana styling in vocab */
+        .okurigana {
+            color: #555;
+            font-size: 1.3rem;
         }
         
         /* Loading State */
@@ -447,8 +484,20 @@
             }
             
             .japanese-text {
-                font-size: 1.1rem;
+                font-size: 1.2rem;
                 padding: 1rem;
+            }
+            
+            ruby {
+                font-size: 1.2rem;
+            }
+            
+            rb {
+                font-size: 1.2rem;
+            }
+            
+            .plain-text {
+                font-size: 1.2rem;
             }
             
             .text-header {
@@ -465,7 +514,7 @@
 
     <header>
         <h1>🎌 JLPT N5 読解 (10 Teks)</h1>
-        <p>Pembelajaran Pemahaman Bacaan dengan Audio Interaktif</p>
+        <p>Pembelajaran Pemahaman Bacaan dengan Furigana Kanji</p>
     </header>
 
     <!-- Navigation Dots -->
@@ -481,7 +530,7 @@
     <button class="scroll-top" id="scrollTop" onclick="scrollToTop()">↑</button>
 
     <footer>
-        <p>© 2026 JLPT N5 Dokkai Learning | Scroll ke bawah untuk melihat teks berikutnya</p>
+        <p>© 2026 JLPT N5 Dokkai Learning | Furigana hanya pada kanji</p>
     </footer>
 
     <script>
@@ -491,6 +540,85 @@
         let currentPhraseIndex = 0;
         let currentTextId = null;
         let speechRate = 1;
+
+        // Parse phrase content with mixed kanji and kana
+        function parsePhraseContent(phraseElement) {
+            let html = '';
+            const segments = phraseElement.getElementsByTagName('segment');
+            
+            if (segments.length === 0) {
+                // Pure hiragana/katakana text
+                const text = phraseElement.textContent.trim();
+                if (text) {
+                    html += `<span class="plain-text">${text}</span>`;
+                }
+            } else {
+                // Mixed content with kanji segments
+                let remainingText = phraseElement.innerHTML;
+                
+                // Process each segment
+                for (let segment of segments) {
+                    const kanji = segment.getElementsByTagName('kanji')[0]?.textContent || '';
+                    const furigana = segment.getElementsByTagName('furigana')[0]?.textContent || '';
+                    
+                    if (kanji && furigana) {
+                        html += `<ruby><rb>${kanji}</rb><rt>${furigana}</rt></ruby>`;
+                    }
+                }
+                
+                // Handle text outside segments (hiragana/katakana particles, okurigana)
+                // Extract text nodes between segments
+                const tempDiv = document.createElement('div');
+                tempDiv.innerHTML = phraseElement.innerHTML;
+                const allNodes = Array.from(tempDiv.childNodes);
+                
+                html = '';
+                allNodes.forEach(node => {
+                    if (node.nodeType === Node.TEXT_NODE) {
+                        // Plain text (hiragana/katakana)
+                        const text = node.textContent.trim();
+                        if (text) {
+                            html += `<span class="plain-text">${text}</span>`;
+                        }
+                    } else if (node.nodeType === Node.ELEMENT_NODE && node.tagName === 'segment') {
+                        // Kanji with furigana
+                        const kanji = node.getElementsByTagName('kanji')[0]?.textContent || '';
+                        const furigana = node.getElementsByTagName('furigana')[0]?.textContent || '';
+                        if (kanji && furigana) {
+                            html += `<ruby><rb>${kanji}</rb><rt>${furigana}</rt></ruby>`;
+                        }
+                    }
+                });
+            }
+            
+            return html || phraseElement.textContent.trim();
+        }
+
+                // Build reading text from phrase (for TTS)
+        function buildReadingText(phraseElement) {
+            let reading = '';
+            const segments = phraseElement.getElementsByTagName('segment');
+            
+            if (segments.length === 0) {
+                reading = phraseElement.textContent.trim();
+            } else {
+                const tempDiv = document.createElement('div');
+                tempDiv.innerHTML = phraseElement.innerHTML;
+                const allNodes = Array.from(tempDiv.childNodes);
+                
+                allNodes.forEach(node => {
+                    if (node.nodeType === Node.TEXT_NODE) {
+                        reading += node.textContent;
+                    } else if (node.nodeType === Node.ELEMENT_NODE && node.tagName === 'segment') {
+                        const furigana = node.getElementsByTagName('furigana')[0]?.textContent || '';
+                        const kanji = node.getElementsByTagName('kanji')[0]?.textContent || '';
+                        reading += furigana || kanji;
+                    }
+                });
+            }
+            
+            return reading.trim();
+        }
 
         // Load XML data
         async function loadXMLData() {
@@ -502,27 +630,39 @@
                 
                 const texts = xmlDoc.getElementsByTagName('text');
                 textsData = Array.from(texts).map(text => {
-                    const phrases = Array.from(text.getElementsByTagName('phrase')).map(phrase => ({
-                        jp: phrase.getElementsByTagName('jp')[0].textContent,
-                        reading: phrase.getElementsByTagName('reading')[0].textContent
+                    const phraseElements = Array.from(text.getElementsByTagName('phrase'));
+                    const phrases = phraseElements.map(phrase => ({
+                        html: parsePhraseContent(phrase),
+                        reading: buildReadingText(phrase)
                     }));
                     
-                    const vocabItems = Array.from(text.getElementsByTagName('item')).map(item => ({
-                        kanji: item.getElementsByTagName('kanji')[0].textContent,
-                        reading: item.getElementsByTagName('reading')[0].textContent,
-                        romaji: item.getElementsByTagName('romaji')[0].textContent,
-                        meaning: item.getElementsByTagName('meaning')[0].textContent
-                    }));
+                    const vocabItems = Array.from(text.getElementsByTagName('item')).map(item => {
+                        const word = item.getElementsByTagName('word')[0];
+                        const kanji = word?.getElementsByTagName('kanji')[0]?.textContent || '';
+                        const furigana = word?.getElementsByTagName('furigana')[0]?.textContent || '';
+                        const okurigana = word?.getElementsByTagName('okurigana')[0]?.textContent || '';
+                        const romaji = item.getElementsByTagName('romaji')[0]?.textContent || '';
+                        const meaning = item.getElementsByTagName('meaning')[0]?.textContent || '';
+                        
+                        return {
+                            kanji,
+                            furigana,
+                            okurigana,
+                            romaji,
+                            meaning,
+                            fullReading: furigana + (okurigana || '')
+                        };
+                    });
                     
                     return {
                         id: text.getAttribute('id'),
                         title: {
-                            jp: text.getElementsByTagName('jp')[0].textContent,
-                            reading: text.getElementsByTagName('reading')[0].textContent,
-                            id: text.getElementsByTagName('id')[0].textContent
+                            jp: text.getElementsByTagName('jp')[0]?.textContent || '',
+                            reading: text.getElementsByTagName('reading')[0]?.textContent || '',
+                            id: text.getElementsByTagName('id')[0]?.textContent || ''
                         },
                         phrases: phrases,
-                        translation: text.getElementsByTagName('translation')[0].textContent,
+                        translation: text.getElementsByTagName('translation')[0]?.textContent || '',
                         vocabulary: vocabItems
                     };
                 });
@@ -544,7 +684,7 @@
                     <div class="text-header">
                         <h2 class="text-title">
                             <span class="text-number">${text.id}</span>
-                            ${text.title.jp}（${text.title.reading}）
+                            <ruby><rb>${text.title.jp}</rb><rt>${text.title.reading}</rt></ruby>
                         </h2>
                         <div class="audio-controls">
                             <div class="speed-control">
@@ -565,7 +705,7 @@
                     <div class="japanese-text" id="text-content-${text.id}">
                         ${text.phrases.map((phrase, pIndex) => `
                             <span class="phrase" data-index="${pIndex}" onclick="speakSinglePhrase(${text.id}, ${pIndex})">
-                                <ruby>${phrase.jp}<rt>${phrase.reading}</rt></ruby>
+                                ${phrase.html}
                             </span>
                         `).join('')}
                     </div>
@@ -579,9 +719,12 @@
                         <h3>📚 Kosakata Penting</h3>
                         <div class="vocab-grid">
                             ${text.vocabulary.map(vocab => `
-                                <div class="vocab-item" onclick="speakWord('${vocab.reading}')">
-                                    <div class="vocab-jp">${vocab.kanji}</div>
-                                    <div class="vocab-reading">${vocab.reading} (${vocab.romaji})</div>
+                                <div class="vocab-item" onclick="speakWord('${vocab.fullReading}')">
+                                    <div class="vocab-jp">
+                                        ${vocab.kanji ? `<ruby><rb>${vocab.kanji}</rb><rt>${vocab.furigana}</rt></ruby>` : ''}
+                                        ${vocab.okurigana ? `<span class="okurigana">${vocab.okurigana}</span>` : ''}
+                                    </div>
+                                    <div class="vocab-reading">${vocab.fullReading} (${vocab.romaji})</div>
                                     <div class="vocab-meaning">${vocab.meaning}</div>
                                 </div>
                             `).join('')}
@@ -714,7 +857,7 @@
             
             // Visual feedback
             const element = document.querySelector(`#text-content-${textId} .phrase[data-index="${phraseIndex}"]`);
-            element.style.transform = 'scale(1.1)';
+            element.style.transform = 'scale(1.05)';
             setTimeout(() => {
                 element.style.transform = '';
             }, 200);
