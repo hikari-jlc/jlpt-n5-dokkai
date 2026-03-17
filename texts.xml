@@ -1,1166 +1,799 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<jlpt-n5-dokkai>
-  <texts>
-    <!-- Teks 1: Cuaca -->
-    <text id="1">
-      <title>
-        <jp>天気</jp>
-        <reading>てんき</reading>
-        <id>Cuaca</id>
-      </title>
-      <content>
-        <phrase>
-          <segment><kanji>今日</kanji><furigana>きょう</furigana></segment>は
-        </phrase>
-        <phrase>
-          <segment><kanji>天気</kanji><furigana>てんき</furigana></segment>が
-        </phrase>
-        <phrase>
-          とても
-        </phrase>
-        <phrase>
-          <segment><kanji>良</kanji><furigana>よ</furigana></segment>かったです。
-        </phrase>
-        <phrase>
-          <segment><kanji>朝</kanji><furigana>あさ</furigana></segment>は
-        </phrase>
-        <phrase>
-          <segment><kanji>少</kanji><furigana>すこ</furigana></segment>し
-        </phrase>
-        <phrase>
-          <segment><kanji>寒</kanji><furigana>さむ</furigana></segment>かったですが、
-        </phrase>
-        <phrase>
-          <segment><kanji>昼</kanji><furigana>ひる</furigana></segment>から
-        </phrase>
-        <phrase>
-          <segment><kanji>暖</kanji><furigana>あたた</furigana></segment>かくなりました。
-        </phrase>
-        <phrase>
-          <segment><kanji>私</kanji><furigana>わたし</furigana></segment>は
-        </phrase>
-        <phrase>
-          <segment><kanji>公園</kanji><furigana>こうえん</furigana></segment>へ
-        </phrase>
-        <phrase>
-          <segment><kanji>行</kanji><furigana>い</furigana></segment>きました。
-        </phrase>
-        <phrase>
-          <segment><kanji>公園</kanji><furigana>こうえん</furigana></segment>では
-        </phrase>
-        <phrase>
-          <segment><kanji>子</kanji><furigana>こ</furigana></segment>どもたちが
-        </phrase>
-        <phrase>
-          <segment><kanji>遊</kanji><furigana>あそ</furigana></segment>んでいました。
-        </phrase>
-        <phrase>
-          <segment><kanji>犬</kanji><furigana>いぬ</furigana></segment>も
-        </phrase>
-        <phrase>
-          <segment><kanji>走</kanji><furigana>はし</furigana></segment>っていました。
-        </phrase>
-        <phrase>
-          <segment><kanji>空</kanji><furigana>そら</furigana></segment>は
-        </phrase>
-        <phrase>
-          <segment><kanji>青</kanji><furigana>あお</furigana></segment>くて、
-        </phrase>
-        <phrase>
-          <segment><kanji>気持</kanji><furigana>きも</furigana></segment>ちが
-        </phrase>
-        <phrase>
-          <segment><kanji>良</kanji><furigana>よ</furigana></segment>かったです。
-        </phrase>
-      </content>
-      <translation>Hari ini cuacanya sangat bagus. Pagi hari sedikit dingin, tetapi siang hari menjadi hangat. Saya pergi ke taman. Di taman, anak-anak sedang bermain. Anjing juga sedang berlari. Langit biru dan perasaannya sangat menyenangkan.</translation>
-      <vocabulary>
-        <item>
-          <word>
-            <kanji>今日</kanji>
-            <furigana>きょう</furigana>
-          </word>
-          <romaji>kyou</romaji>
-          <meaning>Hari ini</meaning>
-        </item>
-        <item>
-          <word>
-            <kanji>天気</kanji>
-            <furigana>てんき</furigana>
-          </word>
-          <romaji>tenki</romaji>
-          <meaning>Cuaca</meaning>
-        </item>
-        <item>
-          <word>
-            <kanji>朝</kanji>
-            <furigana>あさ</furigana>
-          </word>
-          <romaji>asa</romaji>
-          <meaning>Pagi</meaning>
-        </item>
-        <item>
-          <word>
-            <kanji>昼</kanji>
-            <furigana>ひる</furigana>
-          </word>
-          <romaji>hiru</romaji>
-          <meaning>Siang</meaning>
-        </item>
-        <item>
-          <word>
-            <kanji>公園</kanji>
-            <furigana>こうえん</furigana>
-          </word>
-          <romaji>kouen</romaji>
-          <meaning>Taman</meaning>
-        </item>
-        <item>
-          <word>
-            <kanji>遊</kanji>
-            <furigana>あそ</furigana>
-            <okurigana>ぶ</okurigana>
-          </word>
-          <romaji>asobu</romaji>
-          <meaning>Bermain</meaning>
-        </item>
-      </vocabulary>
-    </text>
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JLPT N5 Dokkai - 10 Teks Bacaan</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Noto+Sans+Indonesian:wght@400;600;700&display=swap');
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        :root {
+            --primary: #e74c3c;
+            --secondary: #2c3e50;
+            --accent: #f39c12;
+            --bg: #f5f5f0;
+            --card: #ffffff;
+            --text: #2c3e50;
+            --highlight: #fff3cd;
+            --active-highlight: #ffeb3b;
+        }
+        
+        body {
+            font-family: 'Noto Sans Indonesian', 'Noto Sans JP', sans-serif;
+            background: var(--bg);
+            background-image: 
+                radial-gradient(circle at 10% 20%, rgba(231, 76, 60, 0.05) 0%, transparent 20%),
+                radial-gradient(circle at 90% 80%, rgba(243, 156, 18, 0.05) 0%, transparent 20%);
+            color: var(--text);
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+        
+        /* Fixed Header */
+        header {
+            background: linear-gradient(135deg, var(--secondary) 0%, #34495e 100%);
+            color: white;
+            padding: 1.5rem;
+            text-align: center;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 20px rgba(0,0,0,0.1);
+        }
+        
+        header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: 
+                repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(255,255,255,0.03) 35px, rgba(255,255,255,0.03) 70px),
+                repeating-linear-gradient(-45deg, transparent, transparent 35px, rgba(255,255,255,0.03) 35px, rgba(255,255,255,0.03) 70px);
+            pointer-events: none;
+        }
+        
+        header h1 {
+            font-size: 1.8rem;
+            margin-bottom: 0.3rem;
+            position: relative;
+            z-index: 1;
+        }
+        
+        header p {
+            font-size: 0.9rem;
+            opacity: 0.9;
+            position: relative;
+            z-index: 1;
+        }
+        
+        /* Navigation Dots */
+        .nav-dots {
+            position: fixed;
+            right: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            z-index: 999;
+            background: rgba(255,255,255,0.9);
+            padding: 15px 10px;
+            border-radius: 30px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        
+        .nav-dot {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: #bdc3c7;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+        }
+        
+        .nav-dot:hover {
+            background: var(--primary);
+            transform: scale(1.2);
+        }
+        
+        .nav-dot.active {
+            background: var(--primary);
+            border-color: var(--secondary);
+            transform: scale(1.3);
+        }
+        
+        /* Main Content */
+        .main-content {
+            margin-top: 100px;
+            padding: 2rem;
+            max-width: 900px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        /* Reading Card */
+        .reading-card {
+            background: var(--card);
+            border-radius: 20px;
+            padding: 2rem;
+            margin-bottom: 3rem;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.08);
+            position: relative;
+            overflow: hidden;
+            scroll-margin-top: 120px;
+        }
+        
+        .reading-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 5px;
+            height: 100%;
+            background: linear-gradient(to bottom, var(--primary), var(--accent));
+        }
+        
+        .text-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1.5rem;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        
+        .text-title {
+            font-size: 1.5rem;
+            color: var(--secondary);
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .text-number {
+            background: var(--primary);
+            color: white;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+        
+        /* Audio Controls */
+        .audio-controls {
+            display: flex;
+            gap: 0.5rem;
+            align-items: center;
+        }
+        
+        .btn-play {
+            background: var(--primary);
+            color: white;
+            border: none;
+            padding: 0.8rem 1.5rem;
+            border-radius: 50px;
+            cursor: pointer;
+            font-size: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(231, 76, 60, 0.3);
+        }
+        
+        .btn-play:hover {
+            background: #c0392b;
+            transform: scale(1.05);
+        }
+        
+        .btn-play.playing {
+            background: #27ae60;
+            animation: pulse 1.5s infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { box-shadow: 0 0 0 0 rgba(39, 174, 96, 0.4); }
+            50% { box-shadow: 0 0 0 10px rgba(39, 174, 96, 0); }
+        }
+        
+        .speed-control {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            background: #ecf0f1;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+        }
+        
+        .speed-control label {
+            font-size: 0.85rem;
+            color: #7f8c8d;
+        }
+        
+        .speed-control select {
+            border: none;
+            background: transparent;
+            font-weight: 600;
+            color: var(--secondary);
+            cursor: pointer;
+        }
+        
+        /* Japanese Text Styling */
+        .japanese-text {
+            font-family: 'Noto Sans JP', sans-serif;
+            font-size: 1.3rem;
+            line-height: 2.2;
+            margin: 1.5rem 0;
+            padding: 1.5rem;
+            background: #fafafa;
+            border-radius: 15px;
+            border: 2px solid #ecf0f1;
+        }
+        
+        .phrase {
+            display: inline;
+            padding: 0.1rem 0.2rem;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+        
+        .phrase:hover {
+            background: rgba(231, 76, 60, 0.1);
+        }
+        
+        .phrase.highlight {
+            background: var(--active-highlight);
+            box-shadow: 0 0 10px rgba(255, 235, 59, 0.5);
+            font-weight: 500;
+        }
+        
+        .phrase.played {
+            background: var(--highlight);
+        }
+        
+        /* Furigana */
+        ruby {
+            ruby-align: center;
+        }
+        
+        rt {
+            font-size: 0.6em;
+            color: #7f8c8d;
+        }
+        
+        /* Translation */
+        .translation {
+            margin-top: 1.5rem;
+            padding: 1.5rem;
+            background: linear-gradient(135deg, #e8f4f8 0%, #f0f9ff 100%);
+            border-radius: 15px;
+            border-left: 4px solid #3498db;
+        }
+        
+        .translation h3 {
+            color: #2980b9;
+            margin-bottom: 0.5rem;
+            font-size: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .translation p {
+            color: #2c3e50;
+            line-height: 1.8;
+        }
+        
+        /* Vocabulary Section */
+        .vocab-section {
+            margin-top: 2rem;
+            padding-top: 2rem;
+            border-top: 2px dashed #ecf0f1;
+        }
+        
+        .vocab-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+        
+        .vocab-item {
+            background: white;
+            padding: 1rem;
+            border-radius: 10px;
+            border: 2px solid #ecf0f1;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+        
+        .vocab-item:hover {
+            border-color: var(--primary);
+            transform: translateX(5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .vocab-jp {
+            font-family: 'Noto Sans JP', sans-serif;
+            font-size: 1.2rem;
+            color: var(--secondary);
+            font-weight: 500;
+        }
+        
+        .vocab-reading {
+            color: #7f8c8d;
+            font-size: 0.85rem;
+            margin: 0.2rem 0;
+        }
+        
+        .vocab-meaning {
+            color: var(--primary);
+            font-weight: 600;
+            font-size: 0.95rem;
+        }
+        
+        /* Loading State */
+        .loading-container {
+            text-align: center;
+            padding: 3rem;
+        }
+        
+        .spinner {
+            width: 50px;
+            height: 50px;
+            border: 5px solid #f3f3f3;
+            border-top: 5px solid var(--primary);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 1rem;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        /* Progress Bar */
+        .progress-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 4px;
+            background: rgba(0,0,0,0.1);
+            z-index: 1001;
+        }
+        
+        .progress-bar {
+            height: 100%;
+            background: linear-gradient(90deg, var(--primary), var(--accent));
+            width: 0%;
+            transition: width 0.3s ease;
+        }
+        
+        /* Scroll to top button */
+        .scroll-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background: var(--primary);
+            color: white;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            border: none;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            box-shadow: 0 4px 15px rgba(231, 76, 60, 0.4);
+            transition: all 0.3s ease;
+            opacity: 0;
+            visibility: hidden;
+            z-index: 998;
+        }
+        
+        .scroll-top.visible {
+            opacity: 1;
+            visibility: visible;
+        }
+        
+        .scroll-top:hover {
+            transform: translateY(-5px);
+            background: #c0392b;
+        }
+        
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 3rem 2rem;
+            color: #7f8c8d;
+            margin-top: 2rem;
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 1.4rem;
+            }
+            
+            .nav-dots {
+                display: none;
+            }
+            
+            .main-content {
+                padding: 1rem;
+                margin-top: 80px;
+            }
+            
+            .reading-card {
+                padding: 1.5rem;
+            }
+            
+            .japanese-text {
+                font-size: 1.1rem;
+                padding: 1rem;
+            }
+            
+            .text-header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="progress-container">
+        <div class="progress-bar" id="progressBar"></div>
+    </div>
 
-    <!-- Teks 2: Hari Libur -->
-    <text id="2">
-      <title>
-        <jp>休みの日</jp>
-        <reading>やすみのひ</reading>
-        <id>Hari Libur</id>
-      </title>
-      <content>
-        <phrase>
-          <segment><kanji>昨日</kanji><furigana>きのう</furigana></segment>は
-        </phrase>
-        <phrase>
-          <segment><kanji>休</kanji><furigana>やす</furigana></segment>みの
-        </phrase>
-        <phrase>
-          <segment><kanji>日</kanji><furigana>ひ</furigana></segment>でした。
-        </phrase>
-        <phrase>
-          <segment><kanji>私</kanji><furigana>わたし</furigana></segment>は
-        </phrase>
-        <phrase>
-          <segment><kanji>友達</kanji><furigana>ともだち</furigana></segment>と
-        </phrase>
-        <phrase>
-          <segment><kanji>映画</kanji><furigana>えいが</furigana></segment>を
-        </phrase>
-        <phrase>
-          <segment><kanji>見</kanji><furigana>み</furigana></segment>に
-        </phrase>
-        <phrase>
-          <segment><kanji>行</kanji><furigana>い</furigana></segment>きました。
-        </phrase>
-        <phrase>
-          <segment><kanji>映画館</kanji><furigana>えいがかん</furigana></segment>は
-        </phrase>
-        <phrase>
-          <segment><kanji>駅</kanji><furigana>えき</furigana></segment>の
-        </phrase>
-        <phrase>
-          <segment><kanji>近</kanji><furigana>ちか</furigana></segment>くにありました。
-        </phrase>
-        <phrase>
-          <segment><kanji>映画</kanji><furigana>えいが</furigana></segment>は
-        </phrase>
-        <phrase>
-          <segment><kanji>面白</kanji><furigana>おもしろ</furigana></segment>かったです。
-        </phrase>
-        <phrase>
-          <segment><kanji>午後</kanji><furigana>ごご</furigana></segment>は
-        </phrase>
-        <phrase>
-          <segment><kanji>一緒</kanji><furigana>いっしょ</furigana></segment>に
-        </phrase>
-        <phrase>
-          <segment><kanji>買</kanji><furigana>か</furigana></segment>い<segment><kanji>物</kanji><furigana>もの</furigana></segment>をしました。
-        </phrase>
-        <phrase>
-          <segment><kanji>新</kanji><furigana>あたら</furigana></segment>しい
-        </phrase>
-        <phrase>
-          <segment><kanji>靴</kanji><furigana>くつ</furigana></segment>を
-        </phrase>
-        <phrase>
-          <segment><kanji>買</kanji><furigana>か</furigana></segment>いました。
-        </phrase>
-        <phrase>
-          <segment><kanji>夜</kanji><furigana>よる</furigana></segment>は
-        </phrase>
-        <phrase>
-          <segment><kanji>家</kanji><furigana>いえ</furigana></segment>で
-        </phrase>
-        <phrase>
-          <segment><kanji>本</kanji><furigana>ほん</furigana></segment>を
-        </phrase>
-        <phrase>
-          <segment><kanji>読</kanji><furigana>よ</furigana></segment>みました。
-        </phrase>
-        <phrase>
-          とても
-        </phrase>
-        <phrase>
-          <segment><kanji>楽</kanji><furigana>たの</furigana></segment>しかったです。
-        </phrase>
-      </content>
-      <translation>Kemarin adalah hari libur. Saya pergi menonton film bersama teman. Bioskop berada dekat stasiun. Filmnya sangat menarik. Sore hari kami berbelanja bersama. Saya membeli sepatu baru. Malam hari saya membaca buku di rumah. Sangat menyenangkan.</translation>
-      <vocabulary>
-        <item>
-          <word>
-            <kanji>昨日</kanji>
-            <furigana>きのう</furigana>
-          </word>
-          <romaji>kinou</romaji>
-          <meaning>Kemarin</meaning>
-        </item>
-        <item>
-          <word>
-            <kanji>休</kanji>
-            <furigana>やす</furigana>
-            <okurigana>み</okurigana>
-          </word>
-          <romaji>yasumi</romaji>
-          <meaning>Libur</meaning>
-        </item>
-        <item>
-          <word>
-            <kanji>映画</kanji>
-            <furigana>えいが</furigana>
-          </word>
-          <romaji>eiga</romaji>
-          <meaning>Film</meaning>
-        </item>
-        <item>
-          <word>
-            <kanji>駅</kanji>
-            <furigana>えき</furigana>
-          </word>
-          <romaji>eki</romaji>
-          <meaning>Stasiun</meaning>
-        </item>
-        <item>
-          <word>
-            <kanji>買</kanji>
-            <furigana>か</furigana>
-            <okurigana>い物</okurigana>
-          </word>
-          <romaji>kaimono</romaji>
-          <meaning>Belanja</meaning>
-        </item>
-        <item>
-          <word>
-            <kanji>楽</kanji>
-            <furigana>たの</furigana>
-            <okurigana>しい</okurigana>
-          </word>
-          <romaji>tanoshii</romaji>
-          <meaning>Menyenangkan</meaning>
-        </item>
-      </vocabulary>
-    </text>
+    <header>
+        <h1>🎌 JLPT N5 読解 (10 Teks)</h1>
+        <p>Pembelajaran Pemahaman Bacaan dengan Audio Interaktif</p>
+    </header>
 
-    <!-- Teks 3: Di Restoran -->
-    <text id="3">
-      <title>
-        <jp>レストランで</jp>
-        <reading>れすとらんで</reading>
-        <id>Di Restoran</id>
-      </title>
-      <content>
-        <phrase>
-          <segment><kanji>昨日</kanji><furigana>きのう</furigana></segment>の
-        </phrase>
-        <phrase>
-          <segment><kanji>夜</kanji><furigana>よる</furigana></segment>、
-        </phrase>
-        <phrase>
-          <segment><kanji>家族</kanji><furigana>かぞく</furigana></segment>と
-        </phrase>
-        <phrase>
-          レストランへ
-        </phrase>
-        <phrase>
-          <segment><kanji>行</kanji><furigana>い</furigana></segment>きました。
-        </phrase>
-        <phrase>
-          お<segment><kanji>母</kanji><furigana>かあ</furigana></segment>さんは
-        </phrase>
-        <phrase>
-          すしを
-        </phrase>
-        <phrase>
-          <segment><kanji>食</kanji><furigana>た</furigana></segment>べました。
-        </phrase>
-        <phrase>
-          お<segment><kanji>父</kanji><furigana>とう</furigana></segment>さんは
-        </phrase>
-        <phrase>
-          てんぷらを
-        </phrase>
-        <phrase>
-          <segment><kanji>食</kanji><furigana>た</furigana></segment>べました。
-        </phrase>
-        <phrase>
-          <segment><kanji>私</kanji><furigana>わたし</furigana></segment>は
-        </phrase>
-        <phrase>
-          うどんを
-        </phrase>
-        <phrase>
-          <segment><kanji>食</kanji><furigana>た</furigana></segment>べました。
-        </phrase>
-        <phrase>
-          みんなで
-        </phrase>
-        <phrase>
-          お<segment><kanji>茶</kanji><furigana>ちゃ</furigana></segment>を
-        </phrase>
-        <phrase>
-          <segment><kanji>飲</kanji><furigana>の</furigana></segment>みました。
-        </phrase>
-        <phrase>
-          ごちそうさまでした。
-        </phrase>
-      </content>
-      <translation>Tadi malam, saya pergi ke restoran bersama keluarga. Ibu makan sushi. Ayah makan tempura. Saya makan udon. Kami semua minum teh. Terima kasih atas makanannya.</translation>
-      <vocabulary>
-        <item>
-          <word>
-            <kanji>家族</kanji>
-            <furigana>かぞく</furigana>
-          </word>
-          <romaji>kazoku</romaji>
-          <meaning>Keluarga</meaning>
-        </item>
-        <item>
-          <word>
-            <kanji>母</kanji>
-            <furigana>かあ</furigana>
-            <okurigana>さん</okurigana>
-          </word>
-          <romaji>kaasan</romaji>
-          <meaning>Ibu</meaning>
-        </item>
-        <item>
-          <word>
-            <kanji>食</kanji>
-            <furigana>た</furigana>
-            <okurigana>べる</okurigana>
-          </word>
-          <romaji>taberu</romaji>
-          <meaning>Makan</meaning>
-        </item>
-        <item>
-          <word>
-            <kanji>父</kanji>
-            <furigana>とう</furigana>
-            <okurigana>さん</okurigana>
-          </word>
-          <romaji>tousan</romaji>
-          <meaning>Ayah</meaning>
-        </item>
-        <item>
-          <word>
-            <kanji>飲</kanji>
-            <furigana>の</furigana>
-            <okurigana>む</okurigana>
-          </word>
-          <romaji>nomu</romaji>
-          <meaning>Minum</meaning>
-        </item>
-        <item>
-          <word>
-            <kanji>茶</kanji>
-            <furigana>ちゃ</furigana>
-          </word>
-          <romaji>cha</romaji>
-          <meaning>Teh</meaning>
-        </item>
-      </vocabulary>
-    </text>
+    <!-- Navigation Dots -->
+    <div class="nav-dots" id="navDots"></div>
 
-    <!-- Teks 4: Di Sekolah -->
-    <text id="4">
-      <title>
-        <jp>学校の一日</jp>
-        <reading>がっこうのいちにち</reading>
-        <id>Hari di Sekolah</id>
-      </title>
-      <content>
-        <phrase>
-          <segment><kanji>私</kanji><furigana>わたし</furigana></segment>は
-        </phrase>
-        <phrase>
-          <segment><kanji>毎日</kanji><furigana>まいにち</furigana></segment>
-        </phrase>
-        <phrase>
-          <segment><kanji>学校</kanji><furigana>がっこう</furigana></segment>へ
-        </phrase>
-        <phrase>
-          <segment><kanji>行</kanji><furigana>い</furigana></segment>きます。
-        </phrase>
-        <phrase>
-          <segment><kanji>朝</kanji><furigana>あさ</furigana></segment><segment><kanji>八時</kanji><furigana>はちじ</furigana></segment>に
-        </phrase>
-        <phrase>
-          <segment><kanji>家</kanji><furigana>いえ</furigana></segment>を
-        </phrase>
-        <phrase>
-          <segment><kanji>出</kanji><furigana>で</furigana></segment>ます。
-        </phrase>
-        <phrase>
-          <segment><kanji>電車</kanji><furigana>でんしゃ</furigana></segment>で
-        </phrase>
-        <phrase>
-          <segment><kanji>三十分</kanji><furigana>さんじゅっぷん</furigana></segment>
-        </phrase>
-        <phrase>
-          かかります。
-        </phrase>
-        <phrase>
-          <segment><kanji>学校</kanji><furigana>がっこう</furigana></segment>では
-        </phrase>
-        <phrase>
-          <segment><kanji>日本語</kanji><furigana>にほんご</furigana></segment>を
-        </phrase>
-        <phrase>
-          <segment><kanji>勉強</kanji><furigana>べんきょう</furigana></segment>します。
-        </phrase>
-        <phrase>
-          お<segment><kanji>昼</kanji><furigana>ひる</furigana></segment>ご<segment><kanji>飯</kanji><furigana>はん</furigana></segment>は
-        </phrase>
-        <phrase>
-          <segment><kanji>学校</kanji><furigana>がっこう</furigana></segment>の
-        </phrase>
-        <phrase>
-          <segment><kanji>食堂</kanji><furigana>しょくどう</furigana></segment>で
-        </phrase>
-        <phrase>
-          <segment><kanji>食</kanji><furigana>た</furigana></segment>べます。
-        </phrase>
-        <phrase>
-          <segment><kanji>午後</kanji><furigana>ごご</furigana></segment><segment><kanji>三時</kanji><furigana>さんじ</furigana></segment>に
-        </phrase>
-        <phrase>
-          <segment><kanji>家</kanji><furigana>いえ</furigana></segment>へ
-        </phrase>
-        <phrase>
-          <segment><kanji>帰</kanji><furigana>かえ</furigana></segment>ります。
-        </phrase>
-      </content>
-      <translation>Saya pergi ke sekolah setiap hari. Saya berangkat dari rumah jam 8 pagi. Perjalanan dengan kereta memakan waktu 30 menit. Di sekolah, saya belajar bahasa Jepang. Makan siang saya makan di kantin sekolah. Saya pulang ke rumah jam 3 sore.</translation>
-      <vocabulary>
-        <item>
-          <word>
-            <kanji>毎日</kanji>
-            <furigana>まいにち</furigana>
-          </word>
-          <romaji>mainichi</romaji>
-          <meaning>Setiap hari</meaning>
-        </item>
-        <item>
-          <word>
-            <kanji>学校</kanji>
-            <furigana>がっこう</furigana>
-          </word>
-          <romaji>gakkou</romaji>
-          <meaning>Sekolah</meaning>
-        </item>
-        <item>
-          <word>
-            <kanji>電車</kanji>
-            <furigana>でんしゃ</furigana>
-          </word>
-          <romaji>densha</romaji>
-          <meaning>Kereta</meaning>
-        </item>
-        <item>
-          <word>
-            <kanji>勉強</kanji>
-            <furigana>べんきょう</furigana>
-          </word>
-          <romaji>benkyou</romaji>
-          <meaning>Belajar</meaning>
-        </item>
-        <item>
-          <word>
-            <kanji>帰</kanji>
-            <furigana>かえ</furigana>
-            <okurigana>る</okurigana>
-          </word>
-          <romaji>kaeru</romaji>
-          <meaning>Pulang</meaning>
-        </item>
-      </vocabulary>
-    </text>
+    <div class="main-content" id="content">
+        <div class="loading-container">
+            <div class="spinner"></div>
+            <p>Memuat teks...</p>
+        </div>
+    </div>
 
-    <!-- Teks 5: Pekerjaan Ayah -->
-    <text id="5">
-      <title>
-        <jp>父の仕事</jp>
-        <reading>ちちのしごと</reading>
-        <id>Pekerjaan Ayah</id>
-      </title>
-      <content>
-        <phrase>
-          <segment><kanji>私</kanji><furigana>わたし</furigana></segment>の
-        </phrase>
-        <phrase>
-          <segment><kanji>父</kanji><furigana>ちち</furigana></segment>は
-        </phrase>
-        <phrase>
-          <segment><kanji>会社員</kanji><furigana>かいしゃいん</furigana></segment>です。
-        </phrase>
-        <phrase>
-          <segment><kanji>大</kanji><furigana>おお</furigana></segment>きい
-        </phrase>
-        <phrase>
-          <segment><kanji>会社</kanji><furigana>かいしゃ</furigana></segment>で
-        </phrase>
-        <phrase>
-          <segment><kanji>働</kanji><furigana>はたら</furigana></segment>いています。
-        </phrase>
-        <phrase>
-          <segment><kanji>毎朝</kanji><furigana>まいあさ</furigana></segment>
-        </phrase>
-        <phrase>
-          <segment><kanji>七時</kanji><furigana>しちじ</furigana></segment>に
-        </phrase>
-        <phrase>
-          <segment><kanji>起</kanji><furigana>お</furigana></segment>きて、
-        </phrase>
-        <phrase>
-          <segment><kanji>八時</kanji><furigana>はちじ</furigana></segment>に
-        </phrase>
-        <phrase>
-          <segment><kanji>家</kanji><furigana>いえ</furigana></segment>を
-        </phrase>
-        <phrase>
-          <segment><kanji>出</kanji><furigana>で</furigana></segment>ます。
-        </phrase>
-        <phrase>
-          <segment><kanji>仕事</kanji><furigana>しごと</furigana></segment>は
-        </phrase>
-        <phrase>
-          <segment><kanji>忙</kanji><furigana>いそが</furigana></segment>しいですが、
-        </phrase>
-        <phrase>
-          <segment><kanji>面白</kanji><furigana>おもしろ</furigana></segment>いです。
-        </phrase>
-        <phrase>
-          <segment><kanji>夜</kanji><furigana>よる</furigana></segment>は
-        </phrase>
-        <phrase>
-          <segment><kanji>遅</kanji><furigana>おそ</furigana></segment>く
-        </phrase>
-        <phrase>
-          <segment><kanji>帰</kanji><furigana>かえ</furigana></segment>ります。
-        </phrase>
-        <phrase>
-          <segment><kanji>父</kanji><furigana>ちち</furigana></segment>は
-        </phrase>
-        <phrase>
-          とても
-        </phrase>
-        <phrase>
-          <segment><kanji>優</kanji><furigana>やさ</furigana></segment>しいです。
-        </phrase>
-      </content>
-      <translation>Ayah saya adalah karyawan kantor. Dia bekerja di perusahaan besar. Setiap pagi bangun jam 7 dan berangkat dari rumah jam 8. Pekerjaannya sibuk tapi menarik. Dia pulang larut malam. Ayah saya sangat baik hati.</translation>
-      <vocabulary>
-        <item>
-          <word>
-            <kanji>父</kanji>
-            <furigana>ちち</furigana>
-          </word>
-          <romaji>chichi</romaji>
-          <meaning>Ayah (saya)</meaning>
-        </item>
-        <item>
-          <word>
-            <kanji>会社員</kanji>
-            <furigana>かいしゃいん</furigana>
-          </word>
-          <romaji>kaishain</romaji>
-          <meaning>Karyawan</meaning>
-        </item>
-        <item>
-          <word>
-            <kanji>働</kanji>
-            <furigana>はたら</furigana>
-            <okurigana>く</okurigana>
-          </word>
-          <romaji>hataraku</romaji>
-          <meaning>Bekerja</meaning>
-        </item>
-        <item>
-          <word>
-            <kanji>起</kanji>
-            <furigana>お</furigana>
-            <okurigana>きる</okurigana>
-          </word>
-          <romaji>okiru</romaji>
-          <meaning>Bangun</meaning>
-        </item>
-        <item>
-          <word>
-            <kanji>忙</kanji>
-            <furigana>いそが</furigana>
-            <okurigana>しい</okurigana>
-          </word>
-          <romaji>isogashii</romaji>
-          <meaning>Sibuk</meaning>
-        </item>
-      </vocabulary>
-    </text>
+    <button class="scroll-top" id="scrollTop" onclick="scrollToTop()">↑</button>
 
-    <!-- Teks 6: Hobi Saya -->
-    <text id="6">
-      <title>
-        <jp>私の趣味</jp>
-        <reading>わたしのしゅみ</reading>
-        <id>Hobi Saya</id>
-      </title>
-      <content>
-        <phrase>
-          <segment><kanji>私</kanji><furigana>わたし</furigana></segment>の
-        </phrase>
-        <phrase>
-          <segment><kanji>趣味</kanji><furigana>しゅみ</furigana></segment>は
-        </phrase>
-        <phrase>
-          <segment><kanji>音楽</kanji><furigana>おんがく</furigana></segment>を
-        </phrase>
-        <phrase>
-          <segment><kanji>聞</kanji><furigana>き</furigana></segment>くことです。
-        </phrase>
-        <phrase>
-          <segment><kanji>特</kanji><furigana>とく</furigana></segment>に
-        </phrase>
-        <phrase>
-          <segment><kanji>日本</kanji><furigana>にほん</furigana></segment>の
-        </phrase>
-        <phrase>
-          <segment><kanji>歌</kanji><furigana>うた</furigana></segment>が
-        </phrase>
-        <phrase>
-          <segment><kanji>好</kanji><furigana>す</furigana></segment>きです。
-        </phrase>
-        <phrase>
-          <segment><kanji>毎晩</kanji><furigana>まいばん</furigana></segment>
-        </phrase>
-        <phrase>
-          <segment><kanji>寝</kanji><furigana>ね</furigana></segment>る<segment><kanji>前</kanji><furigana>まえ</furigana></segment>に
-        </phrase>
-        <phrase>
-          <segment><kanji>音楽</kanji><furigana>おんがく</furigana></segment>を
-        </phrase>
-        <phrase>
-          <segment><kanji>聞</kanji><furigana>き</furigana></segment>きます。
-        </phrase>
-        <phrase>
-          <segment><kanji>週末</kanji><furigana>しゅうまつ</furigana></segment>には
-        </phrase>
-        <phrase>
-          コンサートに
-        </phrase>
-        <phrase>
-          <segment><kanji>行</kanji><furigana>い</furigana></segment>きます。
-        </phrase>
-        <phrase>
-          <segment><kanji>音楽</kanji><furigana>おんがく</furigana></segment>は
-        </phrase>
-        <phrase>
-          <segment><kanji>私</kanji><furigana>わたし</furigana></segment>を
-        </phrase>
-        <phrase>
-          リラックス
-        </phrase>
-        <phrase>
-          させます。
-        </phrase>
-      </content>
-      <translation>Hobi saya adalah mendengarkan musik. Saya sangat suka lagu Jepang. Setiap malam sebelum tidur saya mendengarkan musik. Akhir pekan saya pergi ke konser. Musik membuat saya rileks.</translation>
-      <vocabulary>
-        <item>
-          <word>
-            <kanji>趣味</kanji>
-            <furigana>しゅみ</furigana>
-          </word>
-          <romaji>shumi</romaji>
-          <meaning>Hobi</meaning>
-        </item>
-        <item>
-          <word>
-            <kanji>音楽</kanji>
-            <furigana>おんがく</furigana>
-          </word>
-          <romaji>ongaku</romaji>
-          <meaning>Musik</meaning>
-        </item>
-        <item>
-          <word>
-            <kanji>歌</kanji>
-            <furigana>うた</furigana>
-          </word>
-          <romaji>uta</romaji>
-          <meaning>Lagu</meaning>
-        </item>
-        <item>
-          <word>
-            <kanji>聞</kanji>
-            <furigana>き</furigana>
-            <okurigana>く</okurigana>
-          </word>
-          <romaji>kiku</romaji>
-          <meaning>Mendengar</meaning>
-        </item>
-        <item>
-          <word>
-            <kanji>週末</kanji>
-            <furigana>しゅうまつ</furigana>
-          </word>
-          <romaji>shuumatsu</romaji>
-          <meaning>Akhir pekan</meaning>
-        </item>
-      </vocabulary>
-    </text>
+    <footer>
+        <p>© 2026 JLPT N5 Dokkai Learning | Scroll ke bawah untuk melihat teks berikutnya</p>
+    </footer>
 
-    <!-- Teks 7: Di Toko -->
-    <text id="7">
-      <title>
-        <jp>買い物</jp>
-        <reading>かいもの</reading>
-        <id>Belanja</id>
-      </title>
-      <content>
-        <phrase>
-          <segment><kanji>今日</kanji><furigana>きょう</furigana></segment>は
-        </phrase>
-        <phrase>
-          スーパーへ
-        </phrase>
-        <phrase>
-          <segment><kanji>買</kanji><furigana>か</furigana></segment>い<segment><kanji>物</kanji><furigana>もの</furigana></segment>に
-        </phrase>
-        <phrase>
-          <segment><kanji>行</kanji><furigana>い</furigana></segment>きました。
-        </phrase>
-        <phrase>
-          りんごを
-        </phrase>
-        <phrase>
-          <segment><kanji>三</kanji><furigana>み</furigana></segment>つと
-        </phrase>
-        <phrase>
-          みかんを
-        </phrase>
-        <phrase>
-          <segment><kanji>五</kanji><furigana>い</furigana></segment>つ
-        </phrase>
-        <phrase>
-          <segment><kanji>買</kanji><furigana>か</furigana></segment>いました。
-        </phrase>
-        <phrase>
-          <segment><kanji>肉</kanji><furigana>にく</furigana></segment>も
-        </phrase>
-        <phrase>
-          <segment><kanji>買</kanji><furigana>か</furigana></segment>いました。
-        </phrase>
-        <phrase>
-          <segment><kanji>全部</kanji><furigana>ぜんぶ</furigana></segment>で
-        </phrase>
-        <phrase>
-          <segment><kanji>二千円</kanji><furigana>にせんえん</furigana></segment>
-        </phrase>
-        <phrase>
-          でした。
-        </phrase>
-        <phrase>
-          スーパーは
-        </phrase>
-        <phrase>
-          <segment><kanji>安</kanji><furigana>やす</furigana></segment>くて、
-        </phrase>
-        <phrase>
-          <segment><kanji>便利</kanji><furigana>べんり</furigana></segment>です。
-        </phrase>
-      </content>
-      <translation>Hari ini saya pergi berbelanja ke supermarket. Saya membeli 3 apel dan 5 jeruk. Saya juga membeli daging. Totalnya 2000 yen. Supermarketnya murah dan nyaman.</translation>
-      <vocabulary>
-        <item>
-          <word>
-            <kanji>肉</kanji>
-            <furigana>にく</furigana>
-          </word>
-          <romaji>niku</romaji>
-          <meaning>Daging</meaning>
-        </item>
-        <item>
-          <word>
-            <kanji>安</kanji>
-            <furigana>やす</furigana>
-            <okurigana>い</okurigana>
-          </word>
-          <romaji>yasui</romaji>
-          <meaning>Murah</meaning>
-        </item>
-        <item>
-          <word>
-            <kanji>便利</kanji>
-            <furigana>べんり</furigana>
-          </word>
-          <romaji>benri</romaji>
-          <meaning>Nyaman/Mudah</meaning>
-        </item>
-        <item>
-          <word>
-            <kanji>三</kanji>
-            <furigana>み</furigana>
-          </word>
-          <romaji>mi</romaji>
-          <meaning>Tiga (hitung)</meaning>
-        </item>
-        <item>
-          <word>
-            <kanji>五</kanji>
-            <furigana>い</furigana>
-          </word>
-          <romaji>i</romaji>
-          <meaning>Lima (hitung)</meaning>
-        </item>
-      </vocabulary>
-    </text>
+    <script>
+        let textsData = [];
+        let currentAudio = null;
+        let isPlaying = false;
+        let currentPhraseIndex = 0;
+        let currentTextId = null;
+        let speechRate = 1;
 
-    <!-- Teks 8: Rencana Akhir Pekan -->
-    <text id="8">
-      <title>
-        <jp>週末の予定</jp>
-        <reading>しゅうまつのよてい</reading>
-        <id>Rencana Akhir Pekan</id>
-      </title>
-      <content>
-        <phrase>
-          <segment><kanji>今週</kanji><furigana>こんしゅう</furigana></segment>の
-        </phrase>
-        <phrase>
-          <segment><kanji>土曜日</kanji><furigana>どようび</furigana></segment>に
-        </phrase>
-        <phrase>
-          <segment><kanji>友達</kanji><furigana>ともだち</furigana></segment>と
-        </phrase>
-        <phrase>
-          ピクニックに
-        </phrase>
-        <phrase>
-          <segment><kanji>行</kanji><furigana>い</furigana></segment>きます。
-        </phrase>
-        <phrase>
-          お<segment><kanji>弁当</kanji><furigana>べんとう</furigana></segment>を
-        </phrase>
-        <phrase>
-          <segment><kanji>作</kanji><furigana>つく</furigana></segment>って、
-        </phrase>
-        <phrase>
-          <segment><kanji>山</kanji><furigana>やま</furigana></segment>へ
-        </phrase>
-        <phrase>
-          <segment><kanji>行</kanji><furigana>い</furigana></segment>きます。
-        </phrase>
-        <phrase>
-          そこで
-        </phrase>
-        <phrase>
-          <segment><kanji>写真</kanji><furigana>しゃしん</furigana></segment>を
-        </phrase>
-        <phrase>
-          <segment><kanji>撮</kanji><furigana>と</furigana></segment>りたいです。
-        </phrase>
-        <phrase>
-          <segment><kanji>日曜日</kanji><furigana>にちようび</furigana></segment>は
-        </phrase>
-        <phrase>
-          <segment><kanji>家</kanji><furigana>いえ</furigana></segment>で
-        </phrase>
-        <phrase>
-          ゆっくり
-        </phrase>
-        <phrase>
-          <segment><kanji>休</kanji><furigana>やす</furigana></segment>みます。
-        </phrase>
-        <phrase>
-          <segment><kanji>楽</kanji><furigana>たの</furigana></segment>しみです。
-        </phrase>
-      </content>
-      <translation>Hari Sabtu minggu ini saya akan pergi piknik bersama teman. Saya akan membuat bekal dan pergi ke gunung. Di sana saya ingin memotret. Hari Minggu saya akan beristirahat di rumah. Saya menantikannya.</translation>
-      <vocabulary>
-        <item>
-          <word>
-            <kanji>今週</kanji>
-            <furigana>こんしゅう</furigana>
-          </word>
-          <romaji>konshuu</romaji>
-          <meaning>Minggu ini</meaning>
-        </item>
-        <item>
-          <word>
-            <kanji>土曜日</kanji>
-            <furigana>どようび</furigana>
-          </word>
-          <romaji>doyoubi</romaji>
-          <meaning>Sabtu</meaning>
-        </item>
-        <item>
-          <word>
-            <kanji>予定</kanji>
-            <furigana>よてい</furigana>
-          </word>
-          <romaji>yotei</romaji>
-          <meaning>Rencana</meaning>
-        </item>
-        <item>
-          <word>
-            <kanji>写真</kanji>
-            <furigana>しゃしん</furigana>
-          </word>
-          <romaji>shashin</romaji>
-          <meaning>Foto</meaning>
-        </item>
-        <item>
-          <word>
-            <kanji>撮</kanji>
-            <furigana>と</furigana>
-            <okurigana>る</okurigana>
-          </word>
-          <romaji>toru</romaji>
-          <meaning>Ambil foto</meaning>
-        </item>
-      </vocabulary>
-    </text>
+        // Load XML data
+        async function loadXMLData() {
+            try {
+                const response = await fetch('texts.xml');
+                const xmlText = await response.text();
+                const parser = new DOMParser();
+                const xmlDoc = parser.parseFromString(xmlText, 'text/xml');
+                
+                const texts = xmlDoc.getElementsByTagName('text');
+                textsData = Array.from(texts).map(text => {
+                    const phrases = Array.from(text.getElementsByTagName('phrase')).map(phrase => ({
+                        jp: phrase.getElementsByTagName('jp')[0].textContent,
+                        reading: phrase.getElementsByTagName('reading')[0].textContent
+                    }));
+                    
+                    const vocabItems = Array.from(text.getElementsByTagName('item')).map(item => ({
+                        kanji: item.getElementsByTagName('kanji')[0].textContent,
+                        reading: item.getElementsByTagName('reading')[0].textContent,
+                        romaji: item.getElementsByTagName('romaji')[0].textContent,
+                        meaning: item.getElementsByTagName('meaning')[0].textContent
+                    }));
+                    
+                    return {
+                        id: text.getAttribute('id'),
+                        title: {
+                            jp: text.getElementsByTagName('jp')[0].textContent,
+                            reading: text.getElementsByTagName('reading')[0].textContent,
+                            id: text.getElementsByTagName('id')[0].textContent
+                        },
+                        phrases: phrases,
+                        translation: text.getElementsByTagName('translation')[0].textContent,
+                        vocabulary: vocabItems
+                    };
+                });
+                
+                renderContent();
+                createNavDots();
+            } catch (error) {
+                console.error('Error loading XML:', error);
+                document.getElementById('content').innerHTML = 
+                    '<div class="loading-container"><p>Gagal memuat data. Pastikan file texts.xml ada di folder yang sama.</p></div>';
+            }
+        }
 
-    <!-- Teks 9: Di Rumah Sakit -->
-    <text id="9">
-      <title>
-        <jp>病院へ行く</jp>
-        <reading>びょういんへいく</reading>
-        <id>Ke Rumah Sakit</id>
-      </title>
-      <content>
-        <phrase>
-          <segment><kanji>昨日</kanji><furigana>きのう</furigana></segment>、
-        </phrase>
-        <phrase>
-          <segment><kanji>風邪</kanji><furigana>かぜ</furigana></segment>を
-        </phrase>
-        <phrase>
-          <segment><kanji>引</kanji><furigana>ひ</furigana></segment>きました。
-        </phrase>
-        <phrase>
-          <segment><kanji>頭</kanji><furigana>あたま</furigana></segment>が
-        </phrase>
-        <phrase>
-          <segment><kanji>痛</kanji><furigana>いた</furigana></segment>くて、
-        </phrase>
-        <phrase>
-          <segment><kanji>熱</kanji><furigana>ねつ</furigana></segment>も
-        </phrase>
-        <phrase>
-          ありました。
-        </phrase>
-        <phrase>
-          <segment><kanji>母</kanji><furigana>はは</furigana></segment>に
-        </phrase>
-        <phrase>
-          <segment><kanji>連</kanji><furigana>つ</furigana></segment>れられて
-        </phrase>
-        <phrase>
-          <segment><kanji>病院</kanji><furigana>びょういん</furigana></segment>へ
-        </phrase>
-        <phrase>
-          <segment><kanji>行</kanji><furigana>い</furigana></segment>きました。
-        </phrase>
-        <phrase>
-          お<segment><kanji>医者</kanji><furigana>いしゃ</furigana></segment>さんに
-        </phrase>
-        <phrase>
-          <segment><kanji>診</kanji><furigana>み</furigana></segment>て
-        </phrase>
-        <phrase>
-          もらいました。
-        </phrase>
-        <phrase>
-          <segment><kanji>薬</kanji><furigana>くすり</furigana></segment>を
-        </phrase>
-        <phrase>
-          もらって、
-        </phrase>
-        <phrase>
-          <segment><kanji>家</kanji><furigana>いえ</furigana></segment>で
-        </phrase>
-        <phrase>
-          <segment><kanji>寝</kanji><furigana>ね</furigana></segment>ていました。
-        </phrase>
-        <phrase>
-          <segment><kanji>今日</kanji><furigana>きょう</furigana></segment>は
-        </phrase>
-        <phrase>
-          もう
-        </phrase>
-        <phrase>
-          <segment><kanji>大丈夫</kanji><furigana>だいじょうぶ</furigana></segment>です。
-        </phrase>
-      </content>
-      <translation>Kemarin saya sakit flu. Kepala saya sakit dan demam. Ibu mengantar saya ke rumah sakit. Dokter memeriksa saya. Saya mendapat obat dan tidur di rumah. Hari ini sudah baikan.</translation>
-      <vocabulary>
-        <item>
-          <word>
-            <kanji>風邪</kanji>
-            <furigana>かぜ</furigana>
-          </word>
-          <romaji>kaze</romaji>
-          <meaning>Flu</meaning>
-        </item>
-        <item>
-          <word>
-            <kanji>病院</kanji>
-            <furigana>びょういん</furigana>
-          </word>
-          <romaji>byouin</romaji>
-          <meaning>Rumah sakit</meaning>
-        </item>
-        <item>
-          <word>
-            <kanji>頭</kanji>
-            <furigana>あたま</furigana>
-          </word>
-          <romaji>atama</romaji>
-          <meaning>Kepala</meaning>
-        </item>
-        <item>
-          <word>
-            <kanji>痛</kanji>
-            <furigana>いた</furigana>
-            <okurigana>い</okurigana>
-          </word>
-          <romaji>itai</romaji>
-          <meaning>Sakit</meaning>
-        </item>
-        <item>
-          <word>
-            <kanji>薬</kanji>
-            <furigana>くすり</furigana>
-          </word>
-          <romaji>kusuri</romaji>
-          <meaning>Obat</meaning>
-        </item>
-      </vocabulary>
-    </text>
+        // Render content
+        function renderContent() {
+            const container = document.getElementById('content');
+            container.innerHTML = textsData.map((text, index) => `
+                <div class="reading-card" id="text-${text.id}" data-index="${index}">
+                    <div class="text-header">
+                        <h2 class="text-title">
+                            <span class="text-number">${text.id}</span>
+                            ${text.title.jp}（${text.title.reading}）
+                        </h2>
+                        <div class="audio-controls">
+                            <div class="speed-control">
+                                <label>Kecepatan:</label>
+                                <select id="speed-${text.id}" onchange="changeSpeed(${text.id})">
+                                    <option value="0.7">0.7x</option>
+                                    <option value="1" selected>1x</option>
+                                    <option value="1.2">1.2x</option>
+                                </select>
+                            </div>
+                            <button class="btn-play" id="play-${text.id}" onclick="toggleAudio(${text.id})">
+                                <span id="icon-${text.id}">▶</span>
+                                <span id="text-btn-${text.id}">Dengarkan</span>
+                            </button>
+                        </div>
+                    </div>
 
-    <!-- Teks 10: Perkenalan -->
-    <text id="10">
-      <title>
-        <jp>自己紹介</jp>
-        <reading>じこしょうかい</reading>
-        <id>Perkenalan Diri</id>
-      </title>
-      <content>
-        <phrase>
-          <segment><kanji>初</kanji><furigana>はじ</furigana></segment>めまして。
-        </phrase>
-        <phrase>
-          <segment><kanji>私</kanji><furigana>わたし</furigana></segment>は
-        </phrase>
-        <phrase>
-          <segment><kanji>田中</kanji><furigana>たなか</furigana></segment>です。
-        </phrase>
-        <phrase>
-          <segment><kanji>日本</kanji><furigana>にほん</furigana></segment>の
-        </phrase>
-        <phrase>
-          <segment><kanji>東京</kanji><furigana>とうきょう</furigana></segment>から
-        </phrase>
-        <phrase>
-          <segment><kanji>来</kanji><furigana>き</furigana></segment>ました。
-        </phrase>
-        <phrase>
-          <segment><kanji>今</kanji><furigana>いま</furigana></segment>は
-        </phrase>
-        <phrase>
-          <segment><kanji>大学生</kanji><furigana>だいがくせい</furigana></segment>です。
-        </phrase>
-        <phrase>
-          <segment><kanji>専攻</kanji><furigana>せんこう</furigana></segment>は
-        </phrase>
-        <phrase>
-          <segment><kanji>経済</kanji><furigana>けいざい</furigana></segment>です。
-        </phrase>
-        <phrase>
-          <segment><kanji>趣味</kanji><furigana>しゅみ</furigana></segment>は
-        </phrase>
-        <phrase>
-          スポーツと
-        </phrase>
-        <phrase>
-          <segment><kanji>読書</kanji><furigana>どくしょ</furigana></segment>です。
-        </phrase>
-        <phrase>
-          よろしく
-        </phrase>
-        <phrase>
-          お<segment><kanji>願</kanji><furigana>ねが</furigana></segment>いします。
-        </phrase>
-      </content>
-      <translation>Salam kenal. Saya Tanaka. Saya datang dari Tokyo, Jepang. Sekarang saya mahasiswa. Jurusan saya ekonomi. Hobi saya olahraga dan membaca. Mohon bantuannya.</translation>
-      <vocabulary>
-        <item>
-          <word>
-            <kanji>自己紹介</kanji>
-            <furigana>じこしょうかい</furigana>
-          </word>
-          <romaji>jikoshoukai</romaji>
-          <meaning>Perkenalan diri</meaning>
-        </item>
-        <item>
-          <word>
-            <kanji>東京</kanji>
-            <furigana>とうきょう</furigana>
-          </word>
-          <romaji>tokyou</romaji>
-          <meaning>Tokyo</meaning>
-        </item>
-        <item>
-          <word>
-            <kanji>大学生</kanji>
-            <furigana>だいがくせい</furigana>
-          </word>
-          <romaji>daigakusei</romaji>
-          <meaning>Mahasiswa</meaning>
-        </item>
-        <item>
-          <word>
-            <kanji>専攻</kanji>
-            <furigana>せんこう</furigana>
-          </word>
-          <romaji>senkou</romaji>
-          <meaning>Jurusan</meaning>
-        </item>
-        <item>
-          <word>
-            <kanji>経済</kanji>
-            <furigana>けいざい</furigana>
-          </word>
-          <romaji>keizai</romaji>
-          <meaning>Ekonomi</meaning>
-        </item>
-      </vocabulary>
-    </text>
-  </texts>
-</jlpt-n5-dokkai>
+                    <div class="japanese-text" id="text-content-${text.id}">
+                        ${text.phrases.map((phrase, pIndex) => `
+                            <span class="phrase" data-index="${pIndex}" onclick="speakSinglePhrase(${text.id}, ${pIndex})">
+                                <ruby>${phrase.jp}<rt>${phrase.reading}</rt></ruby>
+                            </span>
+                        `).join('')}
+                    </div>
+
+                    <div class="translation">
+                        <h3>📝 Terjemahan</h3>
+                        <p>${text.translation}</p>
+                    </div>
+
+                    <div class="vocab-section">
+                        <h3>📚 Kosakata Penting</h3>
+                        <div class="vocab-grid">
+                            ${text.vocabulary.map(vocab => `
+                                <div class="vocab-item" onclick="speakWord('${vocab.reading}')">
+                                    <div class="vocab-jp">${vocab.kanji}</div>
+                                    <div class="vocab-reading">${vocab.reading} (${vocab.romaji})</div>
+                                    <div class="vocab-meaning">${vocab.meaning}</div>
+                                </div>
+                            `).join('')}
+                        </div>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        // Create navigation dots
+        function createNavDots() {
+            const dotsContainer = document.getElementById('navDots');
+            dotsContainer.innerHTML = textsData.map((_, index) => `
+                <div class="nav-dot ${index === 0 ? 'active' : ''}" 
+                     onclick="scrollToText(${index})" 
+                     data-index="${index}"></div>
+            `).join('');
+        }
+
+        // Scroll to specific text
+        function scrollToText(index) {
+            const element = document.getElementById(`text-${textsData[index].id}`);
+            element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+
+        // Scroll to top
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        // Change speech speed
+        function changeSpeed(textId) {
+            const select = document.getElementById(`speed-${textId}`);
+            speechRate = parseFloat(select.value);
+        }
+
+        // Toggle audio playback
+        function toggleAudio(textId) {
+            if (isPlaying && currentTextId === textId) {
+                stopAudio();
+            } else {
+                playAudio(textId);
+            }
+        }
+
+        // Play audio with highlighting
+        function playAudio(textId) {
+            if (!window.speechSynthesis) {
+                alert('Browser Anda tidak mendukung fitur audio. Silakan gunakan Chrome atau Safari.');
+                return;
+            }
+
+            stopAudio();
+            currentTextId = textId;
+            isPlaying = true;
+            currentPhraseIndex = 0;
+            
+            const text = textsData.find(t => t.id == textId);
+            
+            // Update UI
+            const btn = document.getElementById(`play-${textId}`);
+            const icon = document.getElementById(`icon-${textId}`);
+            const textBtn = document.getElementById(`text-btn-${textId}`);
+            
+            btn.classList.add('playing');
+            icon.textContent = '⏸';
+            textBtn.textContent = 'Berhenti';
+            
+            // Clear previous highlights
+            document.querySelectorAll(`#text-content-${textId} .phrase`).forEach(p => {
+                p.classList.remove('highlight', 'played');
+            });
+            
+            speakNextPhrase(textId, text);
+        }
+
+        // Speak next phrase
+        function speakNextPhrase(textId, text) {
+            if (!isPlaying || currentTextId !== textId) return;
+            
+            if (currentPhraseIndex >= text.phrases.length) {
+                setTimeout(() => stopAudio(), 1000);
+                return;
+            }
+            
+            const phrase = text.phrases[currentPhraseIndex];
+            const utterance = new SpeechSynthesisUtterance(phrase.reading);
+            
+            utterance.lang = 'ja-JP';
+            utterance.rate = speechRate;
+            utterance.pitch = 1;
+            
+            // Highlight current phrase
+            const phraseElements = document.querySelectorAll(`#text-content-${textId} .phrase`);
+            if (phraseElements[currentPhraseIndex]) {
+                phraseElements[currentPhraseIndex].classList.add('highlight');
+                phraseElements[currentPhraseIndex].scrollIntoView({ 
+                    behavior: 'smooth', 
+                    block: 'center' 
+                });
+            }
+            
+            utterance.onend = () => {
+                if (phraseElements[currentPhraseIndex]) {
+                    phraseElements[currentPhraseIndex].classList.remove('highlight');
+                    phraseElements[currentPhraseIndex].classList.add('played');
+                }
+                currentPhraseIndex++;
+                speakNextPhrase(textId, text);
+            };
+            
+            utterance.onerror = () => {
+                stopAudio();
+            };
+            
+            window.speechSynthesis.speak(utterance);
+        }
+
+        // Speak single phrase
+        function speakSinglePhrase(textId, phraseIndex) {
+            if (!window.speechSynthesis) return;
+            
+            const text = textsData.find(t => t.id == textId);
+            const phrase = text.phrases[phraseIndex];
+            
+            const utterance = new SpeechSynthesisUtterance(phrase.reading);
+            utterance.lang = 'ja-JP';
+            utterance.rate = 0.8;
+            window.speechSynthesis.speak(utterance);
+            
+            // Visual feedback
+            const element = document.querySelector(`#text-content-${textId} .phrase[data-index="${phraseIndex}"]`);
+            element.style.transform = 'scale(1.1)';
+            setTimeout(() => {
+                element.style.transform = '';
+            }, 200);
+        }
+
+        // Stop audio
+        function stopAudio() {
+            window.speechSynthesis.cancel();
+            isPlaying = false;
+            currentTextId = null;
+            
+            // Update all buttons
+            textsData.forEach(text => {
+                const btn = document.getElementById(`play-${text.id}`);
+                const icon = document.getElementById(`icon-${text.id}`);
+                const textBtn = document.getElementById(`text-btn-${text.id}`);
+                
+                if (btn) {
+                    btn.classList.remove('playing');
+                    icon.textContent = '▶';
+                    textBtn.textContent = 'Dengarkan';
+                }
+                
+                // Clear highlights
+                document.querySelectorAll(`#text-content-${text.id} .phrase`).forEach(p => {
+                    p.classList.remove('highlight');
+                });
+            });
+        }
+
+        // Speak individual word
+        function speakWord(reading) {
+            if (!window.speechSynthesis) return;
+            
+            const utterance = new SpeechSynthesisUtterance(reading);
+            utterance.lang = 'ja-JP';
+            utterance.rate = 0.8;
+            window.speechSynthesis.speak(utterance);
+        }
+
+        // Scroll spy for navigation dots
+        function updateActiveDot() {
+            const cards = document.querySelectorAll('.reading-card');
+            const scrollPosition = window.scrollY + 150;
+            
+            cards.forEach((card, index) => {
+                const top = card.offsetTop;
+                const bottom = top + card.offsetHeight;
+                
+                if (scrollPosition >= top && scrollPosition < bottom) {
+                    document.querySelectorAll('.nav-dot').forEach((dot, i) => {
+                        dot.classList.toggle('active', i === index);
+                    });
+                    
+                    // Update progress bar
+                    const progress = ((index + 1) / textsData.length) * 100;
+                    document.getElementById('progressBar').style.width = progress + '%';
+                }
+            });
+            
+            // Show/hide scroll to top button
+            const scrollTop = document.getElementById('scrollTop');
+            if (window.scrollY > 500) {
+                scrollTop.classList.add('visible');
+            } else {
+                scrollTop.classList.remove('visible');
+            }
+        }
+
+        // Event listeners
+        document.addEventListener('DOMContentLoaded', loadXMLData);
+        window.addEventListener('scroll', updateActiveDot);
+        
+        // Handle page visibility change
+        document.addEventListener('visibilitychange', () => {
+            if (document.hidden && isPlaying) {
+                stopAudio();
+            }
+        });
+    </script>
+</body>
+</html>
