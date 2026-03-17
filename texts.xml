@@ -10,125 +10,117 @@
       </title>
       <content>
         <phrase>
-          <jp>今日は</jp>
-          <reading>きょうは</reading>
+          <segment><kanji>今日</kanji><furigana>きょう</furigana></segment>は
         </phrase>
         <phrase>
-          <jp>天気が</jp>
-          <reading>てんきが</reading>
+          <segment><kanji>天気</kanji><furigana>てんき</furigana></segment>が
         </phrase>
         <phrase>
-          <jp>とても</jp>
-          <reading>とても</reading>
+          とても
         </phrase>
         <phrase>
-          <jp>良かったです。</jp>
-          <reading>よかったです。</reading>
+          <segment><kanji>良</kanji><furigana>よ</furigana></segment>かったです。
         </phrase>
         <phrase>
-          <jp>朝は</jp>
-          <reading>あさは</reading>
+          <segment><kanji>朝</kanji><furigana>あさ</furigana></segment>は
         </phrase>
         <phrase>
-          <jp>少し</jp>
-          <reading>すこし</reading>
+          <segment><kanji>少</kanji><furigana>すこ</furigana></segment>し
         </phrase>
         <phrase>
-          <jp>寒かったですが、</jp>
-          <reading>さむかったですが、</reading>
+          <segment><kanji>寒</kanji><furigana>さむ</furigana></segment>かったですが、
         </phrase>
         <phrase>
-          <jp>昼から</jp>
-          <reading>ひるから</reading>
+          <segment><kanji>昼</kanji><furigana>ひる</furigana></segment>から
         </phrase>
         <phrase>
-          <jp>暖かくなりました。</jp>
-          <reading>あたたかくなりました。</reading>
+          <segment><kanji>暖</kanji><furigana>あたた</furigana></segment>かくなりました。
         </phrase>
         <phrase>
-          <jp>私は</jp>
-          <reading>わたしは</reading>
+          <segment><kanji>私</kanji><furigana>わたし</furigana></segment>は
         </phrase>
         <phrase>
-          <jp>公園へ</jp>
-          <reading>こうえんへ</reading>
+          <segment><kanji>公園</kanji><furigana>こうえん</furigana></segment>へ
         </phrase>
         <phrase>
-          <jp>行きました。</jp>
-          <reading>いきました。</reading>
+          <segment><kanji>行</kanji><furigana>い</furigana></segment>きました。
         </phrase>
         <phrase>
-          <jp>公園では</jp>
-          <reading>こうえんでは</reading>
+          <segment><kanji>公園</kanji><furigana>こうえん</furigana></segment>では
         </phrase>
         <phrase>
-          <jp>子どもたちが</jp>
-          <reading>こどもたちが</reading>
+          <segment><kanji>子</kanji><furigana>こ</furigana></segment>どもたちが
         </phrase>
         <phrase>
-          <jp>遊んでいました。</jp>
-          <reading>あそんでいました。</reading>
+          <segment><kanji>遊</kanji><furigana>あそ</furigana></segment>んでいました。
         </phrase>
         <phrase>
-          <jp>犬も</jp>
-          <reading>いぬも</reading>
+          <segment><kanji>犬</kanji><furigana>いぬ</furigana></segment>も
         </phrase>
         <phrase>
-          <jp>走っていました。</jp>
-          <reading>はしっていました。</reading>
+          <segment><kanji>走</kanji><furigana>はし</furigana></segment>っていました。
         </phrase>
         <phrase>
-          <jp>空は</jp>
-          <reading>そらは</reading>
+          <segment><kanji>空</kanji><furigana>そら</furigana></segment>は
         </phrase>
         <phrase>
-          <jp>青くて、</jp>
-          <reading>あおくて、</reading>
+          <segment><kanji>青</kanji><furigana>あお</furigana></segment>くて、
         </phrase>
         <phrase>
-          <jp>気持ちが</jp>
-          <reading>きもちが</reading>
+          <segment><kanji>気持</kanji><furigana>きも</furigana></segment>ちが
         </phrase>
         <phrase>
-          <jp>良かったです。</jp>
-          <reading>よかったです。</reading>
+          <segment><kanji>良</kanji><furigana>よ</furigana></segment>かったです。
         </phrase>
       </content>
       <translation>Hari ini cuacanya sangat bagus. Pagi hari sedikit dingin, tetapi siang hari menjadi hangat. Saya pergi ke taman. Di taman, anak-anak sedang bermain. Anjing juga sedang berlari. Langit biru dan perasaannya sangat menyenangkan.</translation>
       <vocabulary>
         <item>
-          <kanji>今日</kanji>
-          <reading>きょう</reading>
+          <word>
+            <kanji>今日</kanji>
+            <furigana>きょう</furigana>
+          </word>
           <romaji>kyou</romaji>
           <meaning>Hari ini</meaning>
         </item>
         <item>
-          <kanji>天気</kanji>
-          <reading>てんき</reading>
+          <word>
+            <kanji>天気</kanji>
+            <furigana>てんき</furigana>
+          </word>
           <romaji>tenki</romaji>
           <meaning>Cuaca</meaning>
         </item>
         <item>
-          <kanji>朝</kanji>
-          <reading>あさ</reading>
+          <word>
+            <kanji>朝</kanji>
+            <furigana>あさ</furigana>
+          </word>
           <romaji>asa</romaji>
           <meaning>Pagi</meaning>
         </item>
         <item>
-          <kanji>昼</kanji>
-          <reading>ひる</reading>
+          <word>
+            <kanji>昼</kanji>
+            <furigana>ひる</furigana>
+          </word>
           <romaji>hiru</romaji>
           <meaning>Siang</meaning>
         </item>
         <item>
-          <kanji>公園</kanji>
-          <reading>こうえん</reading>
+          <word>
+            <kanji>公園</kanji>
+            <furigana>こうえん</furigana>
+          </word>
           <romaji>kouen</romaji>
           <meaning>Taman</meaning>
         </item>
         <item>
-          <kanji>遊ぶ</kanji>
-          <reading>あそぶ</reading>
+          <word>
+            <kanji>遊</kanji>
+            <furigana>あそ</furigana>
+            <okurigana>ぶ</okurigana>
+          </word>
           <romaji>asobu</romaji>
           <meaning>Bermain</meaning>
         </item>
@@ -144,141 +136,131 @@
       </title>
       <content>
         <phrase>
-          <jp>昨日は</jp>
-          <reading>きのうは</reading>
+          <segment><kanji>昨日</kanji><furigana>きのう</furigana></segment>は
         </phrase>
         <phrase>
-          <jp>休みの</jp>
-          <reading>やすみの</reading>
+          <segment><kanji>休</kanji><furigana>やす</furigana></segment>みの
         </phrase>
         <phrase>
-          <jp>日でした。</jp>
-          <reading>ひでした。</reading>
+          <segment><kanji>日</kanji><furigana>ひ</furigana></segment>でした。
         </phrase>
         <phrase>
-          <jp>私は</jp>
-          <reading>わたしは</reading>
+          <segment><kanji>私</kanji><furigana>わたし</furigana></segment>は
         </phrase>
         <phrase>
-          <jp>友達と</jp>
-          <reading>ともだちと</reading>
+          <segment><kanji>友達</kanji><furigana>ともだち</furigana></segment>と
         </phrase>
         <phrase>
-          <jp>映画を</jp>
-          <reading>えいがを</reading>
+          <segment><kanji>映画</kanji><furigana>えいが</furigana></segment>を
         </phrase>
         <phrase>
-          <jp>見に</jp>
-          <reading>みに</reading>
+          <segment><kanji>見</kanji><furigana>み</furigana></segment>に
         </phrase>
         <phrase>
-          <jp>行きました。</jp>
-          <reading>いきました。</reading>
+          <segment><kanji>行</kanji><furigana>い</furigana></segment>きました。
         </phrase>
         <phrase>
-          <jp>映画館は</jp>
-          <reading>えいがかんは</reading>
+          <segment><kanji>映画館</kanji><furigana>えいがかん</furigana></segment>は
         </phrase>
         <phrase>
-          <jp>駅の</jp>
-          <reading>えきの</reading>
+          <segment><kanji>駅</kanji><furigana>えき</furigana></segment>の
         </phrase>
         <phrase>
-          <jp>近くにありました。</jp>
-          <reading>ちかくにありました。</reading>
+          <segment><kanji>近</kanji><furigana>ちか</furigana></segment>くにありました。
         </phrase>
         <phrase>
-          <jp>映画は</jp>
-          <reading>えいがは</reading>
+          <segment><kanji>映画</kanji><furigana>えいが</furigana></segment>は
         </phrase>
         <phrase>
-          <jp>面白かったです。</jp>
-          <reading>おもしろかったです。</reading>
+          <segment><kanji>面白</kanji><furigana>おもしろ</furigana></segment>かったです。
         </phrase>
         <phrase>
-          <jp>午後は</jp>
-          <reading>ごごは</reading>
+          <segment><kanji>午後</kanji><furigana>ごご</furigana></segment>は
         </phrase>
         <phrase>
-          <jp>一緒に</jp>
-          <reading>いっしょに</reading>
+          <segment><kanji>一緒</kanji><furigana>いっしょ</furigana></segment>に
         </phrase>
         <phrase>
-          <jp>買い物をしました。</jp>
-          <reading>かいものをしました。</reading>
+          <segment><kanji>買</kanji><furigana>か</furigana></segment>い<segment><kanji>物</kanji><furigana>もの</furigana></segment>をしました。
         </phrase>
         <phrase>
-          <jp>新しい</jp>
-          <reading>あたらしい</reading>
+          <segment><kanji>新</kanji><furigana>あたら</furigana></segment>しい
         </phrase>
         <phrase>
-          <jp>靴を</jp>
-          <reading>くつを</reading>
+          <segment><kanji>靴</kanji><furigana>くつ</furigana></segment>を
         </phrase>
         <phrase>
-          <jp>買いました。</jp>
-          <reading>かいました。</reading>
+          <segment><kanji>買</kanji><furigana>か</furigana></segment>いました。
         </phrase>
         <phrase>
-          <jp>夜は</jp>
-          <reading>よるは</reading>
+          <segment><kanji>夜</kanji><furigana>よる</furigana></segment>は
         </phrase>
         <phrase>
-          <jp>家で</jp>
-          <reading>いえで</reading>
+          <segment><kanji>家</kanji><furigana>いえ</furigana></segment>で
         </phrase>
         <phrase>
-          <jp>本を</jp>
-          <reading>ほんを</reading>
+          <segment><kanji>本</kanji><furigana>ほん</furigana></segment>を
         </phrase>
         <phrase>
-          <jp>読みました。</jp>
-          <reading>よみました。</reading>
+          <segment><kanji>読</kanji><furigana>よ</furigana></segment>みました。
         </phrase>
         <phrase>
-          <jp>とても</jp>
-          <reading>とても</reading>
+          とても
         </phrase>
         <phrase>
-          <jp>楽しかったです。</jp>
-          <reading>たのしかったです。</reading>
+          <segment><kanji>楽</kanji><furigana>たの</furigana></segment>しかったです。
         </phrase>
       </content>
       <translation>Kemarin adalah hari libur. Saya pergi menonton film bersama teman. Bioskop berada dekat stasiun. Filmnya sangat menarik. Sore hari kami berbelanja bersama. Saya membeli sepatu baru. Malam hari saya membaca buku di rumah. Sangat menyenangkan.</translation>
       <vocabulary>
         <item>
-          <kanji>昨日</kanji>
-          <reading>きのう</reading>
+          <word>
+            <kanji>昨日</kanji>
+            <furigana>きのう</furigana>
+          </word>
           <romaji>kinou</romaji>
           <meaning>Kemarin</meaning>
         </item>
         <item>
-          <kanji>休み</kanji>
-          <reading>やすみ</reading>
+          <word>
+            <kanji>休</kanji>
+            <furigana>やす</furigana>
+            <okurigana>み</okurigana>
+          </word>
           <romaji>yasumi</romaji>
           <meaning>Libur</meaning>
         </item>
         <item>
-          <kanji>映画</kanji>
-          <reading>えいが</reading>
+          <word>
+            <kanji>映画</kanji>
+            <furigana>えいが</furigana>
+          </word>
           <romaji>eiga</romaji>
           <meaning>Film</meaning>
         </item>
         <item>
-          <kanji>駅</kanji>
-          <reading>えき</reading>
+          <word>
+            <kanji>駅</kanji>
+            <furigana>えき</furigana>
+          </word>
           <romaji>eki</romaji>
           <meaning>Stasiun</meaning>
         </item>
         <item>
-          <kanji>買い物</kanji>
-          <reading>かいもの</reading>
+          <word>
+            <kanji>買</kanji>
+            <furigana>か</furigana>
+            <okurigana>い物</okurigana>
+          </word>
           <romaji>kaimono</romaji>
           <meaning>Belanja</meaning>
         </item>
         <item>
-          <kanji>楽しい</kanji>
-          <reading>たのしい</reading>
+          <word>
+            <kanji>楽</kanji>
+            <furigana>たの</furigana>
+            <okurigana>しい</okurigana>
+          </word>
           <romaji>tanoshii</romaji>
           <meaning>Menyenangkan</meaning>
         </item>
@@ -294,108 +276,112 @@
       </title>
       <content>
         <phrase>
-          <jp>昨日の</jp>
-          <reading>きのうの</reading>
+          <segment><kanji>昨日</kanji><furigana>きのう</furigana></segment>の
         </phrase>
         <phrase>
-          <jp>夜、</jp>
-          <reading>よる、</reading>
+          <segment><kanji>夜</kanji><furigana>よる</furigana></segment>、
         </phrase>
         <phrase>
-          <jp>家族と</jp>
-          <reading>かぞくと</reading>
+          <segment><kanji>家族</kanji><furigana>かぞく</furigana></segment>と
         </phrase>
         <phrase>
-          <jp>レストランへ</jp>
-          <reading>れすとらんへ</reading>
+          レストランへ
         </phrase>
         <phrase>
-          <jp>行きました。</jp>
-          <reading>いきました。</reading>
+          <segment><kanji>行</kanji><furigana>い</furigana></segment>きました。
         </phrase>
         <phrase>
-          <jp>お母さんは</jp>
-          <reading>おかあさんは</reading>
+          お<segment><kanji>母</kanji><furigana>かあ</furigana></segment>さんは
         </phrase>
         <phrase>
-          <jp>寿司を</jp>
-          <reading>すしを</reading>
+          すしを
         </phrase>
         <phrase>
-          <jp>食べました。</jp>
-          <reading>たべました。</reading>
+          <segment><kanji>食</kanji><furigana>た</furigana></segment>べました。
         </phrase>
         <phrase>
-          <jp>お父さんは</jp>
-          <reading>おとうさんは</reading>
+          お<segment><kanji>父</kanji><furigana>とう</furigana></segment>さんは
         </phrase>
         <phrase>
-          <jp>天ぷらを</jp>
-          <reading>てんぷらを</reading>
+          てんぷらを
         </phrase>
         <phrase>
-          <jp>食べました。</jp>
-          <reading>たべました。</reading>
+          <segment><kanji>食</kanji><furigana>た</furigana></segment>べました。
         </phrase>
         <phrase>
-          <jp>私は</jp>
-          <reading>わたしは</reading>
+          <segment><kanji>私</kanji><furigana>わたし</furigana></segment>は
         </phrase>
         <phrase>
-          <jp>うどんを</jp>
-          <reading>うどんを</reading>
+          うどんを
         </phrase>
         <phrase>
-          <jp>食べました。</jp>
-          <reading>たべました。</reading>
+          <segment><kanji>食</kanji><furigana>た</furigana></segment>べました。
         </phrase>
         <phrase>
-          <jp>みんなで</jp>
-          <reading>みんなで</reading>
+          みんなで
         </phrase>
         <phrase>
-          <jp>お茶を</jp>
-          <reading>おちゃを</reading>
+          お<segment><kanji>茶</kanji><furigana>ちゃ</furigana></segment>を
         </phrase>
         <phrase>
-          <jp>飲みました。</jp>
-          <reading>のみました。</reading>
+          <segment><kanji>飲</kanji><furigana>の</furigana></segment>みました。
         </phrase>
         <phrase>
-          <jp>ごちそうさまでした。</jp>
-          <reading>ごちそうさまでした。</reading>
+          ごちそうさまでした。
         </phrase>
       </content>
       <translation>Tadi malam, saya pergi ke restoran bersama keluarga. Ibu makan sushi. Ayah makan tempura. Saya makan udon. Kami semua minum teh. Terima kasih atas makanannya.</translation>
       <vocabulary>
         <item>
-          <kanji>家族</kanji>
-          <reading>かぞく</reading>
+          <word>
+            <kanji>家族</kanji>
+            <furigana>かぞく</furigana>
+          </word>
           <romaji>kazoku</romaji>
           <meaning>Keluarga</meaning>
         </item>
         <item>
-          <kanji>寿司</kanji>
-          <reading>すし</reading>
-          <romaji>sushi</romaji>
-          <meaning>Sushi</meaning>
+          <word>
+            <kanji>母</kanji>
+            <furigana>かあ</furigana>
+            <okurigana>さん</okurigana>
+          </word>
+          <romaji>kaasan</romaji>
+          <meaning>Ibu</meaning>
         </item>
         <item>
-          <kanji>食べる</kanji>
-          <reading>たべる</reading>
+          <word>
+            <kanji>食</kanji>
+            <furigana>た</furigana>
+            <okurigana>べる</okurigana>
+          </word>
           <romaji>taberu</romaji>
           <meaning>Makan</meaning>
         </item>
         <item>
-          <kanji>飲む</kanji>
-          <reading>のむ</reading>
+          <word>
+            <kanji>父</kanji>
+            <furigana>とう</furigana>
+            <okurigana>さん</okurigana>
+          </word>
+          <romaji>tousan</romaji>
+          <meaning>Ayah</meaning>
+        </item>
+        <item>
+          <word>
+            <kanji>飲</kanji>
+            <furigana>の</furigana>
+            <okurigana>む</okurigana>
+          </word>
           <romaji>nomu</romaji>
           <meaning>Minum</meaning>
         </item>
         <item>
-          <kanji>お茶</kanji>
-          <reading>おちゃ</reading>
-          <romaji>ocha</romaji>
+          <word>
+            <kanji>茶</kanji>
+            <furigana>ちゃ</furigana>
+          </word>
+          <romaji>cha</romaji>
           <meaning>Teh</meaning>
         </item>
       </vocabulary>
@@ -410,115 +396,106 @@
       </title>
       <content>
         <phrase>
-          <jp>私は</jp>
-          <reading>わたしは</reading>
+          <segment><kanji>私</kanji><furigana>わたし</furigana></segment>は
         </phrase>
         <phrase>
-          <jp>毎日</jp>
-          <reading>まいにち</reading>
+          <segment><kanji>毎日</kanji><furigana>まいにち</furigana></segment>
         </phrase>
         <phrase>
-          <jp>学校へ</jp>
-          <reading>がっこうへ</reading>
+          <segment><kanji>学校</kanji><furigana>がっこう</furigana></segment>へ
         </phrase>
         <phrase>
-          <jp>行きます。</jp>
-          <reading>いきます。</reading>
+          <segment><kanji>行</kanji><furigana>い</furigana></segment>きます。
         </phrase>
         <phrase>
-          <jp>朝八時に</jp>
-          <reading>あさはちじに</reading>
+          <segment><kanji>朝</kanji><furigana>あさ</furigana></segment><segment><kanji>八時</kanji><furigana>はちじ</furigana></segment>に
         </phrase>
         <phrase>
-          <jp>家を</jp>
-          <reading>いえを</reading>
+          <segment><kanji>家</kanji><furigana>いえ</furigana></segment>を
         </phrase>
         <phrase>
-          <jp>出ます。</jp>
-          <reading>でます。</reading>
+          <segment><kanji>出</kanji><furigana>で</furigana></segment>ます。
         </phrase>
         <phrase>
-          <jp>電車で</jp>
-          <reading>でんしゃで</reading>
+          <segment><kanji>電車</kanji><furigana>でんしゃ</furigana></segment>で
         </phrase>
         <phrase>
-          <jp>三十分</jp>
-          <reading>さんじゅっぷん</reading>
+          <segment><kanji>三十分</kanji><furigana>さんじゅっぷん</furigana></segment>
         </phrase>
         <phrase>
-          <jp>かかります。</jp>
-          <reading>かかります。</reading>
+          かかります。
         </phrase>
         <phrase>
-          <jp>学校では</jp>
-          <reading>がっこうでは</reading>
+          <segment><kanji>学校</kanji><furigana>がっこう</furigana></segment>では
         </phrase>
         <phrase>
-          <jp>日本語を</jp>
-          <reading>にほんごを</reading>
+          <segment><kanji>日本語</kanji><furigana>にほんご</furigana></segment>を
         </phrase>
         <phrase>
-          <jp>勉強します。</jp>
-          <reading>べんきょうします。</reading>
+          <segment><kanji>勉強</kanji><furigana>べんきょう</furigana></segment>します。
         </phrase>
         <phrase>
-          <jp>お昼ご飯は</jp>
-          <reading>おひるごはんは</reading>
+          お<segment><kanji>昼</kanji><furigana>ひる</furigana></segment>ご<segment><kanji>飯</kanji><furigana>はん</furigana></segment>は
         </phrase>
         <phrase>
-          <jp>学校の</jp>
-          <reading>がっこうの</reading>
+          <segment><kanji>学校</kanji><furigana>がっこう</furigana></segment>の
         </phrase>
         <phrase>
-          <jp>食堂で</jp>
-          <reading>しょくどうで</reading>
+          <segment><kanji>食堂</kanji><furigana>しょくどう</furigana></segment>で
         </phrase>
         <phrase>
-          <jp>食べます。</jp>
-          <reading>たべます。</reading>
+          <segment><kanji>食</kanji><furigana>た</furigana></segment>べます。
         </phrase>
         <phrase>
-          <jp>午後三時に</jp>
-          <reading>ごごさんじに</reading>
+          <segment><kanji>午後</kanji><furigana>ごご</furigana></segment><segment><kanji>三時</kanji><furigana>さんじ</furigana></segment>に
         </phrase>
         <phrase>
-          <jp>家へ</jp>
-          <reading>いえへ</reading>
+          <segment><kanji>家</kanji><furigana>いえ</furigana></segment>へ
         </phrase>
         <phrase>
-          <jp>帰ります。</jp>
-          <reading>かえります。</reading>
+          <segment><kanji>帰</kanji><furigana>かえ</furigana></segment>ります。
         </phrase>
       </content>
       <translation>Saya pergi ke sekolah setiap hari. Saya berangkat dari rumah jam 8 pagi. Perjalanan dengan kereta memakan waktu 30 menit. Di sekolah, saya belajar bahasa Jepang. Makan siang saya makan di kantin sekolah. Saya pulang ke rumah jam 3 sore.</translation>
       <vocabulary>
         <item>
-          <kanji>毎日</kanji>
-          <reading>まいにち</reading>
+          <word>
+            <kanji>毎日</kanji>
+            <furigana>まいにち</furigana>
+          </word>
           <romaji>mainichi</romaji>
           <meaning>Setiap hari</meaning>
         </item>
         <item>
-          <kanji>学校</kanji>
-          <reading>がっこう</reading>
+          <word>
+            <kanji>学校</kanji>
+            <furigana>がっこう</furigana>
+          </word>
           <romaji>gakkou</romaji>
           <meaning>Sekolah</meaning>
         </item>
         <item>
-          <kanji>電車</kanji>
-          <reading>でんしゃ</reading>
+          <word>
+            <kanji>電車</kanji>
+            <furigana>でんしゃ</furigana>
+          </word>
           <romaji>densha</romaji>
           <meaning>Kereta</meaning>
         </item>
         <item>
-          <kanji>勉強</kanji>
-          <reading>べんきょう</reading>
+          <word>
+            <kanji>勉強</kanji>
+            <furigana>べんきょう</furigana>
+          </word>
           <romaji>benkyou</romaji>
           <meaning>Belajar</meaning>
         </item>
         <item>
-          <kanji>帰る</kanji>
-          <reading>かえる</reading>
+          <word>
+            <kanji>帰</kanji>
+            <furigana>かえ</furigana>
+            <okurigana>る</okurigana>
+          </word>
           <romaji>kaeru</romaji>
           <meaning>Pulang</meaning>
         </item>
@@ -534,119 +511,111 @@
       </title>
       <content>
         <phrase>
-          <jp>私の</jp>
-          <reading>わたしの</reading>
+          <segment><kanji>私</kanji><furigana>わたし</furigana></segment>の
         </phrase>
         <phrase>
-          <jp>父は</jp>
-          <reading>ちちは</reading>
+          <segment><kanji>父</kanji><furigana>ちち</furigana></segment>は
         </phrase>
         <phrase>
-          <jp>会社員です。</jp>
-          <reading>かいしゃいんです。</reading>
+          <segment><kanji>会社員</kanji><furigana>かいしゃいん</furigana></segment>です。
         </phrase>
         <phrase>
-          <jp>大きい</jp>
-          <reading>おおきい</reading>
+          <segment><kanji>大</kanji><furigana>おお</furigana></segment>きい
         </phrase>
         <phrase>
-          <jp>会社で</jp>
-          <reading>かいしゃで</reading>
+          <segment><kanji>会社</kanji><furigana>かいしゃ</furigana></segment>で
         </phrase>
         <phrase>
-          <jp>働いています。</jp>
-          <reading>はたらいています。</reading>
+          <segment><kanji>働</kanji><furigana>はたら</furigana></segment>いています。
         </phrase>
         <phrase>
-          <jp>毎朝</jp>
-          <reading>まいあさ</reading>
+          <segment><kanji>毎朝</kanji><furigana>まいあさ</furigana></segment>
         </phrase>
         <phrase>
-          <jp>七時に</jp>
-          <reading>しちじに</reading>
+          <segment><kanji>七時</kanji><furigana>しちじ</furigana></segment>に
         </phrase>
         <phrase>
-          <jp>起きて、</jp>
-          <reading>おきて、</reading>
+          <segment><kanji>起</kanji><furigana>お</furigana></segment>きて、
         </phrase>
         <phrase>
-          <jp>八時に</jp>
-          <reading>はちじに</reading>
+          <segment><kanji>八時</kanji><furigana>はちじ</furigana></segment>に
         </phrase>
         <phrase>
-          <jp>家を</jp>
-          <reading>いえを</reading>
+          <segment><kanji>家</kanji><furigana>いえ</furigana></segment>を
         </phrase>
         <phrase>
-          <jp>出ます。</jp>
-          <reading>でます。</reading>
+          <segment><kanji>出</kanji><furigana>で</furigana></segment>ます。
         </phrase>
         <phrase>
-          <jp>仕事は</jp>
-          <reading>しごとは</reading>
+          <segment><kanji>仕事</kanji><furigana>しごと</furigana></segment>は
         </phrase>
         <phrase>
-          <jp>忙しいですが、</jp>
-          <reading>いそがしいですが、</reading>
+          <segment><kanji>忙</kanji><furigana>いそが</furigana></segment>しいですが、
         </phrase>
         <phrase>
-          <jp>面白いです。</jp>
-          <reading>おもしろいです。</reading>
+          <segment><kanji>面白</kanji><furigana>おもしろ</furigana></segment>いです。
         </phrase>
         <phrase>
-          <jp>夜は</jp>
-          <reading>よるは</reading>
+          <segment><kanji>夜</kanji><furigana>よる</furigana></segment>は
         </phrase>
         <phrase>
-          <jp>遅く</jp>
-          <reading>おそく</reading>
+          <segment><kanji>遅</kanji><furigana>おそ</furigana></segment>く
         </phrase>
         <phrase>
-          <jp>帰ります。</jp>
-          <reading>かえります。</reading>
+          <segment><kanji>帰</kanji><furigana>かえ</furigana></segment>ります。
         </phrase>
         <phrase>
-          <jp>父は</jp>
-          <reading>ちちは</reading>
+          <segment><kanji>父</kanji><furigana>ちち</furigana></segment>は
         </phrase>
         <phrase>
-          <jp>とても</jp>
-          <reading>とても</reading>
+          とても
         </phrase>
         <phrase>
-          <jp>優しいです。</jp>
-          <reading>やさしいです。</reading>
+          <segment><kanji>優</kanji><furigana>やさ</furigana></segment>しいです。
         </phrase>
       </content>
       <translation>Ayah saya adalah karyawan kantor. Dia bekerja di perusahaan besar. Setiap pagi bangun jam 7 dan berangkat dari rumah jam 8. Pekerjaannya sibuk tapi menarik. Dia pulang larut malam. Ayah saya sangat baik hati.</translation>
       <vocabulary>
         <item>
-          <kanji>父</kanji>
-          <reading>ちち</reading>
+          <word>
+            <kanji>父</kanji>
+            <furigana>ちち</furigana>
+          </word>
           <romaji>chichi</romaji>
           <meaning>Ayah (saya)</meaning>
         </item>
         <item>
-          <kanji>会社員</kanji>
-          <reading>かいしゃいん</reading>
+          <word>
+            <kanji>会社員</kanji>
+            <furigana>かいしゃいん</furigana>
+          </word>
           <romaji>kaishain</romaji>
           <meaning>Karyawan</meaning>
         </item>
         <item>
-          <kanji>働く</kanji>
-          <reading>はたらく</reading>
+          <word>
+            <kanji>働</kanji>
+            <furigana>はたら</furigana>
+            <okurigana>く</okurigana>
+          </word>
           <romaji>hataraku</romaji>
           <meaning>Bekerja</meaning>
         </item>
         <item>
-          <kanji>起きる</kanji>
-          <reading>おきる</reading>
+          <word>
+            <kanji>起</kanji>
+            <furigana>お</furigana>
+            <okurigana>きる</okurigana>
+          </word>
           <romaji>okiru</romaji>
           <meaning>Bangun</meaning>
         </item>
         <item>
-          <kanji>忙しい</kanji>
-          <reading>いそがしい</reading>
+          <word>
+            <kanji>忙</kanji>
+            <furigana>いそが</furigana>
+            <okurigana>しい</okurigana>
+          </word>
           <romaji>isogashii</romaji>
           <meaning>Sibuk</meaning>
         </item>
@@ -662,111 +631,103 @@
       </title>
       <content>
         <phrase>
-          <jp>私の</jp>
-          <reading>わたしの</reading>
+          <segment><kanji>私</kanji><furigana>わたし</furigana></segment>の
         </phrase>
         <phrase>
-          <jp>趣味は</jp>
-          <reading>しゅみは</reading>
+          <segment><kanji>趣味</kanji><furigana>しゅみ</furigana></segment>は
         </phrase>
         <phrase>
-          <jp>音楽を</jp>
-          <reading>おんがくを</reading>
+          <segment><kanji>音楽</kanji><furigana>おんがく</furigana></segment>を
         </phrase>
         <phrase>
-          <jp>聞くことです。</jp>
-          <reading>きくことです。</reading>
+          <segment><kanji>聞</kanji><furigana>き</furigana></segment>くことです。
         </phrase>
         <phrase>
-          <jp>特に</jp>
-          <reading>とくに</reading>
+          <segment><kanji>特</kanji><furigana>とく</furigana></segment>に
         </phrase>
         <phrase>
-          <jp>日本の</jp>
-          <reading>にほんの</reading>
+          <segment><kanji>日本</kanji><furigana>にほん</furigana></segment>の
         </phrase>
         <phrase>
-          <jp>歌が</jp>
-          <reading>うたが</reading>
+          <segment><kanji>歌</kanji><furigana>うた</furigana></segment>が
         </phrase>
         <phrase>
-          <jp>好きです。</jp>
-          <reading>すきです。</reading>
+          <segment><kanji>好</kanji><furigana>す</furigana></segment>きです。
         </phrase>
         <phrase>
-          <jp>毎晩</jp>
-          <reading>まいばん</reading>
+          <segment><kanji>毎晩</kanji><furigana>まいばん</furigana></segment>
         </phrase>
         <phrase>
-          <jp>寝る前に</jp>
-          <reading>ねるまえに</reading>
+          <segment><kanji>寝</kanji><furigana>ね</furigana></segment>る<segment><kanji>前</kanji><furigana>まえ</furigana></segment>に
         </phrase>
         <phrase>
-          <jp>音楽を</jp>
-          <reading>おんがくを</reading>
+          <segment><kanji>音楽</kanji><furigana>おんがく</furigana></segment>を
         </phrase>
         <phrase>
-          <jp>聞きます。</jp>
-          <reading>ききます。</reading>
+          <segment><kanji>聞</kanji><furigana>き</furigana></segment>きます。
         </phrase>
         <phrase>
-          <jp>週末には</jp>
-          <reading>しゅうまつには</reading>
+          <segment><kanji>週末</kanji><furigana>しゅうまつ</furigana></segment>には
         </phrase>
         <phrase>
-          <jp>コンサートに</jp>
-          <reading>こんさーとに</reading>
+          コンサートに
         </phrase>
         <phrase>
-          <jp>行きます。</jp>
-          <reading>いきます。</reading>
+          <segment><kanji>行</kanji><furigana>い</furigana></segment>きます。
         </phrase>
         <phrase>
-          <jp>音楽は</jp>
-          <reading>おんがくは</reading>
+          <segment><kanji>音楽</kanji><furigana>おんがく</furigana></segment>は
         </phrase>
         <phrase>
-          <jp>私を</jp>
-          <reading>わたしを</reading>
+          <segment><kanji>私</kanji><furigana>わたし</furigana></segment>を
         </phrase>
         <phrase>
-          <jp>リラックス</jp>
-          <reading>りらっくす</reading>
+          リラックス
         </phrase>
         <phrase>
-          <jp>させます。</jp>
-          <reading>させます。</reading>
+          させます。
         </phrase>
       </content>
       <translation>Hobi saya adalah mendengarkan musik. Saya sangat suka lagu Jepang. Setiap malam sebelum tidur saya mendengarkan musik. Akhir pekan saya pergi ke konser. Musik membuat saya rileks.</translation>
       <vocabulary>
         <item>
-          <kanji>趣味</kanji>
-          <reading>しゅみ</reading>
+          <word>
+            <kanji>趣味</kanji>
+            <furigana>しゅみ</furigana>
+          </word>
           <romaji>shumi</romaji>
           <meaning>Hobi</meaning>
         </item>
         <item>
-          <kanji>音楽</kanji>
-          <reading>おんがく</reading>
+          <word>
+            <kanji>音楽</kanji>
+            <furigana>おんがく</furigana>
+          </word>
           <romaji>ongaku</romaji>
           <meaning>Musik</meaning>
         </item>
         <item>
-          <kanji>歌</kanji>
-          <reading>うた</reading>
+          <word>
+            <kanji>歌</kanji>
+            <furigana>うた</furigana>
+          </word>
           <romaji>uta</romaji>
           <meaning>Lagu</meaning>
         </item>
         <item>
-          <kanji>聞く</kanji>
-          <reading>きく</reading>
+          <word>
+            <kanji>聞</kanji>
+            <furigana>き</furigana>
+            <okurigana>く</okurigana>
+          </word>
           <romaji>kiku</romaji>
           <meaning>Mendengar</meaning>
         </item>
         <item>
-          <kanji>週末</kanji>
-          <reading>しゅうまつ</reading>
+          <word>
+            <kanji>週末</kanji>
+            <furigana>しゅうまつ</furigana>
+          </word>
           <romaji>shuumatsu</romaji>
           <meaning>Akhir pekan</meaning>
         </item>
@@ -782,105 +743,99 @@
       </title>
       <content>
         <phrase>
-          <jp>今日は</jp>
-          <reading>きょうは</reading>
+          <segment><kanji>今日</kanji><furigana>きょう</furigana></segment>は
         </phrase>
         <phrase>
-          <jp>スーパーへ</jp>
-          <reading>すーぱーへ</reading>
+          スーパーへ
         </phrase>
         <phrase>
-          <jp>買い物に</jp>
-          <reading>かいものに</reading>
+          <segment><kanji>買</kanji><furigana>か</furigana></segment>い<segment><kanji>物</kanji><furigana>もの</furigana></segment>に
         </phrase>
         <phrase>
-          <jp>行きました。</jp>
-          <reading>いきました。</reading>
+          <segment><kanji>行</kanji><furigana>い</furigana></segment>きました。
         </phrase>
         <phrase>
-          <jp>りんごを</jp>
-          <reading>りんごを</reading>
+          りんごを
         </phrase>
         <phrase>
-          <jp>三つと</jp>
-          <reading>みっつと</reading>
+          <segment><kanji>三</kanji><furigana>み</furigana></segment>つと
         </phrase>
         <phrase>
-          <jp>みかんを</jp>
-          <reading>みかんを</reading>
+          みかんを
         </phrase>
         <phrase>
-          <jp>五つ</jp>
-          <reading>いつつ</reading>
+          <segment><kanji>五</kanji><furigana>い</furigana></segment>つ
         </phrase>
         <phrase>
-          <jp>買いました。</jp>
-          <reading>かいました。</reading>
+          <segment><kanji>買</kanji><furigana>か</furigana></segment>いました。
         </phrase>
         <phrase>
-          <jp>肉も</jp>
-          <reading>にくも</reading>
+          <segment><kanji>肉</kanji><furigana>にく</furigana></segment>も
         </phrase>
         <phrase>
-          <jp>買いました。</jp>
-          <reading>かいました。</reading>
+          <segment><kanji>買</kanji><furigana>か</furigana></segment>いました。
         </phrase>
         <phrase>
-          <jp>全部で</jp>
-          <reading>ぜんぶで</reading>
+          <segment><kanji>全部</kanji><furigana>ぜんぶ</furigana></segment>で
         </phrase>
         <phrase>
-          <jp>二千円</jp>
-          <reading>にせんえん</reading>
+          <segment><kanji>二千円</kanji><furigana>にせんえん</furigana></segment>
         </phrase>
         <phrase>
-          <jp>でした。</jp>
-          <reading>でした。</reading>
+          でした。
         </phrase>
         <phrase>
-          <jp>スーパーは</jp>
-          <reading>すーぱーは</reading>
+          スーパーは
         </phrase>
         <phrase>
-          <jp>安くて、</jp>
-          <reading>やすくて、</reading>
+          <segment><kanji>安</kanji><furigana>やす</furigana></segment>くて、
         </phrase>
         <phrase>
-          <jp>便利です。</jp>
-          <reading>べんりです。</reading>
+          <segment><kanji>便利</kanji><furigana>べんり</furigana></segment>です。
         </phrase>
       </content>
       <translation>Hari ini saya pergi berbelanja ke supermarket. Saya membeli 3 apel dan 5 jeruk. Saya juga membeli daging. Totalnya 2000 yen. Supermarketnya murah dan nyaman.</translation>
       <vocabulary>
         <item>
-          <kanji>りんご</kanji>
-          <reading>りんご</reading>
-          <romaji>ringo</romaji>
-          <meaning>Apel</meaning>
-        </item>
-        <item>
-          <kanji>みかん</kanji>
-          <reading>みかん</reading>
-          <romaji>mikan</romaji>
-          <meaning>Jeruk</meaning>
-        </item>
-        <item>
-          <kanji>肉</kanji>
-          <reading>にく</reading>
+          <word>
+            <kanji>肉</kanji>
+            <furigana>にく</furigana>
+          </word>
           <romaji>niku</romaji>
           <meaning>Daging</meaning>
         </item>
         <item>
-          <kanji>安い</kanji>
-          <reading>やすい</reading>
+          <word>
+            <kanji>安</kanji>
+            <furigana>やす</furigana>
+            <okurigana>い</okurigana>
+          </word>
           <romaji>yasui</romaji>
           <meaning>Murah</meaning>
         </item>
         <item>
-          <kanji>便利</kanji>
-          <reading>べんり</reading>
+          <word>
+            <kanji>便利</kanji>
+            <furigana>べんり</furigana>
+          </word>
           <romaji>benri</romaji>
           <meaning>Nyaman/Mudah</meaning>
+        </item>
+        <item>
+          <word>
+            <kanji>三</kanji>
+            <furigana>み</furigana>
+          </word>
+          <romaji>mi</romaji>
+          <meaning>Tiga (hitung)</meaning>
+        </item>
+        <item>
+          <word>
+            <kanji>五</kanji>
+            <furigana>い</furigana>
+          </word>
+          <romaji>i</romaji>
+          <meaning>Lima (hitung)</meaning>
         </item>
       </vocabulary>
     </text>
@@ -894,103 +849,97 @@
       </title>
       <content>
         <phrase>
-          <jp>今週の</jp>
-          <reading>こんしゅうの</reading>
+          <segment><kanji>今週</kanji><furigana>こんしゅう</furigana></segment>の
         </phrase>
         <phrase>
-          <jp>土曜日に</jp>
-          <reading>どようびに</reading>
+          <segment><kanji>土曜日</kanji><furigana>どようび</furigana></segment>に
         </phrase>
         <phrase>
-          <jp>友達と</jp>
-          <reading>ともだちと</reading>
+          <segment><kanji>友達</kanji><furigana>ともだち</furigana></segment>と
         </phrase>
         <phrase>
-          <jp>ピクニックに</jp>
-          <reading>ぴくにっくに</reading>
+          ピクニックに
         </phrase>
         <phrase>
-          <jp>行きます。</jp>
-          <reading>いきます。</reading>
+          <segment><kanji>行</kanji><furigana>い</furigana></segment>きます。
         </phrase>
         <phrase>
-          <jp>お弁当を</jp>
-          <reading>おべんとうを</reading>
+          お<segment><kanji>弁当</kanji><furigana>べんとう</furigana></segment>を
         </phrase>
         <phrase>
-          <jp>作って、</jp>
-          <reading>つくって、</reading>
+          <segment><kanji>作</kanji><furigana>つく</furigana></segment>って、
         </phrase>
         <phrase>
-          <jp>山へ</jp>
-          <reading>やまへ</reading>
+          <segment><kanji>山</kanji><furigana>やま</furigana></segment>へ
         </phrase>
         <phrase>
-          <jp>行きます。</jp>
-          <reading>いきます。</reading>
+          <segment><kanji>行</kanji><furigana>い</furigana></segment>きます。
         </phrase>
         <phrase>
-          <jp>そこで</jp>
-          <reading>そこで</reading>
+          そこで
         </phrase>
         <phrase>
-          <jp>写真を</jp>
-          <reading>しゃしんを</reading>
+          <segment><kanji>写真</kanji><furigana>しゃしん</furigana></segment>を
         </phrase>
         <phrase>
-          <jp>撮りたいです。</jp>
-          <reading>とりたいです。</reading>
+          <segment><kanji>撮</kanji><furigana>と</furigana></segment>りたいです。
         </phrase>
         <phrase>
-          <jp>日曜日は</jp>
-          <reading>にちようびは</reading>
+          <segment><kanji>日曜日</kanji><furigana>にちようび</furigana></segment>は
         </phrase>
         <phrase>
-          <jp>家で</jp>
-          <reading>いえで</reading>
+          <segment><kanji>家</kanji><furigana>いえ</furigana></segment>で
         </phrase>
         <phrase>
-          <jp>ゆっくり</jp>
-          <reading>ゆっくり</reading>
+          ゆっくり
         </phrase>
         <phrase>
-          <jp>休みます。</jp>
-          <reading>やすみます。</reading>
+          <segment><kanji>休</kanji><furigana>やす</furigana></segment>みます。
         </phrase>
         <phrase>
-          <jp>楽しみです。</jp>
-          <reading>たのしみです。</reading>
+          <segment><kanji>楽</kanji><furigana>たの</furigana></segment>しみです。
         </phrase>
       </content>
       <translation>Hari Sabtu minggu ini saya akan pergi piknik bersama teman. Saya akan membuat bekal dan pergi ke gunung. Di sana saya ingin memotret. Hari Minggu saya akan beristirahat di rumah. Saya menantikannya.</translation>
       <vocabulary>
         <item>
-          <kanji>今週</kanji>
-          <reading>こんしゅう</reading>
+          <word>
+            <kanji>今週</kanji>
+            <furigana>こんしゅう</furigana>
+          </word>
           <romaji>konshuu</romaji>
           <meaning>Minggu ini</meaning>
         </item>
         <item>
-          <kanji>土曜日</kanji>
-          <reading>どようび</reading>
+          <word>
+            <kanji>土曜日</kanji>
+            <furigana>どようび</furigana>
+          </word>
           <romaji>doyoubi</romaji>
           <meaning>Sabtu</meaning>
         </item>
         <item>
-          <kanji>予定</kanji>
-          <reading>よてい</reading>
+          <word>
+            <kanji>予定</kanji>
+            <furigana>よてい</furigana>
+          </word>
           <romaji>yotei</romaji>
           <meaning>Rencana</meaning>
         </item>
         <item>
-          <kanji>写真</kanji>
-          <reading>しゃしん</reading>
+          <word>
+            <kanji>写真</kanji>
+            <furigana>しゃしん</furigana>
+          </word>
           <romaji>shashin</romaji>
           <meaning>Foto</meaning>
         </item>
         <item>
-          <kanji>撮る</kanji>
-          <reading>とる</reading>
+          <word>
+            <kanji>撮</kanji>
+            <furigana>と</furigana>
+            <okurigana>る</okurigana>
+          </word>
           <romaji>toru</romaji>
           <meaning>Ambil foto</meaning>
         </item>
@@ -1006,119 +955,109 @@
       </title>
       <content>
         <phrase>
-          <jp>昨日、</jp>
-          <reading>きのう、</reading>
+          <segment><kanji>昨日</kanji><furigana>きのう</furigana></segment>、
         </phrase>
         <phrase>
-          <jp>風邪を</jp>
-          <reading>かぜを</reading>
+          <segment><kanji>風邪</kanji><furigana>かぜ</furigana></segment>を
         </phrase>
         <phrase>
-          <jp>引きました。</jp>
-          <reading>ひきました。</reading>
+          <segment><kanji>引</kanji><furigana>ひ</furigana></segment>きました。
         </phrase>
         <phrase>
-          <jp>頭が</jp>
-          <reading>あたまが</reading>
+          <segment><kanji>頭</kanji><furigana>あたま</furigana></segment>が
         </phrase>
         <phrase>
-          <jp>痛くて、</jp>
-          <reading>いたくて、</reading>
+          <segment><kanji>痛</kanji><furigana>いた</furigana></segment>くて、
         </phrase>
         <phrase>
-          <jp>熱も</jp>
-          <reading>ねつも</reading>
+          <segment><kanji>熱</kanji><furigana>ねつ</furigana></segment>も
         </phrase>
         <phrase>
-          <jp>ありました。</jp>
-          <reading>ありました。</reading>
+          ありました。
         </phrase>
         <phrase>
-          <jp>母に</jp>
-          <reading>ははに</reading>
+          <segment><kanji>母</kanji><furigana>はは</furigana></segment>に
         </phrase>
         <phrase>
-          <jp>連れられて</jp>
-          <reading>つれられて</reading>
+          <segment><kanji>連</kanji><furigana>つ</furigana></segment>れられて
         </phrase>
         <phrase>
-          <jp>病院へ</jp>
-          <reading>びょういんへ</reading>
+          <segment><kanji>病院</kanji><furigana>びょういん</furigana></segment>へ
         </phrase>
         <phrase>
-          <jp>行きました。</jp>
-          <reading>いきました。</reading>
+          <segment><kanji>行</kanji><furigana>い</furigana></segment>きました。
         </phrase>
         <phrase>
-          <jp>お医者さんに</jp>
-          <reading>おいしゃさんに</reading>
+          お<segment><kanji>医者</kanji><furigana>いしゃ</furigana></segment>さんに
         </phrase>
         <phrase>
-          <jp>診て</jp>
-          <reading>みて</reading>
+          <segment><kanji>診</kanji><furigana>み</furigana></segment>て
         </phrase>
         <phrase>
-          <jp>もらいました。</jp>
-          <reading>もらいました。</reading>
+          もらいました。
         </phrase>
         <phrase>
-          <jp>薬を</jp>
-          <reading>くすりを</reading>
+          <segment><kanji>薬</kanji><furigana>くすり</furigana></segment>を
         </phrase>
         <phrase>
-          <jp>もらって、</jp>
-          <reading>もらって、</reading>
+          もらって、
         </phrase>
         <phrase>
-          <jp>家で</jp>
-          <reading>いえで</reading>
+          <segment><kanji>家</kanji><furigana>いえ</furigana></segment>で
         </phrase>
         <phrase>
-          <jp>寝ていました。</jp>
-          <reading>ねていました。</reading>
+          <segment><kanji>寝</kanji><furigana>ね</furigana></segment>ていました。
         </phrase>
         <phrase>
-          <jp>今日は</jp>
-          <reading>きょうは</reading>
+          <segment><kanji>今日</kanji><furigana>きょう</furigana></segment>は
         </phrase>
         <phrase>
-          <jp>もう</jp>
-          <reading>もう</reading>
+          もう
         </phrase>
         <phrase>
-          <jp>大丈夫です。</jp>
-          <reading>だいじょうぶです。</reading>
+          <segment><kanji>大丈夫</kanji><furigana>だいじょうぶ</furigana></segment>です。
         </phrase>
       </content>
       <translation>Kemarin saya sakit flu. Kepala saya sakit dan demam. Ibu mengantar saya ke rumah sakit. Dokter memeriksa saya. Saya mendapat obat dan tidur di rumah. Hari ini sudah baikan.</translation>
       <vocabulary>
         <item>
-          <kanji>風邪</kanji>
-          <reading>かぜ</reading>
+          <word>
+            <kanji>風邪</kanji>
+            <furigana>かぜ</furigana>
+          </word>
           <romaji>kaze</romaji>
           <meaning>Flu</meaning>
         </item>
         <item>
-          <kanji>病院</kanji>
-          <reading>びょういん</reading>
+          <word>
+            <kanji>病院</kanji>
+            <furigana>びょういん</furigana>
+          </word>
           <romaji>byouin</romaji>
           <meaning>Rumah sakit</meaning>
         </item>
         <item>
-          <kanji>頭</kanji>
-          <reading>あたま</reading>
+          <word>
+            <kanji>頭</kanji>
+            <furigana>あたま</furigana>
+          </word>
           <romaji>atama</romaji>
           <meaning>Kepala</meaning>
         </item>
         <item>
-          <kanji>痛い</kanji>
-          <reading>いたい</reading>
+          <word>
+            <kanji>痛</kanji>
+            <furigana>いた</furigana>
+            <okurigana>い</okurigana>
+          </word>
           <romaji>itai</romaji>
           <meaning>Sakit</meaning>
         </item>
         <item>
-          <kanji>薬</kanji>
-          <reading>くすり</reading>
+          <word>
+            <kanji>薬</kanji>
+            <furigana>くすり</furigana>
+          </word>
           <romaji>kusuri</romaji>
           <meaning>Obat</meaning>
         </item>
@@ -1134,95 +1073,90 @@
       </title>
       <content>
         <phrase>
-          <jp>初めまして。</jp>
-          <reading>はじめまして。</reading>
+          <segment><kanji>初</kanji><furigana>はじ</furigana></segment>めまして。
         </phrase>
         <phrase>
-          <jp>私は</jp>
-          <reading>わたしは</reading>
+          <segment><kanji>私</kanji><furigana>わたし</furigana></segment>は
         </phrase>
         <phrase>
-          <jp>田中です。</jp>
-          <reading>たなかです。</reading>
+          <segment><kanji>田中</kanji><furigana>たなか</furigana></segment>です。
         </phrase>
         <phrase>
-          <jp>日本の</jp>
-          <reading>にほんの</reading>
+          <segment><kanji>日本</kanji><furigana>にほん</furigana></segment>の
         </phrase>
         <phrase>
-          <jp>東京から</jp>
-          <reading>とうきょうから</reading>
+          <segment><kanji>東京</kanji><furigana>とうきょう</furigana></segment>から
         </phrase>
         <phrase>
-          <jp>来ました。</jp>
-          <reading>きました。</reading>
+          <segment><kanji>来</kanji><furigana>き</furigana></segment>ました。
         </phrase>
         <phrase>
-          <jp>今は</jp>
-          <reading>いまは</reading>
+          <segment><kanji>今</kanji><furigana>いま</furigana></segment>は
         </phrase>
         <phrase>
-          <jp>大学生です。</jp>
-          <reading>だいがくせいです。</reading>
+          <segment><kanji>大学生</kanji><furigana>だいがくせい</furigana></segment>です。
         </phrase>
         <phrase>
-          <jp>専攻は</jp>
-          <reading>せんこうは</reading>
+          <segment><kanji>専攻</kanji><furigana>せんこう</furigana></segment>は
         </phrase>
         <phrase>
-          <jp>経済です。</jp>
-          <reading>けいざいです。</reading>
+          <segment><kanji>経済</kanji><furigana>けいざい</furigana></segment>です。
         </phrase>
         <phrase>
-          <jp>趣味は</jp>
-          <reading>しゅみは</reading>
+          <segment><kanji>趣味</kanji><furigana>しゅみ</furigana></segment>は
         </phrase>
         <phrase>
-          <jp>スポーツと</jp>
-          <reading>すぽーつと</reading>
+          スポーツと
         </phrase>
         <phrase>
-          <jp>読書です。</jp>
-          <reading>どくしょです。</reading>
+          <segment><kanji>読書</kanji><furigana>どくしょ</furigana></segment>です。
         </phrase>
         <phrase>
-          <jp>よろしく</jp>
-          <reading>よろしく</reading>
+          よろしく
         </phrase>
         <phrase>
-          <jp>お願いします。</jp>
-          <reading>おねがいします。</reading>
+          お<segment><kanji>願</kanji><furigana>ねが</furigana></segment>いします。
         </phrase>
       </content>
       <translation>Salam kenal. Saya Tanaka. Saya datang dari Tokyo, Jepang. Sekarang saya mahasiswa. Jurusan saya ekonomi. Hobi saya olahraga dan membaca. Mohon bantuannya.</translation>
       <vocabulary>
         <item>
-          <kanji>自己紹介</kanji>
-          <reading>じこしょうかい</reading>
+          <word>
+            <kanji>自己紹介</kanji>
+            <furigana>じこしょうかい</furigana>
+          </word>
           <romaji>jikoshoukai</romaji>
           <meaning>Perkenalan diri</meaning>
         </item>
         <item>
-          <kanji>東京</kanji>
-          <reading>とうきょう</reading>
+          <word>
+            <kanji>東京</kanji>
+            <furigana>とうきょう</furigana>
+          </word>
           <romaji>tokyou</romaji>
           <meaning>Tokyo</meaning>
         </item>
         <item>
-          <kanji>大学生</kanji>
-          <reading>だいがくせい</reading>
+          <word>
+            <kanji>大学生</kanji>
+            <furigana>だいがくせい</furigana>
+          </word>
           <romaji>daigakusei</romaji>
           <meaning>Mahasiswa</meaning>
         </item>
         <item>
-          <kanji>専攻</kanji>
-          <reading>せんこう</reading>
+          <word>
+            <kanji>専攻</kanji>
+            <furigana>せんこう</furigana>
+          </word>
           <romaji>senkou</romaji>
           <meaning>Jurusan</meaning>
         </item>
         <item>
-          <kanji>経済</kanji>
-          <reading>けいざい</reading>
+          <word>
+            <kanji>経済</kanji>
+            <furigana>けいざい</furigana>
+          </word>
           <romaji>keizai</romaji>
           <meaning>Ekonomi</meaning>
         </item>
