@@ -3334,5 +3334,957 @@
       </vocabulary>
     </text>
 
+    <!-- Teks 50: Persiapan Ujian -->
+    <text id="50">
+      <title>
+        <jp>試験の準備</jp>
+        <reading>しけんのじゅんび</reading>
+        <id>Persiapan Ujian</id>
+      </title>
+      <content>
+        <phrase>
+          <segment><kanji>来週</kanji><furigana>らいしゅう</furigana></segment>、<segment><kanji>日本語</kanji><furigana>にほんご</furigana></segment>の<segment><kanji>試験</kanji><furigana>しけん</furigana></segment>があります。
+        </phrase>
+        <phrase>
+          <segment><kanji>毎日</kanji><furigana>まいにち</furigana></segment>、<segment><kanji>単語</kanji><furigana>たんご</furigana></segment>を<segment><kanji>三十分</kanji><furigana>さんじゅっぷん</furigana></segment><segment><kanji>覚</kanji><furigana>おぼ</furigana></segment>えています。
+        </phrase>
+        <phrase>
+          <segment><kanji>文法</kanji><furigana>ぶんぽう</furigana></segment>の<segment><kanji>練習</kanji><furigana>れんしゅう</furigana></segment>もしています。
+        </phrase>
+        <phrase>
+          <segment><kanji>昨日</kanji><furigana>きのう</furigana></segment>は<segment><kanji>過去</kanji><furigana>かこ</furigana></segment>の<segment><kanji>試験</kanji><furigana>しけん</furigana></segment><segment><kanji>問題</kanji><furigana>もんだい</furigana></segment>を<segment><kanji>解</kanji><furigana>と</furigana></segment>きました。
+        </phrase>
+        <phrase>
+          <segment><kanji>間違</kanji><furigana>まちが</furigana></segment>った<segment><kanji>所</kanji><furigana>ところ</furigana></segment>を<segment><kanji>復習</kanji><furigana>ふくしゅう</furigana></segment>しました。
+        </phrase>
+        <phrase>
+          <segment><kanji>早</kanji><furigana>はや</furigana></segment>く<segment><kanji>寝</kanji><furigana>ね</furigana></segment>て<segment><kanji>体調</kanji><furigana>たいちょう</furigana></segment>を<segment><kanji>整</kanji><furigana>ととの</furigana></segment>えたいです。
+        </phrase>
+      </content>
+      <translation>Minggu depan ada ujian bahasa Jepang. Setiap hari menghafal kosakata 30 menit. Juga berlatih tata bahasa. Kemarin mengerjakan soal ujian tahun lalu. Mereview bagian yang salah. Ingin tidur cepat dan mempersiapkan kondisi fisik.</translation>
+      <vocabulary>
+        <item>
+          <word>試験</word>
+          <reading>しけん</reading>
+          <romaji>shiken</romaji>
+          <meaning>Ujian</meaning>
+        </item>
+        <item>
+          <word>単語</word>
+          <reading>たんご</reading>
+          <romaji>tango</romaji>
+          <meaning>Kosakata</meaning>
+        </item>
+        <item>
+          <word>文法</word>
+          <reading>ぶんぽう</reading>
+          <romaji>bunpou</romaji>
+          <meaning>Tata bahasa</meaning>
+        </item>
+        <item>
+          <word>過去</word>
+          <reading>かこ</reading>
+          <romaji>kako</romaji>
+          <meaning>Masa lalu</meaning>
+        </item>
+        <item>
+          <word>問題</word>
+          <reading>もんだい</reading>
+          <romaji>mondai</romaji>
+          <meaning>Soal/masalah</meaning>
+        </item>
+        <item>
+          <word>復習</word>
+          <reading>ふくしゅう</reading>
+          <romaji>fukushuu</romaji>
+          <meaning>Review/mengulang</meaning>
+        </item>
+      </vocabulary>
+    </text>
+
+    <!-- Teks 51: Di Salon Pijat -->
+    <text id="51">
+      <title>
+        <jp>マッサージ</jp>
+        <reading>まっさーじ</reading>
+        <id>Salon Pijat</id>
+      </title>
+      <content>
+        <phrase>
+          <segment><kanji>最近</kanji><furigana>さいきん</furigana></segment>、<segment><kanji>肩</kanji><furigana>かた</furigana></segment>が<segment><kanji>凝</kanji><furigana>こ</furigana></segment>っています。
+        </phrase>
+        <phrase>
+          <segment><kanji>昨日</kanji><furigana>きのう</furigana></segment>、<segment><kanji>駅</kanji><furigana>えき</furigana></segment>の<segment><kanji>近</kanji><furigana>ちか</furigana></segment>くのマッサージ<segment><kanji>店</kanji><furigana>てん</furigana></segment>に<segment><kanji>行</kanji><furigana>い</furigana></segment>きました。
+        </phrase>
+        <phrase>
+          <segment><kanji>六十分</kanji><furigana>ろくじゅっぷん</furigana></segment>の<segment><kanji>全身</kanji><furigana>ぜんしん</furigana></segment>マッサージを<segment><kanji>予約</kanji><furigana>よやく</furigana></segment>しました。
+        </phrase>
+        <phrase>
+          <segment><kanji>施術師</kanji><furigana>しじゅつし</furigana></segment>の<segment><kanji>人</kanji><furigana>ひと</furigana></segment>が<segment><kanji>丁寧</kanji><furigana>ていねい</furigana></segment>に<segment><kanji>説明</kanji><furigana>せつめい</furigana></segment>してくれました。
+        </phrase>
+        <phrase>
+          <segment><kanji>少</kanji><furigana>すこ</furigana></segment>し<segment><kanji>痛</kanji><furigana>いた</furigana></segment>いですが、<segment><kanji>終</kanji><furigana>お</furigana></segment>わった<segment><kanji>後</kanji><furigana>あと</furigana></segment>は<segment><kanji>体</kanji><furigana>からだ</furigana></segment>が<segment><kanji>軽</kanji><furigana>かる</furigana></segment>くなりました。
+        </phrase>
+        <phrase>
+          <segment><kanji>料金</kanji><furigana>りょうきん</furigana></segment>は<segment><kanji>五千円</kanji><furigana>ごせんえん</furigana></segment>でした。
+        </phrase>
+      </content>
+      <translation>Belakangan ini pundak saya kaku. Kemarin saya pergi ke salon pijat dekat stasiun. Memesan pijat seluruh tubuh 60 menit. Terapis menjelaskan dengan ramah. Sedikit sakit tapi setelah selesai tubuh terasa ringan. Biayanya 5000 yen.</translation>
+      <vocabulary>
+        <item>
+          <word>肩</word>
+          <reading>かた</reading>
+          <romaji>kata</romaji>
+          <meaning>Pundak</meaning>
+        </item>
+        <item>
+          <word>凝る</word>
+          <reading>こる</reading>
+          <romaji>koru</romaji>
+          <meaning>Kaku</meaning>
+        </item>
+        <item>
+          <word>全身</word>
+          <reading>ぜんしん</reading>
+          <romaji>zenshin</romaji>
+          <meaning>Seluruh tubuh</meaning>
+        </item>
+        <item>
+          <word>施術師</word>
+          <reading>しじゅつし</reading>
+          <romaji>shijutsushi</romaji>
+          <meaning>Terapis</meaning>
+        </item>
+        <item>
+          <word>丁寧</word>
+          <reading>ていねい</reading>
+          <romaji>teinei</romaji>
+          <meaning>Ramah/hati-hati</meaning>
+        </item>
+        <item>
+          <word>終わる</word>
+          <reading>おわる</reading>
+          <romaji>owaru</romaji>
+          <meaning>Selesai</meaning>
+        </item>
+      </vocabulary>
+    </text>
+
+    <!-- Teks 52: Membuat Kue -->
+    <text id="52">
+      <title>
+        <jp>お菓子作り</jp>
+        <reading>おかしづくり</reading>
+        <id>Membuat Kue</id>
+      </title>
+      <content>
+        <phrase>
+          <segment><kanji>今日</kanji><furigana>きょう</furigana></segment>は<segment><kanji>母</kanji><furigana>はは</furigana></segment>と<segment><kanji>一緒</kanji><furigana>いっしょ</furigana></segment>にクッキーを<segment><kanji>作</kanji><furigana>つく</furigana></segment>りました。
+        </phrase>
+        <phrase>
+          <segment><kanji>材料</kanji><furigana>ざいりょう</furigana></segment>は<segment><kanji>小麦粉</kanji><furigana>こむぎこ</furigana></segment>と<segment><kanji>砂糖</kanji><furigana>さとう</furigana></segment>と<segment><kanji>卵</kanji><furigana>たまご</furigana></segment>です。
+        </phrase>
+        <phrase>
+          <segment><kanji>生地</kanji><furigana>きじ</furigana></segment>を<segment><kanji>丸</kanji><furigana>まる</furigana></segment>くして<segment><kanji>型</kanji><furigana>かた</furigana></segment>で<segment><kanji>抜</kanji><furigana>ぬ</furigana></segment>きました。
+        </phrase>
+        <phrase>
+          <segment><kanji>星</kanji><furigana>ほし</furigana></segment>の<segment><kanji>形</kanji><furigana>かたち</furigana></segment>と<segment><kanji>木</kanji><furigana>き</furigana></segment>の<segment><kanji>形</kanji><furigana>かたち</furigana></segment>ができました。
+        </phrase>
+        <phrase>
+          <segment><kanji>天板</kanji><furigana>てんばん</furigana></segment>に<segment><kanji>並</kanji><furigana>なら</furigana></segment>べて<segment><kanji>焼</kanji><furigana>や</furigana></segment>きました。
+        </phrase>
+        <phrase>
+          <segment><kanji>甘</kanji><furigana>あま</furigana></segment>くて<segment><kanji>美味</kanji><furigana>おい</furigana></segment>しくて<segment><kanji>家族</kanji><furigana>かぞく</furigana></segment>に<segment><kanji>人気</kanji><furigana>にんき</furigana></segment>でした。
+        </phrase>
+      </content>
+      <translation>Hari ini saya membuat kue bersama ibu. Bahan-bahannya tepung, gula, dan telur. Menggilas adonan dan mencetak dengan cetakan. Jadi bentuk bintang dan pohon. Disusun di loyang dan dipanggang. Manis dan enak, populer di keluarga.</translation>
+      <vocabulary>
+        <item>
+          <word>材料</word>
+          <reading>ざいりょう</reading>
+          <romaji>zairyou</romaji>
+          <meaning>Bahan-bahan</meaning>
+        </item>
+        <item>
+          <word>小麦粉</word>
+          <reading>こむぎこ</reading>
+          <romaji>komugiko</romaji>
+          <meaning>Tepung terigu</meaning>
+        </item>
+        <item>
+          <word>砂糖</word>
+          <reading>さとう</reading>
+          <romaji>satou</romaji>
+          <meaning>Gula</meaning>
+        </item>
+        <item>
+          <word>生地</word>
+          <reading>きじ</reading>
+          <romaji>kiji</romaji>
+          <meaning>Adonan</meaning>
+        </item>
+        <item>
+          <word>型</word>
+          <reading>かた</reading>
+          <romaji>kata</romaji>
+          <meaning>Cetakan</meaning>
+        </item>
+        <item>
+          <word>天板</word>
+          <reading>てんばん</reading>
+          <romaji>tenban</romaji>
+          <meaning>Loyang</meaning>
+        </item>
+      </vocabulary>
+    </text>
+
+    <!-- Teks 53: Di ZOO -->
+    <text id="53">
+      <title>
+        <jp>動物園</jp>
+        <reading>どうぶつえん</reading>
+        <id>Kebun Binatang</id>
+      </title>
+      <content>
+        <phrase>
+          <segment><kanji>昨日</kanji><furigana>きのう</furigana></segment>、<segment><kanji>上野</kanji><furigana>うえの</furigana></segment>の<segment><kanji>動物園</kanji><furigana>どうぶつえん</furigana></segment>へ<segment><kanji>行</kanji><furigana>い</furigana></segment>きました。
+        </phrase>
+        <phrase>
+          <segment><kanji>入園料</kanji><furigana>にゅうえんりょう</furigana></segment>は<segment><kanji>六百円</kanji><furigana>ろっぴゃくえん</furigana></segment>でした。
+        </phrase>
+        <phrase>
+          <segment><kanji>パンダ</kanji><furigana>ぱんだ</furigana></segment>が<segment><kanji>人気</kanji><furigana>にんき</furigana></segment>で<segment><kanji>沢山</kanji><furigana>たくさん</furigana></segment>の<segment><kanji>人</kanji><furigana>ひと</furigana></segment>が<segment><kanji>並</kanji><furigana>なら</furigana></segment>んでいました。
+        </phrase>
+        <phrase>
+          <segment><kanji>象</kanji><furigana>ぞう</furigana></segment>は<segment><kanji>大</kanji><furigana>おお</furigana></segment>きくて<segment><kanji>迫力</kanji><furigana>はくりょく</furigana></segment>がありました。
+        </phrase>
+        <phrase>
+          <segment><kanji>子供</kanji><furigana>こども</furigana></segment>たちは<segment><kanji>猿</kanji><furigana>さる</furigana></segment>の<segment><kanji>檻</kanji><furigana>おり</furigana></segment>の<segment><kanji>前</kanji><furigana>まえ</furigana></segment>で<segment><kanji>餌</kanji><furigana>えさ</furigana></segment>を<segment><kanji>上</kanji><furigana>あ</furigana></segment>げていました。
+        </phrase>
+        <phrase>
+          <segment><kanji>動物</kanji><furigana>どうぶつ</furigana></segment>たちは<segment><kanji>可愛</kanji><furigana>かわい</furigana></segment>くて<segment><kanji>癒</kanji><furigana>いや</furigana></segment>されました。
+        </phrase>
+      </content>
+      <translation>Kemarin saya pergi ke kebun binatang Ueno. Tiket masuk 600 yen. Panda populer dan banyak orang mengantre. Gajah besar dan mengesankan. Anak-anak memberi makan monyet di depan kandang. Hewan-hewan lucu dan menyembuhkan.</translation>
+      <vocabulary>
+        <item>
+          <word>上野</word>
+          <reading>うえの</reading>
+          <romaji>ueno</romaji>
+          <meaning>Ueno (nama tempat)</meaning>
+        </item>
+        <item>
+          <word>動物園</word>
+          <reading>どうぶつえん</reading>
+          <romaji>doubutsuen</romaji>
+          <meaning>Kebun binatang</meaning>
+        </item>
+        <item>
+          <word>入園料</word>
+          <reading>にゅうえんりょう</reading>
+          <romaji>nyuuenryou</romaji>
+          <meaning>Tiket masuk</meaning>
+        </item>
+        <item>
+          <word>迫力</word>
+          <reading>はくりょく</reading>
+          <romaji>hakuryoku</romaji>
+          <meaning>Kesan kuat</meaning>
+        </item>
+        <item>
+          <word>猿</word>
+          <reading>さる</reading>
+          <romaji>saru</romaji>
+          <meaning>Monyet</meaning>
+        </item>
+        <item>
+          <word>檻</word>
+          <reading>おり</reading>
+          <romaji>ori</romaji>
+          <meaning>Kandang</meaning>
+        </item>
+      </vocabulary>
+    </text>
+
+    <!-- Teks 54: Membeli Sepeda -->
+    <text id="54">
+      <title>
+        <jp>自転車を買う</jp>
+        <reading>じてんしゃをかう</reading>
+        <id>Membeli Sepeda</id>
+      </title>
+      <content>
+        <phrase>
+          <segment><kanji>新</kanji><furigana>あたら</furigana></segment>しい<segment><kanji>自転車</kanji><furigana>じてんしゃ</furigana></segment>が<segment><kanji>必要</kanji><furigana>ひつよう</furigana></segment>になりました。
+        </phrase>
+        <phrase>
+          <segment><kanji>今日</kanji><furigana>きょう</furigana></segment>、<segment><kanji>自転車</kanji><furigana>じてんしゃ</furigana></segment><segment><kanji>屋</kanji><furigana>や</furigana></segment>に<segment><kanji>行</kanji><furigana>い</furigana></segment>きました。
+        </phrase>
+        <phrase>
+          <segment><kanji>店員</kanji><furigana>てんいん</furigana></segment>さんが<segment><kanji>色々</kanji><furigana>いろいろ</furigana></segment>な<segment><kanji>種類</kanji><furigana>しゅるい</furigana></segment>を<segment><kanji>紹介</kanji><furigana>しょうかい</furigana></segment>してくれました。
+        </phrase>
+        <phrase>
+          <segment><kanji>軽</kanji><furigana>かる</furigana></segment>くて<segment><kanji>速</kanji><furigana>はや</furigana></segment>い<segment><kanji>電動</kanji><furigana>でんどう</furigana></segment><segment><kanji>自転車</kanji><furigana>じてんしゃ</furigana></segment>が<segment><kanji>気</kanji><furigana>き</furigana></segment>に<segment><kanji>入</kanji><furigana>い</furigana></segment>りました。
+        </phrase>
+        <phrase>
+          <segment><kanji>防犯登録</kanji><furigana>ぼうはんとうろく</furigana></segment>もしてもらいました。
+        </phrase>
+        <phrase>
+          <segment><kanji>合計</kanji><furigana>ごうけい</furigana></segment><segment><kanji>七万円</kanji><furigana>ななまんえん</furigana></segment>でした。
+        </phrase>
+      </content>
+      <translation>Saya membutuhkan sepeda baru. Hari ini saya pergi ke toko sepeda. Pelayan memperkenalkan berbagai jenis. Saya suka sepeda listrik yang ringan dan cepat. Juga didaftarkan untuk keamanan. Totalnya 70000 yen.</translation>
+      <vocabulary>
+        <item>
+          <word>必要</word>
+          <reading>ひつよう</reading>
+          <romaji>hitsuyou</romaji>
+          <meaning>Diperlukan</meaning>
+        </item>
+        <item>
+          <word>種類</word>
+          <reading>しゅるい</reading>
+          <romaji>shurui</romaji>
+          <meaning>Jenis</meaning>
+        </item>
+        <item>
+          <word>紹介</word>
+          <reading>しょうかい</reading>
+          <romaji>shoukai</romaji>
+          <meaning>Memperkenalkan</meaning>
+        </item>
+        <item>
+          <word>電動</word>
+          <reading>でんどう</reading>
+          <romaji>dendou</romaji>
+          <meaning>Listrik</meaning>
+        </item>
+        <item>
+          <word>防犯登録</word>
+          <reading>ぼうはんとうろく</reading>
+          <romaji>bouhan touroku</romaji>
+          <meaning>Pendaftaran keamanan</meaning>
+        </item>
+        <item>
+          <word>合計</word>
+          <reading>ごうけい</reading>
+          <romaji>goukei</romaji>
+          <meaning>Total</meaning>
+        </item>
+      </vocabulary>
+    </text>
+
+    <!-- Teks 55: Di Taman Air Panas -->
+    <text id="55">
+      <title>
+        <jp>温泉旅行</jp>
+        <reading>おんせんりょこう</reading>
+        <id>Wisata Pemandian Air Panas</id>
+      </title>
+      <content>
+        <phrase>
+          <segment><kanji>週末</kanji><furigana>しゅうまつ</furigana></segment>、<segment><kanji>箱根</kanji><furigana>はこね</furigana></segment>へ<segment><kanji>温泉</kanji><furigana>おんせん</furigana></segment><segment><kanji>旅行</kanji><furigana>りょこう</furigana></segment>に<segment><kanji>行</kanji><furigana>い</furigana></segment>きました。
+        </phrase>
+        <phrase>
+          <segment><kanji>旅館</kanji><furigana>りょかん</furigana></segment>は<segment><kanji>山</kanji><furigana>やま</furigana></segment>の<segment><kanji>中</kanji><furigana>なか</furigana></segment>にありました。
+        </phrase>
+        <phrase>
+          <segment><kanji>部屋</kanji><furigana>へや</furigana></segment>には<segment><kanji>畳</kanji><furigana>たたみ</furigana></segment>が<segment><kanji>敷</kanji><furigana>し</furigana></segment>いてありました。
+        </phrase>
+        <phrase>
+          <segment><kanji>夕食</kanji><furigana>ゆうしょく</furigana></segment>は<segment><kanji>部屋</kanji><furigana>へや</furigana></segment>で<segment><kanji>懐石料理</kanji><furigana>かいせきりょうり</furigana></segment>を<segment><kanji>食</kanji><furigana>た</furigana></segment>べました。
+        </phrase>
+        <phrase>
+          <segment><kanji>温泉</kanji><furigana>おんせん</furigana></segment>は<segment><kanji>露天風呂</kanji><furigana>ろてんぶろ</furigana></segment>で<segment><kanji>星</kanji><furigana>ほし</furigana></segment>が<segment><kanji>綺麗</kanji><furigana>きれい</furigana></segment>に<segment><kanji>見</kanji><furigana>み</furigana></segment>えました。
+        </phrase>
+        <phrase>
+          <segment><kanji>翌朝</kanji><furigana>よくあさ</furigana></segment>、<segment><kanji>朝</kanji><furigana>あさ</furigana></segment><segment><kanji>霧</kanji><furigana>ぎり</furigana></segment>の<segment><kanji>中</kanji><furigana>なか</furigana></segment>で<segment><kanji>散歩</kanji><furigana>さんぽ</furigana></segment>しました。
+        </phrase>
+      </content>
+      <translation>Akhir pekan saya pergi wisata pemandian air panas ke Hakone. Ryokan berada di pegunungan. Kamar dilengkapi tatami. Makan malam kaiseki di kamar. Di pemandian terbuka terlihat bintang yang indah. Pagi berikutnya berjalan-jalan di kabut pagi.</translation>
+      <vocabulary>
+        <item>
+          <word>箱根</word>
+          <reading>はこね</reading>
+          <romaji>hakone</romaji>
+          <meaning>Hakone (nama tempat)</meaning>
+        </item>
+        <item>
+          <word>旅館</word>
+          <reading>りょかん</reading>
+          <romaji>ryokan</romaji>
+          <meaning>Penginapan Jepang</meaning>
+        </item>
+        <item>
+          <word>畳</word>
+          <reading>たたみ</reading>
+          <romaji>tatami</romaji>
+          <meaning>Tikar tatami</meaning>
+        </item>
+        <item>
+          <word>懐石料理</word>
+          <reading>かいせきりょうり</reading>
+          <romaji>kaiseki ryouri</romaji>
+          <meaning>Masakan kaiseki</meaning>
+        </item>
+        <item>
+          <word>露天風呂</word>
+          <reading>ろてんぶろ</reading>
+          <romaji>rotenburo</romaji>
+          <meaning>Pemandian terbuka</meaning>
+        </item>
+        <item>
+          <word>翌朝</word>
+          <reading>よくあさ</reading>
+          <romaji>yokuasa</romaji>
+          <meaning>Pagi berikutnya</meaning>
+        </item>
+      </vocabulary>
+    </text>
+
+    <!-- Teks 56: Di Pasar Malam -->
+    <text id="56">
+      <title>
+        <jp>夏祭り</jp>
+        <reading>なつまつり</reading>
+        <id>Festival Musim Panas</id>
+      </title>
+      <content>
+        <phrase>
+          <segment><kanji>昨日</kanji><furigana>きのう</furigana></segment>、<segment><kanji>近所</kanji><furigana>きんじょ</furigana></segment>の<segment><kanji>神社</kanji><furigana>じんじゃ</furigana></segment>で<segment><kanji>夏祭り</kanji><furigana>なつまつり</furigana></segment>がありました。
+        </phrase>
+        <phrase>
+          <segment><kanji>浴衣</kanji><furigana>ゆかた</furigana></segment>を<segment><kanji>着</kanji><furigana>き</furigana></segment>て<segment><kanji>出</kanji><furigana>で</furigana></segment>かけました。
+        </phrase>
+        <phrase>
+          <segment><kanji>屋台</kanji><furigana>やたい</furigana></segment>で<segment><kanji>綿菓子</kanji><furigana>わたがし</furigana></segment>と<segment><kanji>焼</kanji><furigana>や</furigana></segment>き<segment><kanji>鳥</kanji><furigana>とり</furigana></segment>を<segment><kanji>買</kanji><furigana>か</furigana></segment>いました。
+        </phrase>
+        <phrase>
+          <segment><kanji>子供</kanji><furigana>こども</furigana></segment>たちは<segment><kanji>金魚</kanji><furigana>きんぎょ</furigana></segment><segment><kanji>掬</kanji><furigana>すく</furigana></segment>いをしていました。
+        </phrase>
+        <phrase>
+          <segment><kanji>夜</kanji><furigana>よる</furigana></segment><segment><kanji>八時</kanji><furigana>はちじ</furigana></segment>から<segment><kanji>花火</kanji><furigana>はなび</furigana></segment>が<segment><kanji>上</kanji><furigana>あ</furigana></segment>がりました。
+        </phrase>
+        <phrase>
+          <segment><kanji>大勢</kanji><furigana>おおぜい</furigana></segment>の<segment><kanji>人</kanji><furigana>ひと</furigana></segment>で<segment><kanji>賑</kanji><furigana>にぎ</furigana></segment>やかでした。
+        </phrase>
+      </content>
+      <translation>Kemarin ada festival musim panas di kuil dekat rumah. Saya pergi mengenakan yukata. Membeli arum manis dan yakitori di warung. Anak-anak memancing ikan mas. Kembang api dinyalakan jam 8 malam. Ramai dengan banyak orang.</translation>
+      <vocabulary>
+        <item>
+          <word>神社</word>
+          <reading>じんじゃ</reading>
+          <romaji>jinja</romaji>
+          <meaning>Kuil Shinto</meaning>
+        </item>
+        <item>
+          <word>夏祭り</word>
+          <reading>なつまつり</reading>
+          <romaji>natsumatsuri</romaji>
+          <meaning>Festival musim panas</meaning>
+        </item>
+        <item>
+          <word>浴衣</word>
+          <reading>ゆかた</reading>
+          <romaji>yukata</romaji>
+          <meaning>Yukata (pakaian musim panas)</meaning>
+        </item>
+        <item>
+          <word>屋台</word>
+          <reading>やたい</reading>
+          <romaji>yatai</romaji>
+          <meaning>Warung kaki lima</meaning>
+        </item>
+        <item>
+          <word>綿菓子</word>
+          <reading>わたがし</reading>
+          <romaji>watagashi</romaji>
+          <meaning>Arum manis</meaning>
+        </item>
+        <item>
+          <word>金魚掬い</word>
+          <reading>きんぎょすくい</reading>
+          <romaji>kingyosukui</romaji>
+          <meaning>Memancing ikan mas</meaning>
+        </item>
+      </vocabulary>
+    </text>
+
+    <!-- Teks 57: Mengurus Visa -->
+    <text id="57">
+      <title>
+        <jp>ビザの申請</jp>
+        <reading>びざのしんせい</reading>
+        <id>Pengurusan Visa</id>
+      </title>
+      <content>
+        <phrase>
+          <segment><kanji>来月</kanji><furigana>らいげつ</furigana></segment>、<segment><kanji>アメリカ</kanji><furigana>あめりか</furigana></segment>へ<segment><kanji>旅行</kanji><furigana>りょこう</furigana></segment>に<segment><kanji>行</kanji><furigana>い</furigana></segment>きます。
+        </phrase>
+        <phrase>
+          <segment><kanji>今日</kanji><furigana>きょう</furigana></segment>、<segment><kanji>大使館</kanji><furigana>たいしかん</furigana></segment>でビザを<segment><kanji>申請</kanji><furigana>しんせい</furigana></segment>しました。
+        </phrase>
+        <phrase>
+          <segment><kanji>必要</kanji><furigana>ひつよう</furigana></segment>な<segment><kanji>書類</kanji><furigana>しょるい</furigana></segment>はパスポートと<segment><kanji>写真</kanji><furigana>しゃしん</furigana></segment>です。
+        </phrase>
+        <phrase>
+          <segment><kanji>申請書</kanji><furigana>しんせいしょ</furigana></segment>に<segment><kanji>記入</kanji><furigana>きにゅう</furigana></segment>して<segment><kanji>提出</kanji><furigana>ていしゅつ</furigana></segment>しました。
+        </phrase>
+        <phrase>
+          <segment><kanji>手数料</kanji><furigana>てすうりょう</furigana></segment>は<segment><kanji>一万円</kanji><furigana>いちまんえん</furigana></segment>でした。
+        </phrase>
+        <phrase>
+          <segment><kanji>一週間</kanji><furigana>いっしゅうかん</furigana></segment><segment><kanji>後</kanji><furigana>ご</furigana></segment>に<segment><kanji>受</kanji><furigana>う</furigana></segment>け<segment><kanji>取</kanji><furigana>と</furigana></segment>りに<segment><kanji>来</kanji><furigana>き</furigana></segment>てくださいと<segment><kanji>言</kanji><furigana>い</furigana></segment>われました。
+        </phrase>
+      </content>
+      <translation>Bulan depan saya pergi ke Amerika. Hari ini saya mengajukan visa di kedutaan. Dokumen yang diperlukan paspor dan foto. Mengisi formulir pengajuan dan menyerahkan. Biayanya 10000 yen. Diminta datang mengambil seminggu lagi.</translation>
+      <vocabulary>
+        <item>
+          <word>大使館</word>
+          <reading>たいしかん</reading>
+          <romaji>taishikan</romaji>
+          <meaning>Kedutaan</meaning>
+        </item>
+        <item>
+          <word>申請</word>
+          <reading>しんせい</reading>
+          <romaji>shinsei</romaji>
+          <meaning>Pengajuan</meaning>
+        </item>
+        <item>
+          <word>申請書</word>
+          <reading>しんせいしょ</reading>
+          <romaji>shinseisho</romaji>
+          <meaning>Formulir pengajuan</meaning>
+        </item>
+        <item>
+          <word>記入</word>
+          <reading>きにゅう</reading>
+          <romaji>kinyuu</romaji>
+          <meaning>Mengisi</meaning>
+        </item>
+        <item>
+          <word>提出</word>
+          <reading>ていしゅつ</reading>
+          <romaji>teishutsu</romaji>
+          <meaning>Menyerahkan</meaning>
+        </item>
+        <item>
+          <word>手数料</word>
+          <reading>てすうりょう</reading>
+          <romaji>tesuuryou</romaji>
+          <meaning>Biaya administrasi</meaning>
+        </item>
+      </vocabulary>
+    </text>
+
+    <!-- Teks 58: Di Rumah Sakit Hewan -->
+    <text id="58">
+      <title>
+        <jp>動物病院</jp>
+        <reading>どうぶつびょういん</reading>
+        <id>Rumah Sakit Hewan</id>
+      </title>
+      <content>
+        <phrase>
+          <segment><kanji>飼</kanji><furigana>か</furigana></segment>っている<segment><kanji>猫</kanji><furigana>ねこ</furigana></segment>が<segment><kanji>具合</kanji><furigana>ぐあい</furigana></segment>が<segment><kanji>悪</kanji><furigana>わる</furigana></segment>いです。
+        </phrase>
+        <phrase>
+          <segment><kanji>昨日</kanji><furigana>きのう</furigana></segment>から<segment><kanji>餌</kanji><furigana>えさ</furigana></segment>を<segment><kanji>食</kanji><furigana>た</furigana></segment>べません。
+        </phrase>
+        <phrase>
+          <segment><kanji>動物病院</kanji><furigana>どうぶつびょういん</furigana></segment>に<segment><kanji>連</kanji><furigana>つ</furigana></segment>れて<segment><kanji>行</kanji><furigana>い</furigana></segment>きました。
+        </phrase>
+        <phrase>
+          <segment><kanji>獣医</kanji><furigana>じゅうい</furigana></segment>さんが<segment><kanji>診察</kanji><furigana>しんさつ</furigana></segment>してくれました。
+        </phrase>
+        <phrase>
+          <segment><kanji>風邪</kanji><furigana>かぜ</furigana></segment>を<segment><kanji>引</kanji><furigana>ひ</furigana></segment>いていると<segment><kanji>言</kanji><furigana>い</furigana></segment>われました。
+        </phrase>
+        <phrase>
+          <segment><kanji>注射</kanji><furigana>ちゅうしゃ</furigana></segment>と<segment><kanji>薬</kanji><furigana>くすり</furigana></segment>をもらって<segment><kanji>家</kanji><furigana>いえ</furigana></segment>に<segment><kanji>帰</kanji><furigana>かえ</furigana></segment>りました。
+        </phrase>
+      </content>
+      <translation>Kucing peliharaan saya tidak enak badan. Sejak kemarin tidak makan. Saya membawanya ke rumah sakit hewan. Dokter hewan memeriksanya. Dikatakan sedang flu. Dapat suntikan dan obat lalu pulang.</translation>
+      <vocabulary>
+        <item>
+          <word>飼う</word>
+          <reading>かう</reading>
+          <romaji>kau</romaji>
+          <meaning>Memelihara</meaning>
+        </item>
+        <item>
+          <word>猫</word>
+          <reading>ねこ</reading>
+          <romaji>neko</romaji>
+          <meaning>Kucing</meaning>
+        </item>
+        <item>
+          <word>具合</word>
+          <reading>ぐあい</reading>
+          <romaji>guai</romaji>
+          <meaning>Kondisi</meaning>
+        </item>
+        <item>
+          <word>動物病院</word>
+          <reading>どうぶつびょういん</reading>
+          <romaji>doubutsu byouin</romaji>
+          <meaning>Rumah sakit hewan</meaning>
+        </item>
+        <item>
+          <word>獣医</word>
+          <reading>じゅうい</reading>
+          <romaji>juui</romaji>
+          <meaning>Dokter hewan</meaning>
+        </item>
+        <item>
+          <word>注射</word>
+          <reading>ちゅうしゃ</reading>
+          <romaji>chuusha</romaji>
+          <meaning>Suntikan</meaning>
+        </item>
+      </vocabulary>
+    </text>
+
+    <!-- Teks 59: Di Kampus Lagi -->
+    <text id="59">
+      <title>
+        <jp>サークル活動</jp>
+        <reading>さーくるかつどう</reading>
+        <id>Kegiatan Klub</id>
+      </title>
+      <content>
+        <phrase>
+          <segment><kanji>大学</kanji><furigana>だいがく</furigana></segment>で<segment><kanji>写真</kanji><furigana>しゃしん</furigana></segment><segment><kanji>部</kanji><furigana>ぶ</furigana></segment>に<segment><kanji>入</kanji><furigana>はい</furigana></segment>っています。
+        </phrase>
+        <phrase>
+          <segment><kanji>毎週</kanji><furigana>まいしゅう</furigana></segment><segment><kanji>水曜日</kanji><furigana>すいようび</furigana></segment>に<segment><kanji>活動</kanji><furigana>かつどう</furigana></segment>があります。
+        </phrase>
+        <phrase>
+          <segment><kanji>今日</kanji><furigana>きょう</furigana></segment>は<segment><kanji>先輩</kanji><furigana>せんぱい</furigana></segment>に<segment><kanji>カメラ</kanji><furigana>かめら</furigana></segment>の<segment><kanji>使</kanji><furigana>つか</furigana></segment>い<segment><kanji>方</kanji><furigana>かた</furigana></segment>を<segment><kanji>教</kanji><furigana>おし</furigana></segment>えてもらいました。
+        </phrase>
+        <phrase>
+          <segment><kanji>絞</kanji><furigana>しぼ</furigana></segment>りと<segment><kanji>露光</kanji><furigana>ろこう</furigana></segment>の<segment><kanji>関係</kanji><furigana>かんけい</furigana></segment>を<segment><kanji>学</kanji><furigana>まな</furigana></segment>びました。
+        </phrase>
+        <phrase>
+          <segment><kanji>近</kanji><furigana>ちか</furigana></segment>くの<segment><kanji>公園</kanji><furigana>こうえん</furigana></segment>で<segment><kanji>実際</kanji><furigana>じっさい</furigana></segment>に<segment><kanji>撮影</kanji><furigana>さつえい</furigana></segment>しました。
+        </phrase>
+        <phrase>
+          <segment><kanji>来月</kanji><furigana>らいげつ</furigana></segment>、<segment><kanji>写真展</kanji><furigana>しゃしんてん</furigana></segment>があるので<segment><kanji>準備</kanji><furigana>じゅんび</furigana></segment>をしています。
+        </phrase>
+      </content>
+      <translation>Saya bergabung dengan klub fotografi di universitas. Ada kegiatan setiap hari Rabu. Hari ini senior mengajari cara menggunakan kamera. Belajar hubungan aperture dan exposure. Praktek memotret di taman dekat. Persiapan pameran foto bulan depan.</translation>
+      <vocabulary>
+        <item>
+          <word>サークル</word>
+          <reading>さーくる</reading>
+          <romaji>saakuru</romaji>
+          <meaning>Klub (mahasiswa)</meaning>
+        </item>
+        <item>
+          <word>活動</word>
+          <reading>かつどう</reading>
+          <romaji>katsudou</romaji>
+          <meaning>Kegiatan</meaning>
+        </item>
+        <item>
+          <word>先輩</word>
+          <reading>せんぱい</reading>
+          <romaji>senpai</romaji>
+          <meaning>Senior</meaning>
+        </item>
+        <item>
+          <word>絞り</word>
+          <reading>しぼり</reading>
+          <romaji>shibori</romaji>
+          <meaning>Aperture</meaning>
+        </item>
+        <item>
+          <word>露光</word>
+          <reading>ろこう</reading>
+          <romaji>rokou</romaji>
+          <meaning>Exposure</meaning>
+        </item>
+        <item>
+          <word>写真展</word>
+          <reading>しゃしんてん</reading>
+          <romaji>shashinten</romaji>
+          <meaning>Pameran foto</meaning>
+        </item>
+      </vocabulary>
+    </text>
+
+    <!-- Teks 60: Berbelanja Online -->
+    <text id="60">
+      <title>
+        <jp>ネットショッピング</jp>
+        <reading>ねっとしょっぴんぐ</reading>
+        <id>Belanja Online</id>
+      </title>
+      <content>
+        <phrase>
+          <segment><kanji>昨日</kanji><furigana>きのう</furigana></segment>、<segment><kanji>初</kanji><furigana>はじ</furigana></segment>めて<segment><kanji>通販</kanji><furigana>つうはん</furigana></segment>で<segment><kanji>買</kanji><furigana>か</furigana></segment>い<segment><kanji>物</kanji><furigana>もの</furigana></segment>をしました。
+        </phrase>
+        <phrase>
+          <segment><kanji>欲</kanji><furigana>ほ</furigana></segment>しかった<segment><kanji>本</kanji><furigana>ほん</furigana></segment>を<segment><kanji>探</kanji><furigana>さが</furigana></segment>しました。
+        </phrase>
+        <phrase>
+          <segment><kanji>値段</kanji><furigana>ねだん</furigana></segment>を<segment><kanji>比</kanji><furigana>くら</furigana></segment>べて<segment><kanji>一番</kanji><furigana>いちばん</furigana></segment><segment><kanji>安</kanji><furigana>やす</furigana></segment>い<segment><kanji>店</kanji><furigana>みせ</furigana></segment>で<segment><kanji>注文</kanji><furigana>ちゅうもん</furigana></segment>しました。
+        </phrase>
+        <phrase>
+          <segment><kanji>支払</kanji><furigana>しはら</furigana></segment>いは<segment><kanji>銀行</kanji><furigana>ぎんこう</furigana></segment><segment><kanji>振込</kanji><furigana>ふりこみ</furigana></segment>にしました。
+        </phrase>
+        <phrase>
+          <segment><kanji>送料</kanji><furigana>そうりょう</furigana></segment>は<segment><kanji>五百円</kanji><furigana>ごひゃくえん</furigana></segment>でした。
+        </phrase>
+        <phrase>
+          <segment><kanji>三日後</kanji><furigana>みっかご</furigana></segment>に<segment><kanji>届</kanji><furigana>とど</furigana></segment>く<segment><kanji>予定</kanji><furigana>よてい</furigana></segment>です。
+        </phrase>
+      </content>
+      <translation>Kemarin saya berbelanja online untuk pertama kalinya. Mencari buku yang diinginkan. Membandingkan harga dan memesan di toko termurah. Pembayaran via transfer bank. Ongkir 500 yen. Dijadwalkan sampai 3 hari lagi.</translation>
+      <vocabulary>
+        <item>
+          <word>通販</word>
+          <reading>つうはん</reading>
+          <romaji>tsuuhan</romaji>
+          <meaning>Belanja online</meaning>
+        </item>
+        <item>
+          <word>比べる</word>
+          <reading>くらべる</reading>
+          <romaji>kuraberu</romaji>
+          <meaning>Membandingkan</meaning>
+        </item>
+        <item>
+          <word>一番</word>
+          <reading>いちばん</reading>
+          <romaji>ichiban</romaji>
+          <meaning>Paling/ter-</meaning>
+        </item>
+        <item>
+          <word>支払い</word>
+          <reading>しはらい</reading>
+          <romaji>shiharai</romaji>
+          <meaning>Pembayaran</meaning>
+        </item>
+        <item>
+          <word>振込</word>
+          <reading>ふりこみ</reading>
+          <romaji>furikomi</romaji>
+          <meaning>Transfer bank</meaning>
+        </item>
+        <item>
+          <word>送料</word>
+          <reading>そうりょう</reading>
+          <romaji>souryou</romaji>
+          <meaning>Ongkir</meaning>
+        </item>
+      </vocabulary>
+    </text>
+
+    <!-- Teks 61: Di Taman Nasional -->
+    <text id="61">
+      <title>
+        <jp>ハイキング</jp>
+        <reading>はいきんぐ</reading>
+        <id>Mendaki</id>
+      </title>
+      <content>
+        <phrase>
+          <segment><kanji>日曜日</kanji><furigana>にちようび</furigana></segment>に<segment><kanji>高尾山</kanji><furigana>たかおさん</furigana></segment>へ<segment><kanji>登山</kanji><furigana>とざん</furigana></segment>に<segment><kanji>行</kanji><furigana>い</furigana></segment>きました。
+        </phrase>
+        <phrase>
+          <segment><kanji>山</kanji><furigana>やま</furigana></segment>の<segment><kanji>入</kanji><furigana>い</furigana></span>り<segment><kanji>口</kanji><furigana>ぐち</furigana></segment>で<segment><kanji>地図</kanji><furigana>ちず</furigana></segment>を<segment><kanji>貰</kanji><furigana>もら</furigana></segment>いました。
+        </phrase>
+        <phrase>
+          <segment><kanji>頂上</kanji><furigana>ちょうじょう</furigana></segment>まで<segment><kanji>約</kanji><furigana>やく</furigana></segment><segment><kanji>二時間</kanji><furigana>にじかん</furigana></segment>かかりました。
+        </phrase>
+        <phrase>
+          <segment><kanji>途中</kanji><furigana>とちゅう</furigana></segment>、<segment><kanji>綺麗</kanji><furigana>きれい</furigana></segment>な<segment><kanji>滝</kanji><furigana>たき</furigana></segment>がありました。
+        </phrase>
+        <phrase>
+          <segment><kanji>頂上</kanji><furigana>ちょうじょう</furigana></segment>から<segment><kanji>富士山</kanji><furigana>ふじさん</furigana></segment>が<segment><kanji>見</kanji><furigana>み</furigana></segment>えました。
+        </phrase>
+        <phrase>
+          <segment><kanji>下山</kanji><furigana>げざん</furigana></segment>の<segment><kanji>後</kanji><furigana>あと</furigana></segment>、<segment><kanji>温泉</kanji><furigana>おんせん</furigana></segment>で<segment><kanji>疲</kanji><furigana>つか</furigana></segment>れを<segment><kanji>取</kanji><furigana>と</furigana></segment>りました。
+        </phrase>
+      </content>
+      <translation>Hari Minggu saya mendaki Gunung Takao. Mengambil peta di pintu masuk gunung. Butuh sekitar 2 jam ke puncak. Di tengah jalan ada air terjun indah. Dari puncak terlihat Gunung Fuji. Setelah turun, melepas lelah di pemandian air panas.</translation>
+      <vocabulary>
+        <item>
+          <word>高尾山</word>
+          <reading>たかおさん</reading>
+          <romaji>takaosan</romaji>
+          <meaning>Gunung Takao</meaning>
+        </item>
+        <item>
+          <word>登山</word>
+          <reading>とざん</reading>
+          <romaji>tozan</romaji>
+          <meaning>Mendaki gunung</meaning>
+        </item>
+        <item>
+          <word>頂上</word>
+          <reading>ちょうじょう</reading>
+          <romaji>choujou</romaji>
+          <meaning>Puncak</meaning>
+        </item>
+        <item>
+          <word>約</word>
+          <reading>やく</reading>
+          <romaji>yaku</romaji>
+          <meaning>Sekitar</meaning>
+        </item>
+        <item>
+          <word>途中</word>
+          <reading>とちゅう</reading>
+          <romaji>tochuu</romaji>
+          <meaning>Di tengah jalan</meaning>
+        </item>
+        <item>
+          <word>滝</word>
+          <reading>たき</reading>
+          <romaji>taki</romaji>
+          <meaning>Air terjun</meaning>
+        </item>
+      </vocabulary>
+    </text>
+
+    <!-- Teks 62: Di Salon Kuku -->
+    <text id="62">
+      <title>
+        <jp>ネイルサロン</jp>
+        <reading>ねいるさろん</reading>
+        <id>Salon Kuku</id>
+      </title>
+      <content>
+        <phrase>
+          <segment><kanji>今日</kanji><furigana>きょう</furigana></segment>は<segment><kanji>友達</kanji><furigana>ともだち</furigana></segment>とネイルサロンに<segment><kanji>行</kanji><furigana>い</furigana></segment>きました。
+        </phrase>
+        <phrase>
+          <segment><kanji>予約</kanji><furigana>よやく</furigana></segment>なしで<segment><kanji>入</kanji><furigana>はい</furigana></segment>れたので<segment><kanji>助</kanji><furigana>たす</furigana></segment>かりました。
+        </phrase>
+        <phrase>
+          <segment><kanji>色</kanji><furigana>いろ</furigana></segment>は<segment><kanji>春</kanji><furigana>はる</furigana></segment>らしく<segment><kanji>薄</kanji><furigana>うす</furigana></segment>い<segment><kanji>桃色</kanji><furigana>ももいろ</furigana></segment>にしました。
+        </phrase>
+        <phrase>
+          <segment><kanji>片手</kanji><furigana>かたて</furigana></segment>に<segment><kanji>花</kanji><furigana>はな</furigana></segment>の<segment><kanji>絵</kanji><furigana>え</furigana></segment>を<segment><kanji>描</kanji><furigana>か</furigana></segment>いてもらいました。
+        </phrase>
+        <phrase>
+          <segment><kanji>乾</kanji><furigana>かわ</furigana></segment>くまで<segment><kanji>三十分</kanji><furigana>さんじゅっぷん</furigana></segment><segment><kanji>待</kanji><furigana>ま</furigana></segment>ちました。
+        </phrase>
+        <phrase>
+          <segment><kanji>両手</kanji><furigana>りょうて</furigana></segment>で<segment><kanji>四千円</kanji><furigana>よんせんえん</furigana></segment>でした。
+        </phrase>
+      </content>
+      <translation>Hari ini saya pergi ke salon kuku bersama teman. Untung bisa masuk tanpa reservasi. Memilih warna pink muda yang cocok untuk musim semi. Minta digambar bunga di satu tangan. Menunggu 30 menit sampai kering. Kedua tangan 4000 yen.</translation>
+      <vocabulary>
+        <item>
+          <word>ネイルサロン</word>
+          <reading>ねいるさろん</reading>
+          <romaji>neirusaron</romaji>
+          <meaning>Salon kuku</meaning>
+        </item>
+        <item>
+          <word>助かる</word>
+          <reading>たすかる</reading>
+          <romaji>tasukaru</romaji>
+          <meaning>Untung/terbantu</meaning>
+        </item>
+        <item>
+          <word>桃色</word>
+          <reading>ももいろ</reading>
+          <romaji>momoiro</romaji>
+          <meaning>Warna pink</meaning>
+        </item>
+        <item>
+          <word>片手</word>
+          <reading>かたて</reading>
+          <romaji>katate</romaji>
+          <meaning>Satu tangan</meaning>
+        </item>
+        <item>
+          <word>絵</word>
+          <reading>え</reading>
+          <romaji>e</romaji>
+          <meaning>Gambar</meaning>
+        </item>
+        <item>
+          <word>両手</word>
+          <reading>りょうて</reading>
+          <romaji>ryoute</romaji>
+          <meaning>Kedua tangan</meaning>
+        </item>
+      </vocabulary>
+    </text>
+
+    <!-- Teks 63: Di Rumah Makan -->
+    <text id="63">
+      <title>
+        <jp>ファミレス</jp>
+        <reading>ふぁみれす</reading>
+        <id>Rumah Makan Keluarga</id>
+      </title>
+      <content>
+        <phrase>
+          <segment><kanji>昨日</kanji><furigana>きのう</furigana></segment>の<segment><kanji>夜</kanji><furigana>よる</furigana></segment>、<segment><kanji>家族</kanji><furigana>かぞく</furigana></segment>でファミレスに<segment><kanji>行</kanji><furigana>い</furigana></segment>きました。
+        </phrase>
+        <phrase>
+          <segment><kanji>子供達</kanji><furigana>こどもたち</furigana></segment>は<segment><kanji>ハンバーグ</kanji><furigana>はんばーぐ</furigana></segment>を<segment><kanji>選</kanji><furigana>えら</furigana></segment>びました。
+        </phrase>
+        <phrase>
+          <segment><kanji>私</kanji><furigana>わたし</furigana></segment>は<segment><kanji>和風</kanji><furigana>わふう</furigana></segment><segment><kanji>パスタ</kanji><furigana>ぱすた</furigana></segment>にしました。
+        </phrase>
+        <phrase>
+          <segment><kanji>ドリンク</kanji><furigana>どりんく</furigana></segment>バーは<segment><kanji>飲</kanji><furigana>の</furigana></segment>み<segment><kanji>放題</kanji><furigana>ほうだい</furigana></segment>です。
+        </phrase>
+        <phrase>
+          <segment><kanji>食後</kanji><furigana>しょくご</furigana></segment>に<segment><kanji> Dessert </kanji><furigana>でざーと</furigana></segment>も<segment><kanji>注文</kanji><furigana>ちゅうもん</furigana></segment>しました。
+        </phrase>
+        <phrase>
+          <segment><kanji>合計</kanji><furigana>ごうけい</furigana></segment><segment><kanji>四千五百円</kanji><furigana>よんせんごひゃくえん</furigana></segment>でした。
+        </phrase>
+      </content>
+      <translation>Kemarin malam saya pergi ke restoran keluarga bersama keluarga. Anak-anak memilih hamburg steak. Saya memilih pasta gaya Jepang. Drink bar bebas minum. Setelah makan memesan dessert juga. Total 4500 yen.</translation>
+      <vocabulary>
+        <item>
+          <word>ファミレス</word>
+          <reading>ふぁみれす</reading>
+          <romaji>famiresu</romaji>
+          <meaning>Restoran keluarga</meaning>
+        </item>
+        <item>
+          <word>ハンバーグ</word>
+          <reading>はんばーぐ</reading>
+          <romaji>hanbaagu</romaji>
+          <meaning>Hamburg steak</meaning>
+        </item>
+        <item>
+          <word>和風</word>
+          <reading>わふう</reading>
+          <romaji>wafuu</romaji>
+          <meaning>Gaya Jepang</meaning>
+        </item>
+        <item>
+          <word>ドリンクバー</word>
+          <reading>どりんくばー</reading>
+          <romaji>dorinkubaa</romaji>
+          <meaning>Drink bar</meaning>
+        </item>
+        <item>
+          <word>飲み放題</word>
+          <reading>のみほうだい</reading>
+          <romaji>nomihoudai</romaji>
+          <meaning>Bebas minum</meaning>
+        </item>
+        <item>
+          <word>食後</word>
+          <reading>しょくご</reading>
+          <romaji>shokugo</romaji>
+          <meaning>Setelah makan</meaning>
+        </item>
+      </vocabulary>
+    </text>
+		  
   </texts>
 </jlpt-n5-dokkai>
