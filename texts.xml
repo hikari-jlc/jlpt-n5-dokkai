@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jlpt-n5-dokkai>
   <texts>
+
     <!-- Teks 1: Cuaca -->
     <text id="1">
       <title>
@@ -22,7 +23,7 @@
           <segment><kanji>私</kanji><furigana>わたし</furigana></segment>は<segment><kanji>公園</kanji><furigana>こうえん</furigana></segment>へ<segment><kanji>行</kanji><furigana>い</furigana></segment>きました。
         </phrase>
         <phrase>
-          <segment><kanji>公園</kanji><furigana>こうえん</furigana></segment>では<segment><kanji>子</kanji><furigana>こ</furigana></segment>どもたちが<segment><kanji>遊</kanji><furigana>あそ</furigana></segment>んでいました。
+          <segment><kanji>公園</kanji><furigana>こうえん</furigana></segment>では<segment><kanji>子供達</kanji><furigana>こどもたち</furigana></segment>が<segment><kanji>遊</kanji><furigana>あそ</furigana></segment>んでいました。
         </phrase>
         <phrase>
           <segment><kanji>犬</kanji><furigana>いぬ</furigana></segment>も<segment><kanji>走</kanji><furigana>はし</furigana></segment>っていました。
@@ -93,7 +94,7 @@
           <segment><kanji>映画</kanji><furigana>えいが</furigana></segment>は<segment><kanji>面白</kanji><furigana>おもしろ</furigana></segment>かったです。
         </phrase>
         <phrase>
-          <segment><kanji>午後</kanji><furigana>ごご</furigana></segment>は<segment><kanji>一緒</kanji><furigana>いっしょ</furigana></segment>に<segment><kanji>買</kanji><furigana>か</furigana></segment>い<segment><kanji>物</kanji><furigana>もの</furigana></segment>をしました。
+          <segment><kanji>午後</kanji><furigana>ごご</furigana></segment>は<segment><kanji>一緒</kanji><furigana>いっしょ</furigana></segment>に<segment><kanji>買い物</kanji><furigana>かいもの</furigana></segment>をしました。
         </phrase>
         <phrase>
           <segment><kanji>新</kanji><furigana>あたら</furigana></segment>しい<segment><kanji>靴</kanji><furigana>くつ</furigana></segment>を<segment><kanji>買</kanji><furigana>か</furigana></segment>いました。
@@ -161,13 +162,13 @@
           <segment><kanji>母</kanji><furigana>はは</furigana></segment>は<segment><kanji>寿司</kanji><furigana>すし</furigana></segment>を<segment><kanji>食</kanji><furigana>た</furigana></segment>べました。
         </phrase>
         <phrase>
-          <segment><kanji>父</kanji><furigana>ちち</furigana></segment>は<segment><kanji>天</kanji><furigana>てん</furigana></segment><segment><kanji>婦</kanji><furigana>ぷら</furigana></segment>を<segment><kanji>食</kanji><furigana>た</furigana></segment>べました。
+          <segment><kanji>父</kanji><furigana>ちち</furigana></segment>は<segment><kanji>天婦羅</kanji><furigana>てんぷら</furigana></segment>を<segment><kanji>食</kanji><furigana>た</furigana></segment>べました。
         </phrase>
         <phrase>
           <segment><kanji>私</kanji><furigana>わたし</furigana></segment>はうどんを<segment><kanji>食</kanji><furigana>た</furigana></segment>べました。
         </phrase>
         <phrase>
-          みんなで<segment><kanji>茶</kanji><furigana>ちゃ</furigana></segment>を<segment><kanji>飲</kanji><furigana>の</furigana></segment>みました。
+          みんなで<segment><kanji>お茶</kanji><furigana>おちゃ</furigana></segment>を<segment><kanji>飲</kanji><furigana>の</furigana></segment>みました。
         </phrase>
         <phrase>
           ごちそうさまでした。
@@ -235,7 +236,7 @@
           <segment><kanji>学校</kanji><furigana>がっこう</furigana></segment>で<segment><kanji>日本語</kanji><furigana>にほんご</furigana></segment>を<segment><kanji>勉強</kanji><furigana>べんきょう</furigana></segment>します。
         </phrase>
         <phrase>
-          <segment><kanji>昼</kanji><furigana>ひる</furigana></segment>ご<segment><kanji>飯</kanji><furigana>はん</furigana></segment>は<segment><kanji>学校</kanji><furigana>がっこう</furigana></segment>の<segment><kanji>食</kanji><furigana>しょく</furigana></segment><segment><kanji>堂</kanji><furigana>どう</furigana></segment>で<segment><kanji>食</kanji><furigana>た</furigana></segment>べます。
+          <segment><kanji>昼</kanji><furigana>ひる</furigana></segment>ご<segment><kanji>飯</kanji><furigana>はん</furigana></segment>は<segment><kanji>学校</kanji><furigana>がっこう</furigana></segment>の<segment><kanji>食堂</kanji><furigana>しょくどう</furigana></segment>で<segment><kanji>食</kanji><furigana>た</furigana></segment>べます。
         </phrase>
         <phrase>
           <segment><kanji>午後</kanji><furigana>ごご</furigana></segment><segment><kanji>三時</kanji><furigana>さんじ</furigana></segment>に<segment><kanji>家</kanji><furigana>いえ</furigana></segment>へ<segment><kanji>帰</kanji><furigana>かえ</furigana></segment>ります。
@@ -291,10 +292,10 @@
       </title>
       <content>
         <phrase>
-          <segment><kanji>私</kanji><furigana>わたし</furigana></segment>の<segment><kanji>父</kanji><furigana>ちち</furigana></segment>は<segment><kanji>会</kanji><furigana>かい</furigana></segment><segment><kanji>社</kanji><furigana>しゃ</furigana></segment><segment><kanji>員</kanji><furigana>いん</furigana></segment>です。
+          <segment><kanji>私</kanji><furigana>わたし</furigana></segment>の<segment><kanji>父</kanji><furigana>ちち</furigana></segment>は<segment><kanji>会社員</kanji><furigana>かいしゃいん</furigana></segment>です。
         </phrase>
         <phrase>
-          <segment><kanji>大</kanji><furigana>おお</furigana></segment>きい<segment><kanji>会</kanji><furigana>かい</furigana></segment><segment><kanji>社</kanji><furigana>しゃ</furigana></segment>で<segment><kanji>働</kanji><furigana>はたら</furigana></segment>いています。
+          <segment><kanji>大</kanji><furigana>おお</furigana></segment>きい<segment><kanji>会社</kanji><furigana>かいしゃ</furigana></segment>で<segment><kanji>働</kanji><furigana>はたら</furigana></segment>いています。
         </phrase>
         <phrase>
           <segment><kanji>毎朝</kanji><furigana>まいあさ</furigana></segment><segment><kanji>七時</kanji><furigana>しちじ</furigana></segment>に<segment><kanji>起</kanji><furigana>お</furigana></segment>きて、<segment><kanji>八時</kanji><furigana>はちじ</furigana></segment>に<segment><kanji>家</kanji><furigana>いえ</furigana></segment>を<segment><kanji>出</kanji><furigana>で</furigana></segment>ます。
@@ -359,19 +360,19 @@
       </title>
       <content>
         <phrase>
-          <segment><kanji>私</kanji><furigana>わたし</furigana></segment>の<segment><kanji>趣味</kanji><furigana>しゅみ</furigana></segment>は<segment><kanji>音</kanji><furigana>おん</furigana></segment><segment><kanji>楽</kanji><furigana>がく</furigana></segment>を<segment><kanji>聞</kanji><furigana>き</furigana></segment>くことです。
+          <segment><kanji>私</kanji><furigana>わたし</furigana></segment>の<segment><kanji>趣味</kanji><furigana>しゅみ</furigana></segment>は<segment><kanji>音楽</kanji><furigana>おんがく</furigana></segment>を<segment><kanji>聞</kanji><furigana>き</furigana></segment>くことです。
         </phrase>
         <phrase>
           <segment><kanji>特</kanji><furigana>とく</furigana></segment>に<segment><kanji>日本</kanji><furigana>にほん</furigana></segment>の<segment><kanji>歌</kanji><furigana>うた</furigana></segment>が<segment><kanji>好</kanji><furigana>す</furigana></segment>きです。
         </phrase>
         <phrase>
-          <segment><kanji>毎晩</kanji><furigana>まいばん</furigana></segment><segment><kanji>寝</kanji><furigana>ね</furigana></segment>る<segment><kanji>前</kanji><furigana>まえ</furigana></segment>に<segment><kanji>音</kanji><furigana>おん</furigana></segment><segment><kanji>楽</kanji><furigana>がく</furigana></segment>を<segment><kanji>聞</kanji><furigana>き</furigana></segment>きます。
+          <segment><kanji>毎晩</kanji><furigana>まいばん</furigana></segment><segment><kanji>寝</kanji><furigana>ね</furigana></segment>る<segment><kanji>前</kanji><furigana>まえ</furigana></segment>に<segment><kanji>音楽</kanji><furigana>おんがく</furigana></segment>を<segment><kanji>聞</kanji><furigana>き</furigana></segment>きます。
         </phrase>
         <phrase>
-          <segment><kanji>週</kanji><furigana>しゅう</furigana></segment><segment><kanji>末</kanji><furigana>まつ</furigana></segment>にはコンサートに<segment><kanji>行</kanji><furigana>い</furigana></segment>きます。
+          <segment><kanji>週末</kanji><furigana>しゅうまつ</furigana></segment>にはコンサートに<segment><kanji>行</kanji><furigana>い</furigana></segment>きます。
         </phrase>
         <phrase>
-          <segment><kanji>音</kanji><furigana>おん</furigana></segment><segment><kanji>楽</kanji><furigana>がく</furigana></segment>は<segment><kanji>私</kanji><furigana>わたし</furigana></segment>をリラックスさせます。
+          <segment><kanji>音楽</kanji><furigana>おんがく</furigana></segment>は<segment><kanji>私</kanji><furigana>わたし</furigana></segment>をリラックスさせます。
         </phrase>
       </content>
       <translation>Hobi saya adalah mendengarkan musik. Saya sangat suka lagu Jepang. Setiap malam sebelum tidur saya mendengarkan musik. Akhir pekan saya pergi ke konser. Musik membuat saya rileks.</translation>
@@ -424,7 +425,7 @@
       </title>
       <content>
         <phrase>
-          <segment><kanji>今日</kanji><furigana>きょう</furigana></segment>はスーパーへ<segment><kanji>買</kanji><furigana>か</furigana></segment>い<segment><kanji>物</kanji><furigana>もの</furigana></segment>に<segment><kanji>行</kanji><furigana>い</furigana></segment>きました。
+          <segment><kanji>今日</kanji><furigana>きょう</furigana></segment>はスーパーへ<segment><kanji>買い物</kanji><furigana>かいもの</furigana></segment>に<segment><kanji>行</kanji><furigana>い</furigana></segment>きました。
         </phrase>
         <phrase>
           りんごを<segment><kanji>三</kanji><furigana>みっ</furigana></segment>つとみかんを<segment><kanji>五</kanji><furigana>いつ</furigana></segment>つ<segment><kanji>買</kanji><furigana>か</furigana></segment>いました。
@@ -436,7 +437,7 @@
           <segment><kanji>全部</kanji><furigana>ぜんぶ</furigana></segment>で<segment><kanji>二千円</kanji><furigana>にせんえん</furigana></segment>でした。
         </phrase>
         <phrase>
-          スーパーは<segment><kanji>安</kanji><furigana>やす</furigana></segment>くて、<segment><kanji>便</kanji><furigana>べん</furigana></segment><segment><kanji>利</kanji><furigana>り</furigana></segment>です。
+          スーパーは<segment><kanji>安</kanji><furigana>やす</furigana></segment>くて、<segment><kanji>便利</kanji><furigana>べんり</furigana></segment>です。
         </phrase>
       </content>
       <translation>Hari ini saya pergi berbelanja ke supermarket. Saya membeli 3 apel dan 5 jeruk. Saya juga membeli daging. Totalnya 2000 yen. Supermarketnya murah dan nyaman.</translation>
@@ -489,16 +490,16 @@
       </title>
       <content>
         <phrase>
-          <segment><kanji>今週</kanji><furigana>こんしゅう</furigana></segment>の<segment><kanji>土</kanji><furigana>ど</furigana></segment><segment><kanji>曜</kanji><furigana>よう</furigana></segment><segment><kanji>日</kanji><furigana>び</furigana></segment>に<segment><kanji>友</kanji><furigana>とも</furigana></segment><segment><kanji>達</kanji><furigana>だち</furigana></segment>とピクニックに<segment><kanji>行</kanji><furigana>い</furigana></segment>きます。
+          <segment><kanji>今週</kanji><furigana>こんしゅう</furigana></segment>の<segment><kanji>土曜日</kanji><furigana>どようび</furigana></segment>に<segment><kanji>友達</kanji><furigana>ともだち</furigana></segment>とピクニックに<segment><kanji>行</kanji><furigana>い</furigana></segment>きます。
         </phrase>
         <phrase>
-          お<segment><kanji>弁</kanji><furigana>べん</furigana></segment><segment><kanji>当</kanji><furigana>とう</furigana></segment>を<segment><kanji>作</kanji><furigana>つく</furigana></segment>って、<segment><kanji>山</kanji><furigana>やま</furigana></segment>へ<segment><kanji>行</kanji><furigana>い</furigana></segment>きます。
+          <segment><kanji>お弁当</kanji><furigana>おべんとう</furigana></segment>を<segment><kanji>作</kanji><furigana>つく</furigana></segment>って、<segment><kanji>山</kanji><furigana>やま</furigana></segment>へ<segment><kanji>行</kanji><furigana>い</furigana></segment>きます。
         </phrase>
         <phrase>
-          そこで<segment><kanji>写</kanji><furigana>しゃ</furigana></segment><segment><kanji>真</kanji><furigana>しん</furigana></segment>を<segment><kanji>撮</kanji><furigana>と</furigana></segment>りたいです。
+          そこで<segment><kanji>写真</kanji><furigana>しゃしん</furigana></segment>を<segment><kanji>撮</kanji><furigana>と</furigana></segment>りたいです。
         </phrase>
         <phrase>
-          <segment><kanji>日</kanji><furigana>にち</furigana></segment><segment><kanji>曜</kanji><furigana>よう</furigana></segment><segment><kanji>日</kanji><furigana>び</furigana></segment>は<segment><kanji>家</kanji><furigana>いえ</furigana></segment>でゆっくり<segment><kanji>休</kanji><furigana>やす</furigana></segment>みます。
+          <segment><kanji>日曜日</kanji><furigana>にちようび</furigana></segment>は<segment><kanji>家</kanji><furigana>いえ</furigana></segment>でゆっくり<segment><kanji>休</kanji><furigana>やす</furigana></segment>みます。
         </phrase>
         <phrase>
           <segment><kanji>楽</kanji><furigana>たの</furigana></segment>しみです。
@@ -554,22 +555,22 @@
       </title>
       <content>
         <phrase>
-          <segment><kanji>昨日</kanji><furigana>きのう</furigana></segment>、<segment><kanji>風</kanji><furigana>かぜ</furigana></segment>を<segment><kanji>引</kanji><furigana>ひ</furigana></segment>きました。
+          <segment><kanji>昨日</kanji><furigana>きのう</furigana></segment>、<segment><kanji>風邪</kanji><furigana>かぜ</furigana></segment>を<segment><kanji>引</kanji><furigana>ひ</furigana></segment>きました。
         </phrase>
         <phrase>
           <segment><kanji>頭</kanji><furigana>あたま</furigana></segment>が<segment><kanji>痛</kanji><furigana>いた</furigana></segment>くて、<segment><kanji>熱</kanji><furigana>ねつ</furigana></segment>もありました。
         </phrase>
         <phrase>
-          <segment><kanji>母</kanji><furigana>はは</furigana></segment>に<segment><kanji>連</kanji><furigana>つ</furigana></segment>れられて<segment><kanji>病</kanji><furigana>びょう</furigana></segment><segment><kanji>院</kanji><furigana>いん</furigana></segment>へ<segment><kanji>行</kanji><furigana>い</furigana></segment>きました。
+          <segment><kanji>母</kanji><furigana>はは</furigana></segment>に<segment><kanji>連</kanji><furigana>つ</furigana></segment>れられて<segment><kanji>病院</kanji><furigana>びょういん</furigana></segment>へ<segment><kanji>行</kanji><furigana>い</furigana></segment>きました。
         </phrase>
         <phrase>
-          お<segment><kanji>医</kanji><furigana>い</furigana></segment><segment><kanji>者</kanji><furigana>しゃ</furigana></segment>さんに<segment><kanji>診</kanji><furigana>み</furigana></segment>てもらいました。
+          <segment><kanji>医者</kanji><furigana>いしゃ</furigana></segment>に<segment><kanji>診</kanji><furigana>み</furigana></segment>てもらいました。
         </phrase>
         <phrase>
           <segment><kanji>薬</kanji><furigana>くすり</furigana></segment>をもらって、<segment><kanji>家</kanji><furigana>いえ</furigana></segment>で<segment><kanji>寝</kanji><furigana>ね</furigana></segment>ていました。
         </phrase>
         <phrase>
-          <segment><kanji>今日</kanji><furigana>きょう</furigana></segment>はもう<segment><kanji>大</kanji><furigana>だい</furigana></segment><segment><kanji>丈</kanji><furigana>じょう</furigana></segment><segment><kanji>夫</kanji><furigana>ぶ</furigana></segment>です。
+          <segment><kanji>今日</kanji><furigana>きょう</furigana></segment>はもう<segment><kanji>大丈夫</kanji><furigana>だいじょうぶ</furigana></segment>です。
         </phrase>
       </content>
       <translation>Kemarin saya sakit flu. Kepala saya sakit dan demam. Ibu mengantar saya ke rumah sakit. Dokter memeriksa saya. Saya mendapat obat dan tidur di rumah. Hari ini sudah baikan.</translation>
@@ -631,13 +632,13 @@
           <segment><kanji>日本</kanji><furigana>にほん</furigana></segment>の<segment><kanji>東京</kanji><furigana>とうきょう</furigana></segment>から<segment><kanji>来</kanji><furigana>き</furigana></segment>ました。
         </phrase>
         <phrase>
-          <segment><kanji>今</kanji><furigana>いま</furigana></segment>は<segment><kanji>大</kanji><furigana>だい</furigana></segment><segment><kanji>学</kanji><furigana>がく</furigana></segment><segment><kanji>生</kanji><furigana>せい</furigana></segment>です。
+          <segment><kanji>今</kanji><furigana>いま</furigana></segment>は<segment><kanji>大学生</kanji><furigana>だいがくせい</furigana></segment>です。
         </phrase>
         <phrase>
-          <segment><kanji>専</kanji><furigana>せん</furigana></segment><segment><kanji>攻</kanji><furigana>こう</furigana></segment>は<segment><kanji>経</kanji><furigana>けい</furigana></segment><segment><kanji>済</kanji><furigana>ざい</furigana></segment>です。
+          <segment><kanji>専攻</kanji><furigana>せんこう</furigana></segment>は<segment><kanji>経済</kanji><furigana>けいざい</furigana></segment>です。
         </phrase>
         <phrase>
-          <segment><kanji>趣味</kanji><furigana>しゅみ</furigana></segment>はスポーツと<segment><kanji>読</kanji><furigana>どく</furigana></segment><segment><kanji>書</kanji><furigana>しょ</furigana></segment>です。
+          <segment><kanji>趣味</kanji><furigana>しゅみ</furigana></segment>はスポーツと<segment><kanji>読書</kanji><furigana>どくしょ</furigana></segment>です。
         </phrase>
         <phrase>
           よろしくお<segment><kanji>願</kanji><furigana>ねが</furigana></segment>いします。
@@ -693,19 +694,19 @@
       </title>
       <content>
         <phrase>
-          <segment><kanji>先週</kanji><furigana>せんしゅう</furigana></segment>、<segment><kanji>友</kanji><furigana>とも</furigana></segment><segment><kanji>達</kanji><furigana>だち</furigana></segment>に<segment><kanji>手</kanji><furigana>て</furigana></segment><segment><kanji>紙</kanji><furigana>がみ</furigana></segment>を<segment><kanji>出</kanji><furigana>だ</furigana></segment>しました。
+          <segment><kanji>先週</kanji><furigana>せんしゅう</furigana></segment>、<segment><kanji>友達</kanji><furigana>ともだち</furigana></segment>に<segment><kanji>手紙</kanji><furigana>てがみ</furigana></segment>を<segment><kanji>出</kanji><furigana>だ</furigana></segment>しました。
         </phrase>
         <phrase>
-          <segment><kanji>郵</kanji><furigana>ゆう</furigana></segment><segment><kanji>便</kanji><furigana>びん</furigana></segment><segment><kanji>局</kanji><furigana>きょく</furigana></segment>へ<segment><kanji>行</kanji><furigana>い</furigana></segment>きました。
+          <segment><kanji>郵便局</kanji><furigana>ゆうびんきょく</furigana></segment>へ<segment><kanji>行</kanji><furigana>い</furigana></segment>きました。
         </phrase>
         <phrase>
-          <segment><kanji>切</kanji><furigana>きっ</furigana></segment><segment><kanji>手</kanji><furigana>て</furigana></segment>を<segment><kanji>買</kanji><furigana>か</furigana></segment>いました。
+          <segment><kanji>切手</kanji><furigana>きって</furigana></segment>を<segment><kanji>買</kanji><furigana>か</furigana></segment>いました。
         </phrase>
         <phrase>
-          <segment><kanji>料</kanji><furigana>りょう</furigana></segment><segment><kanji>金</kanji><furigana>きん</furigana></segment>は<segment><kanji>百円</kanji><furigana>ひゃくえん</furigana></segment>でした。
+          <segment><kanji>料金</kanji><furigana>りょうきん</furigana></segment>は<segment><kanji>百円</kanji><furigana>ひゃくえん</furigana></segment>でした。
         </phrase>
         <phrase>
-          <segment><kanji>手</kanji><furigana>て</furigana></segment><segment><kanji>紙</kanji><furigana>がみ</furigana></segment>は<segment><kanji>三</kanji><furigana>みっ</furigana></segment><segment><kanji>日</kanji><furigana>か</furigana></segment>で<segment><kanji>届</kanji><furigana>とど</furigana></segment>きます。
+          <segment><kanji>手紙</kanji><furigana>てがみ</furigana></segment>は<segment><kanji>三日</kanji><furigana>みっか</furigana></segment>で<segment><kanji>届</kanji><furigana>とど</furigana></segment>きます。
         </phrase>
       </content>
       <translation>Minggu lalu, saya mengirim surat kepada teman. Saya pergi ke kantor pos. Saya membeli perangko. Biayanya 100 yen. Surat akan sampai dalam 3 hari.</translation>
@@ -758,22 +759,22 @@
       </title>
       <content>
         <phrase>
-          <segment><kanji>今日</kanji><furigana>きょう</furigana></segment>、<segment><kanji>銀</kanji><furigana>ぎん</furigana></segment><segment><kanji>行</kanji><furigana>こう</furigana></segment>へ<segment><kanji>行</kanji><furigana>い</furigana></segment>きました。
+          <segment><kanji>今日</kanji><furigana>きょう</furigana></segment>、<segment><kanji>銀行</kanji><furigana>ぎんこう</furigana></segment>へ<segment><kanji>行</kanji><furigana>い</furigana></segment>きました。
         </phrase>
         <phrase>
-          <segment><kanji>口</kanji><furigana>こう</furigana></segment><segment><kanji>座</kanji><furigana>ざ</furigana></segment>を<segment><kanji>作</kanji><furigana>つく</furigana></segment>りたいです。
+          <segment><kanji>口座</kanji><furigana>こうざ</furigana></segment>を<segment><kanji>作</kanji><furigana>つく</furigana></segment>りたいです。
         </phrase>
         <phrase>
-          <segment><kanji>窓</kanji><furigana>まど</furigana></segment><segment><kanji>口</kanji><furigana>ぐち</furigana></segment>で<segment><kanji>係</kanji><furigana>かかり</furigana></segment>の<segment><kanji>人</kanji><furigana>ひと</furigana></segment>に<segment><kanji>話</kanji><furigana>はな</furigana></segment>しました。
+          <segment><kanji>窓口</kanji><furigana>まどぐち</furigana></segment>で<segment><kanji>係</kanji><furigana>かかり</furigana></segment>の<segment><kanji>人</kanji><furigana>ひと</furigana></segment>に<segment><kanji>話</kanji><furigana>はな</furigana></segment>しました。
         </phrase>
         <phrase>
-          <segment><kanji>免</kanji><furigana>めん</furigana></segment><segment><kanji>許</kanji><furigana>きょ</furigana></segment><segment><kanji>証</kanji><furigana>しょう</furigana></segment>を<segment><kanji>見</kanji><furigana>み</furigana></segment>せました。
+          <segment><kanji>免許証</kanji><furigana>めんきょしょう</furigana></segment>を<segment><kanji>見</kanji><furigana>み</furigana></segment>せました。
         </phrase>
         <phrase>
-          <segment><kanji>三</kanji><furigana>さん</furigana></segment><segment><kanji>十</kanji><furigana>じゅっ</furigana></segment><segment><kanji>分</kanji><furigana>ぷん</furigana></segment><segment><kanji>待</kanji><furigana>ま</furigana></segment>ちました。
+          <segment><kanji>三十分</kanji><furigana>さんじゅっぷん</furigana></segment><segment><kanji>待</kanji><furigana>ま</furigana></segment>ちました。
         </phrase>
         <phrase>
-          <segment><kanji>新</kanji><furigana>あたら</furigana></segment>しい<segment><kanji>口</kanji><furigana>こう</furigana></segment><segment><kanji>座</kanji><furigana>ざ</furigana></segment>ができました。
+          <segment><kanji>新</kanji><furigana>あたら</furigana></segment>しい<segment><kanji>口座</kanji><furigana>こうざ</furigana></segment>ができました。
         </phrase>
       </content>
       <translation>Hari ini saya pergi ke bank. Saya ingin membuat rekening. Saya berbicara dengan petugas di loket. Saya menunjukkan SIM. Saya menunggu 30 menit. Rekening baru sudah jadi.</translation>
@@ -826,22 +827,22 @@
       </title>
       <content>
         <phrase>
-          <segment><kanji>新</kanji><furigana>しん</furigana></segment><segment><kanji>大阪</kanji><furigana>おおさか</furigana></segment>へ<segment><kanji>行</kanji><furigana>い</furigana></segment>きたいです。
+          <segment><kanji>新大阪</kanji><furigana>しんおおさか</furigana></segment>へ<segment><kanji>行</kanji><furigana>い</furigana></segment>きたいです。
         </phrase>
         <phrase>
           <segment><kanji>駅</kanji><furigana>えき</furigana></segment>の<segment><kanji>人</kanji><furigana>ひと</furigana></segment>に<segment><kanji>聞</kanji><furigana>き</furigana></segment>きました。
         </phrase>
         <phrase>
-          <segment><kanji>新</kanji><furigana>しん</furigana></segment><segment><kanji>幹</kanji><furigana>かん</furigana></segment><segment><kanji>線</kanji><furigana>せん</furigana></segment>に<segment><kanji>乗</kanji><furigana>の</furigana></segment>ってください。
+          <segment><kanji>新幹線</kanji><furigana>しんかんせん</furigana></segment>に<segment><kanji>乗</kanji><furigana>の</furigana></segment>ってください。
         </phrase>
         <phrase>
-          <segment><kanji>切</kanji><furigana>きっ</furigana></segment><segment><kanji>符</kanji><furigana>ぷ</furigana></segment>を<segment><kanji>買</kanji><furigana>か</furigana></segment>いました。
+          <segment><kanji>切符</kanji><furigana>きっぷ</furigana></segment>を<segment><kanji>買</kanji><furigana>か</furigana></segment>いました。
         </phrase>
         <phrase>
-          <segment><kanji>料</kanji><furigana>りょう</furigana></segment><segment><kanji>金</kanji><furigana>きん</furigana></segment>は<segment><kanji>五</kanji><furigana>ご</furigana></segment><segment><kanji>千</kanji><furigana>せん</furigana></segment><segment><kanji>円</kanji><furigana>えん</furigana></segment>でした。
+          <segment><kanji>料金</kanji><furigana>りょうきん</furigana></segment>は<segment><kanji>五千円</kanji><furigana>ごせんえん</furigana></segment>でした。
         </phrase>
         <phrase>
-          <segment><kanji>電</kanji><furigana>でん</furigana></segment><segment><kanji>車</kanji><furigana>しゃ</furigana></segment>は<segment><kanji>二</kanji><furigana>に</furigana></segment><segment><kanji>十</kanji><furigana>じゅっ</furigana></segment><segment><kanji>分</kanji><furigana>ぷん</furigana></segment>で<segment><kanji>着</kanji><furigana>つ</furigana></segment>きます。
+          <segment><kanji>電車</kanji><furigana>でんしゃ</furigana></segment>は<segment><kanji>二十分</kanji><furigana>にじゅっぷん</furigana></segment>で<segment><kanji>着</kanji><furigana>つ</furigana></segment>きます。
         </phrase>
       </content>
       <translation>Saya ingin pergi ke Shin-Osaka. Saya bertanya kepada petugas stasiun. Naiklah shinkansen. Saya membeli tiket. Harganya 5000 yen. Kereta akan sampai dalam 20 menit.</translation>
@@ -894,22 +895,22 @@
       </title>
       <content>
         <phrase>
-          <segment><kanji>旅</kanji><furigana>りょ</furigana></segment><segment><kanji>行</kanji><furigana>こう</furigana></segment>で<segment><kanji>京</kanji><furigana>きょう</furigana></segment><segment><kanji>都</kanji><furigana>と</furigana></segment>へ<segment><kanji>来</kanji><furigana>き</furigana></segment>ました。
+          <segment><kanji>旅行</kanji><furigana>りょこう</furigana></segment>で<segment><kanji>京都</kanji><furigana>きょうと</furigana></segment>へ<segment><kanji>来</kanji><furigana>き</furigana></segment>ました。
         </phrase>
         <phrase>
-          ホテルを<segment><kanji>予</kanji><furigana>よ</furigana></segment><segment><kanji>約</kanji><furigana>やく</furigana></segment>しました。
+          ホテルを<segment><kanji>予約</kanji><furigana>よやく</furigana></segment>しました。
         </phrase>
         <phrase>
-          <segment><kanji>受</kanji><furigana>うけ</furigana></segment><segment><kanji>付</kanji><furigana>つけ</furigana></segment>で<segment><kanji>名</kanji><furigana>な</furigana></segment><segment><kanji>前</kanji><furigana>まえ</furigana></segment>を<segment><kanji>言</kanji><furigana>い</furigana></segment>いました。
+          <segment><kanji>受付</kanji><furigana>うけつけ</furigana></segment>で<segment><kanji>名前</kanji><furigana>なまえ</furigana></segment>を<segment><kanji>言</kanji><furigana>い</furigana></segment>いました。
         </phrase>
         <phrase>
-          <segment><kanji>部</kanji><furigana>へ</furigana></segment><segment><kanji>屋</kanji><furigana>や</furigana></segment>は<segment><kanji>三</kanji><furigana>さん</furigana></segment><segment><kanji>階</kanji><furigana>がい</furigana></segment>です。
+          <segment><kanji>部屋</kanji><furigana>へや</furigana></segment>は<segment><kanji>三階</kanji><furigana>さんがい</furigana></segment>です。
         </phrase>
         <phrase>
-          <segment><kanji>部</kanji><furigana>へ</furigana></segment><segment><kanji>屋</kanji><furigana>や</furigana></segment>は<segment><kanji>広</kanji><furigana>ひろ</furigana></segment>くて<segment><kanji>綺</kanji><furigana>き</furigana></segment><segment><kanji>麗</kanji><furigana>れい</furigana></segment>です。
+          <segment><kanji>部屋</kanji><furigana>へや</furigana></segment>は<segment><kanji>広</kanji><furigana>ひろ</furigana></segment>くて<segment><kanji>綺麗</kanji><furigana>きれい</furigana></segment>です。
         </phrase>
         <phrase>
-          <segment><kanji>朝</kanji><furigana>あさ</furigana></segment>ご<segment><kanji>飯</kanji><furigana>はん</furigana></segment>は<segment><kanji>七</kanji><furigana>しち</furigana></segment><segment><kanji>時</kanji><furigana>じ</furigana></segment>からです。
+          <segment><kanji>朝ご飯</kanji><furigana>あさごはん</furigana></segment>は<segment><kanji>七時</kanji><furigana>しちじ</furigana></segment>からです。
         </phrase>
       </content>
       <translation>Saya datang ke Kyoto untuk berwisata. Saya memesan hotel. Saya menyebutkan nama di resepsionis. Kamarnya di lantai 3. Kamarnya luas dan bersih. Sarapan mulai jam 7.</translation>
@@ -962,22 +963,22 @@
       </title>
       <content>
         <phrase>
-          <segment><kanji>毎</kanji><furigana>まい</furigana></segment><segment><kanji>週</kanji><furigana>しゅう</furigana></segment><segment><kanji>末</kanji><furigana>まつ</furigana></segment>、<segment><kanji>家</kanji><furigana>いえ</furigana></segment>の<segment><kanji>掃</kanji><furigana>そう</furigana></segment><segment><kanji>除</kanji><furigana>じ</furigana></segment>をします。
+          <segment><kanji>毎週末</kanji><furigana>まいしゅうまつ</furigana></segment>、<segment><kanji>家</kanji><furigana>いえ</furigana></segment>の<segment><kanji>掃除</kanji><furigana>そうじ</furigana></segment>をします。
         </phrase>
         <phrase>
-          <segment><kanji>部</kanji><furigana>へ</furigana></segment><segment><kanji>屋</kanji><furigana>や</furigana></segment>を<segment><kanji>掃</kanji><furigana>は</furigana></segment>き<segment><kanji>除</kanji><furigana>そうじ</furigana></segment>します。
+          <segment><kanji>部屋</kanji><furigana>へや</furigana></segment>を<segment><kanji>掃き除</kanji><furigana>はきそうじ</furigana></segment>します。
         </phrase>
         <phrase>
-          <segment><kanji>洗</kanji><furigana>せん</furigana></segment><segment><kanji>濯</kanji><furigana>たく</furigana></segment>もします。
+          <segment><kanji>洗濯</kanji><furigana>せんたく</furigana></segment>もします。
         </phrase>
         <phrase>
-          <segment><kanji>食</kanji><furigana>しょく</furigana></segment><segment><kanji>器</kanji><furigana>き</furigana></segment>を<segment><kanji>洗</kanji><furigana>あら</furigana></segment>います。
+          <segment><kanji>食器</kanji><furigana>しょっき</furigana></segment>を<segment><kanji>洗</kanji><furigana>あら</furigana></segment>います。
         </phrase>
         <phrase>
-          <segment><kanji>母</kanji><furigana>はは</furigana></segment>が<segment><kanji>料</kanji><furigana>りょう</furigana></segment><segment><kanji>理</kanji><furigana>り</furigana></segment>を<segment><kanji>作</kanji><furigana>つく</furigana></segment>ります。
+          <segment><kanji>母</kanji><furigana>はは</furigana></segment>が<segment><kanji>料理</kanji><furigana>りょうり</furigana></segment>を<segment><kanji>作</kanji><furigana>つく</furigana></segment>ります。
         </phrase>
         <phrase>
-          <segment><kanji>私</kanji><furigana>わたし</furigana></segment>は<segment><kanji>手</kanji><furigana>て</furigana></segment><segment><kanji>伝</kanji><furigana>つだ</furigana></segment>いします。
+          <segment><kanji>私</kanji><furigana>わたし</furigana></segment>は<segment><kanji>手伝</kanji><furigana>てつだ</furigana></segment>いします。
         </phrase>
       </content>
       <translation>Setiap akhir pekan, saya membersihkan rumah. Saya menyapu kamar. Saya juga mencuci baju. Saya mencuci piring. Ibu memasak. Saya membantu.</translation>
@@ -1030,22 +1031,22 @@
       </title>
       <content>
         <phrase>
-          <segment><kanji>私</kanji><furigana>わたし</furigana></segment>は<segment><kanji>毎</kanji><furigana>まい</furigana></segment><segment><kanji>朝</kanji><furigana>あさ</furigana></segment><segment><kanji>走</kanji><furigana>はし</furigana></segment>ることにしています。
+          <segment><kanji>私</kanji><furigana>わたし</furigana></segment>は<segment><kanji>毎朝</kanji><furigana>まいあさ</furigana></segment><segment><kanji>走</kanji><furigana>はし</furigana></segment>ることにしています。
         </phrase>
         <phrase>
-          <segment><kanji>六</kanji><furigana>ろく</furigana></segment><segment><kanji>時</kanji><furigana>じ</furigana></segment>に<segment><kanji>起</kanji><furigana>お</furigana></segment>きて、<segment><kanji>近</kanji><furigana>ちか</furigana></segment>くの<segment><kanji>公</kanji><furigana>こう</furigana></segment><segment><kanji>園</kanji><furigana>えん</furigana></segment>を<segment><kanji>三</kanji><furigana>さん</furigana></segment><segment><kanji>周</kanji><furigana>しゅう</furigana></segment>します。
+          <segment><kanji>六時</kanji><furigana>ろくじ</furigana></segment>に<segment><kanji>起</kanji><furigana>お</furigana></segment>きて、<segment><kanji>近</kanji><furigana>ちか</furigana></segment>くの<segment><kanji>公園</kanji><furigana>こうえん</furigana></segment>を<segment><kanji>三周</kanji><furigana>さんしゅう</furigana></segment>します。
         </phrase>
         <phrase>
-          <segment><kanji>汗</kanji><furigana>あせ</furigana></segment>を<segment><kanji>流</kanji><furigana>なが</furigana></segment>して<segment><kanji>気</kanji><furigana>き</furigana></segment><segment><kanji>持</kanji><furigana>も</furigana></segment>ちが<segment><kanji>良</kanji><furigana>よ</furigana></segment>くなります。
+          <segment><kanji>汗</kanji><furigana>あせ</furigana></segment>を<segment><kanji>流</kanji><furigana>なが</furigana></segment>して<segment><kanji>気持</kanji><furigana>きも</furigana></segment>ちが<segment><kanji>良</kanji><furigana>よ</furigana></segment>くなります。
         </phrase>
         <phrase>
-          <segment><kanji>週</kanji><furigana>しゅう</furigana></segment>に<segment><kanji>二</kanji><furigana>に</furigana></segment><segment><kanji>回</kanji><furigana>かい</furigana></segment>、<segment><kanji>泳</kanji><furigana>およ</furigana></segment>ぎにも<segment><kanji>行</kanji><furigana>い</furigana></segment>きます。
+          <segment><kanji>週</kanji><furigana>しゅう</furigana></segment>に<segment><kanji>二回</kanji><furigana>にかい</furigana></segment>、<segment><kanji>泳</kanji><furigana>およ</furigana></segment>ぎにも<segment><kanji>行</kanji><furigana>い</furigana></segment>きます。
         </phrase>
         <phrase>
-          <segment><kanji>水</kanji><furigana>すい</furigana></segment><segment><kanji>泳</kanji><furigana>えい</furigana></segment>は<segment><kanji>体</kanji><furigana>からだ</furigana></segment>に<segment><kanji>良</kanji><furigana>い</furigana></segment>です。
+          <segment><kanji>水泳</kanji><furigana>すいえい</furigana></segment>は<segment><kanji>体</kanji><furigana>からだ</furigana></segment>に<segment><kanji>良</kanji><furigana>い</furigana></segment>です。
         </phrase>
         <phrase>
-          <segment><kanji>健</kanji><furigana>けん</furigana></segment><segment><kanji>康</kanji><furigana>こう</furigana></segment>のために<segment><kanji>運</kanji><furigana>うん</furigana></segment><segment><kanji>動</kanji><furigana>どう</furigana></segment>を<segment><kanji>続</kanji><furigana>つづ</furigana></segment>けたいです。
+          <segment><kanji>健康</kanji><furigana>けんこう</furigana></segment>のために<segment><kanji>運動</kanji><furigana>うんどう</furigana></segment>を<segment><kanji>続</kanji><furigana>つづ</furigana></segment>けたいです。
         </phrase>
       </content>
       <translation>Saya berlari setiap pagi. Saya bangun jam 6 dan berlari 3 putaran di taman dekat rumah. Berkeringat membuat perasaan menjadi lebih baik. Dua kali seminggu, saya juga pergi berenang. Berenang bagus untuk tubuh. Saya ingin terus berolahraga untuk kesehatan.</translation>
@@ -1098,22 +1099,22 @@
       </title>
       <content>
         <phrase>
-          <segment><kanji>昨</kanji><furigana>きの</furigana></segment><segment><kanji>日</kanji><furigana>う</furigana></segment>の<segment><kanji>夜</kanji><furigana>よる</furigana></segment>、<segment><kanji>先</kanji><furigana>せん</furigana></segment><segment><kanji>生</kanji><furigana>せい</furigana></segment>に<segment><kanji>電</kanji><furigana>でん</furigana></segment><segment><kanji>話</kanji><furigana>わ</furigana></segment>をしました。
+          <segment><kanji>昨日</kanji><furigana>きのう</furigana></segment>の<segment><kanji>夜</kanji><furigana>よる</furigana></segment>、<segment><kanji>先生</kanji><furigana>せんせい</furigana></segment>に<segment><kanji>電話</kanji><furigana>でんわ</furigana></segment>をしました。
         </phrase>
         <phrase>
-          「もしもし、<segment><kanji>山</kanji><furigana>やま</furigana></segment><segment><kanji>田</kanji><furigana>だ</furigana></segment>ですが。」
+          「もしもし、<segment><kanji>山田</kanji><furigana>やまだ</furigana></segment>ですが。」
         </phrase>
         <phrase>
-          「あ、<segment><kanji>山</kanji><furigana>やま</furigana></segment><segment><kanji>田</kanji><furigana>だ</furigana></segment>さん、こんばんは。」
+          「あ、<segment><kanji>山田</kanji><furigana>やまだ</furigana></segment>さん、こんばんは。」
         </phrase>
         <phrase>
-          「<segment><kanji>明</kanji><furigana>あ</furigana></segment><segment><kanji>日</kanji><furigana>した</furigana></segment>のパーティーに<segment><kanji>行</kanji><furigana>い</furigana></segment>けますか。」
+          「<segment><kanji>明日</kanji><furigana>あした</furigana></segment>のパーティーに<segment><kanji>行</kanji><furigana>い</furigana></segment>けますか。」
         </phrase>
         <phrase>
           「はい、<segment><kanji>行</kanji><furigana>い</furigana></segment>きます。<segment><kanji>何</kanji><furigana>なに</furigana></segment>か<segment><kanji>持</kanji><furigana>も</furigana></segment>って<segment><kanji>行</kanji><furigana>い</furigana></segment>きましょうか。」
         </phrase>
         <phrase>
-          「いいえ、<segment><kanji>大</kanji><furigana>だい</furigana></segment><segment><kanji>丈</kanji><furigana>じょう</furigana></segment><segment><kanji>夫</kanji><furigana>ぶ</furigana></segment>です。じゃあ、<segment><kanji>明</kanji><furigana>あ</furigana></segment><segment><kanji>日</kanji><furigana>した</furigana></segment>。」
+          「いいえ、<segment><kanji>大丈夫</kanji><furigana>だいじょうぶ</furigana></segment>です。じゃあ、<segment><kanji>明日</kanji><furigana>あした</furigana></segment>。」
         </phrase>
       </content>
       <translation>Tadi malam, saya menelepon guru. "Halo, ini Yamada." "Ah, Yamada-san, selamat malam." "Apakah Anda bisa datang ke pesta besok?" "Ya, saya akan datang. Apa yang harus saya bawa?" "Tidak, tidak apa-apa. Sampai besok."</translation>
@@ -1166,19 +1167,19 @@
       </title>
       <content>
         <phrase>
-          <segment><kanji>今</kanji><furigana>きょう</furigana></segment><segment><kanji>日</kanji><furigana></furigana></segment>は<segment><kanji>朝</kanji><furigana>あさ</furigana></segment>から<segment><kanji>雨</kanji><furigana>あめ</furigana></segment>が<segment><kanji>降</kanji><furigana>ふ</furigana></segment>っています。
+          <segment><kanji>今日</kanji><furigana>きょう</furigana></segment>は<segment><kanji>朝</kanji><furigana>あさ</furigana></segment>から<segment><kanji>雨</kanji><furigana>あめ</furigana></segment>が<segment><kanji>降</kanji><furigana>ふ</furigana></segment>っています。
         </phrase>
         <phrase>
-          <segment><kanji>空</kanji><furigana>そら</furigana></segment>は<segment><kanji>真</kanji><furigana>ま</furigana></segment>っ<segment><kanji>暗</kanji><furigana>くら</furigana></segment>で、<segment><kanji>雷</kanji><furigana>かみなり</furigana></segment>も<segment><kanji>鳴</kanji><furigana>な</furigana></segment>っています。
+          <segment><kanji>空</kanji><furigana>そら</furigana></segment>は<segment><kanji>真っ暗</kanji><furigana>まっくら</furigana></segment>で、<segment><kanji>雷</kanji><furigana>かみなり</furigana></segment>も<segment><kanji>鳴</kanji><furigana>な</furigana></segment>っています。
         </phrase>
         <phrase>
-          <segment><kanji>気</kanji><furigana>き</furigana></segment><segment><kanji>温</kanji><furigana>おん</furigana></segment>は<segment><kanji>低</kanji><furigana>ひく</furigana></segment>くて<segment><kanji>寒</kanji><furigana>さむ</furigana></segment>いです。
+          <segment><kanji>気温</kanji><furigana>きおん</furigana></segment>は<segment><kanji>低</kanji><furigana>ひく</furigana></segment>くて<segment><kanji>寒</kanji><furigana>さむ</furigana></segment>いです。
         </phrase>
         <phrase>
           <segment><kanji>傘</kanji><furigana>かさ</furigana></segment>を<segment><kanji>持</kanji><furigana>も</furigana></segment>って<segment><kanji>出</kanji><furigana>で</furigana></segment>かけました。
         </phrase>
         <phrase>
-          <segment><kanji>電</kanji><furigana>でん</furigana></segment><segment><kanji>車</kanji><furigana>しゃ</furigana></segment>は<segment><kanji>込</kanji><furigana>こ</furigana></segment>んでいて、<segment><kanji>遅</kanji><furigana>おく</furigana></segment>れました。
+          <segment><kanji>電車</kanji><furigana>でんしゃ</furigana></segment>は<segment><kanji>込</kanji><furigana>こ</furigana></segment>んでいて、<segment><kanji>遅</kanji><furigana>おく</furigana></segment>れました。
         </phrase>
         <phrase>
           <segment><kanji>雨</kanji><furigana>あめ</furigana></segment>の<segment><kanji>日</kanji><furigana>ひ</furigana></segment>は<segment><kanji>早</kanji><furigana>はや</furigana></segment>く<segment><kanji>家</kanji><furigana>いえ</furigana></segment>に<segment><kanji>帰</kanji><furigana>かえ</furigana></segment>りたいです。
@@ -1234,7 +1235,7 @@
       </title>
       <content>
         <phrase>
-          <segment><kanji>今</kanji><furigana>きょう</furigana></segment><segment><kanji>日</kanji><furigana></furigana></segment>は<segment><kanji>妹</kanji><furigana>いもうと</furigana></segment>の<segment><kanji>誕</kanji><furigana>たん</furigana></segment><segment><kanji>生</kanji><furigana>じょう</furigana></segment><segment><kanji>日</kanji><furigana>び</furigana></segment>です。
+          <segment><kanji>今日</kanji><furigana>きょう</furigana></segment>は<segment><kanji>妹</kanji><furigana>いもうと</furigana></segment>の<segment><kanji>誕生日</kanji><furigana>たんじょうび</furigana></segment>です。
         </phrase>
         <phrase>
           <segment><kanji>家</kanji><furigana>いえ</furigana></segment>でパーティーをしました。
@@ -1249,7 +1250,7 @@
           <segment><kanji>私</kanji><furigana>わたし</furigana></segment>は<segment><kanji>本</kanji><furigana>ほん</furigana></segment>を<segment><kanji>贈</kanji><furigana>おく</furigana></segment>りました。
         </phrase>
         <phrase>
-          「<segment><kanji>誕</kanji><furigana>たん</furigana></segment><segment><kanji>生</kanji><furigana>じょう</furigana></segment><segment><kanji>日</kanji><furigana>び</furigana></segment><segment><kanji>楽</kanji><furigana>おめでと</furigana></segment>う」と<segment><kanji>歌</kanji><furigana>うた</furigana></segment>いました。
+          「<segment><kanji>誕生日楽</kanji><furigana>たんじょうびおめでと</furigana></segment>う」と<segment><kanji>歌</kanji><furigana>うた</furigana></segment>いました。
         </phrase>
       </content>
       <translation>Hari ini ulang tahun adik perempuan saya. Kami mengadakan pesta di rumah. Ibu membuat kue besar. Ayah membeli bunga. Saya memberikan buku. Kami menyanyikan "Selamat Ulang Tahun".</translation>
@@ -1302,22 +1303,22 @@
       </title>
       <content>
         <phrase>
-          もうすぐ<segment><kanji>夏</kanji><furigana>なつ</furigana></segment><segment><kanji>休</kanji><furigana>やす</furigana></segment>みです。
+          もうすぐ<segment><kanji>夏休</kanji><furigana>なつやす</furigana></segment>みです。
         </phrase>
         <phrase>
-          <segment><kanji>一</kanji><furigana>いち</furigana></segment><segment><kanji>ヶ</kanji><furigana>か</furigana></segment><segment><kanji>月</kanji><furigana>げつ</furigana></segment>の<segment><kanji>休</kanji><furigana>やす</furigana></segment>みがあります。
+          <segment><kanji>一ヶ月</kanji><furigana>いっかげつ</furigana></segment>の<segment><kanji>休</kanji><furigana>やす</furigana></segment>みがあります。
         </phrase>
         <phrase>
-          <segment><kanji>去</kanji><furigana>きょ</furigana></segment><segment><kanji>年</kanji><furigana>ねん</furigana></segment>は<segment><kanji>海</kanji><furigana>うみ</furigana></segment>へ<segment><kanji>行</kanji><furigana>い</furigana></segment>きました。
+          <segment><kanji>去年</kanji><furigana>きょねん</furigana></segment>は<segment><kanji>海</kanji><furigana>うみ</furigana></segment>へ<segment><kanji>行</kanji><furigana>い</furigana></segment>きました。
         </phrase>
         <phrase>
-          <segment><kanji>今</kanji><furigana>こと</furigana></segment><segment><kanji>年</kanji><furigana>とし</furigana></segment>は<segment><kanji>山</kanji><furigana>やま</furigana></segment>へ<segment><kanji>登</kanji><furigana>のぼ</furigana></segment>りたいです。
+          <segment><kanji>今年</kanji><furigana>ことし</furigana></segment>は<segment><kanji>山</kanji><furigana>やま</furigana></segment>へ<segment><kanji>登</kanji><furigana>のぼ</furigana></segment>りたいです。
         </phrase>
         <phrase>
-          <segment><kanji>富</kanji><furigana>ふ</furigana></segment><segment><kanji>士</kanji><furigana>じ</furigana></segment><segment><kanji>山</kanji><furigana>さん</furigana></segment>に<segment><kanji>挑</kanji><furigana>ちょう</furigana></segment><segment><kanji>戦</kanji><furigana>せん</furigana></segment>します。
+          <segment><kanji>富士山</kanji><furigana>ふじさん</furigana></segment>に<segment><kanji>挑戦</kanji><furigana>ちょうせん</furigana></segment>します。
         </phrase>
         <phrase>
-          <segment><kanji>友</kanji><furigana>とも</furigana></segment><segment><kanji>達</kanji><furigana>だち</furigana></segment>と<segment><kanji>一</kanji><furigana>いっ</furigana></segment><segment><kanji>緒</kanji><furigana>しょ</furigana></segment>に<segment><kanji>行</kanji><furigana>い</furigana></segment>く<segment><kanji>予</kanji><furigana>よ</furigana></segment><segment><kanji>定</kanji><furigana>てい</furigana></segment>です。
+          <segment><kanji>友達</kanji><furigana>ともだち</furigana></segment>と<segment><kanji>一緒</kanji><furigana>いっしょ</furigana></segment>に<segment><kanji>行</kanji><furigana>い</furigana></segment>く<segment><kanji>予定</kanji><furigana>よてい</furigana></segment>です。
         </phrase>
       </content>
       <translation>Segera liburan musim panas. Ada liburan selama satu bulan. Tahun lalu saya pergi ke pantai. Tahun ini saya ingin mendaki gunung. Saya akan menantang Gunung Fuji. Rencananya pergi bersama teman.</translation>
